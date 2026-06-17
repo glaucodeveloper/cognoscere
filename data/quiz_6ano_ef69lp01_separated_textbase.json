@@ -1,0 +1,144 @@
+{
+  "bncc_codigo": "EF69LP01",
+  "disciplina": "Língua Portuguesa",
+  "etapa": "Ensino Fundamental II",
+  "serie": "6º ano do Ensino Fundamental",
+  "campo": "Campo jornalístico-midiático",
+  "tema": "Polêmica após a retirada de vendedores ambulantes da praça central",
+  "abstracoes_narrativas": {
+    "situacao_concreta": "Um debate público (simulado em um fórum online ou reunião comunitária) sobre a recente decisão da prefeitura de remover os vendedores ambulantes da praça central, sob o pretexto de 'revitalização' e 'ordem'.",
+    "antecedentes": [
+      "A praça central sempre foi um ponto de encontro e comércio informal vital para muitos moradores e vendedores.",
+      "A prefeitura anunciou a retirada dos ambulantes para 'melhorar a estética' e 'fluxo de pedestres', gerando grande controvérsia na comunidade."
+    ],
+    "participantes": [
+      {
+        "nome": "Comunidade/Vendedores",
+        "papel_social": "População afetada diretamente pela medida.",
+        "interesse_no_conflito": "Manter o direito de trabalho e o sustento, defendendo o valor social do comércio informal.",
+        "modo_de_falar": "Argumentativo, baseado em vivência e direito."
+      },
+      {
+        "nome": "Autoridades/Críticos da Ordem",
+        "papel_social": "Representantes que defendem a fiscalização e a estética urbana.",
+        "interesse_no_conflito": "Manter a ordem e a imagem 'moderna' da cidade, priorizando o planejamento urbano sobre o comércio informal.",
+        "modo_de_falar": "Normativo, baseado em regras e leis."
+      },
+      {
+        "nome": "Usuário Agressor (Fictício)",
+        "papel_social": "Participante do debate online/reunião.",
+        "interesse_no_conflito": "Desqualificar o grupo de vendedores e justificar a medida de forma agressiva, sem argumentos.",
+        "modo_de_falar": "Ofensivo, discriminatório, generalizador."
+      }
+    ],
+    "fatos_em_ordem": [
+      "O debate começa com críticas legítimas à política da prefeitura (discutindo a falta de alternativas).",
+      "O debate se acalora, e um participante começa a desqualificar os vendedores não por suas ações, mas por quem eles são, usando generalizações e ataques pessoais.",
+      "Outros participantes tentam intervir, apontando que a crítica deve ser direcionada à política, e não às pessoas."
+    ],
+    "tensao_central": "A transição de um debate sobre políticas públicas (crítica legítima) para um ataque pessoal e discriminatório (discurso de ódio) no espaço público de discussão.",
+    "pistas_textuais_planejadas": [
+      "Uso de termos como 'direito de subsistência' vs. 'bagunça' (contraste de valores).",
+      "A mudança de foco: de 'o que foi feito' (política) para 'quem são' (pessoa/grupo).",
+      "O uso de adjetivos pejorativos e generalizações ('só', 'sempre', 'são um bando')."
+    ],
+    "falas_planejadas": [
+      {
+        "personagem": "Comerciante (Vendedor)",
+        "intencao": "Defender o direito de subsistência e a importância econômica do comércio informal.",
+        "fala_natural": "Não é só sobre a estética, é sobre o nosso pão. A praça é o nosso trabalho, o nosso direito de viver."
+      },
+      {
+        "personagem": "Crítico da Ordem (Autoridade)",
+        "intencao": "Criticar a falta de planejamento da prefeitura, sem atacar as pessoas.",
+        "fala_natural": "A prefeitura deveria criar um plano de transição, em vez de apenas expulsar. Isso é falta de visão, não é um problema de moral."
+      },
+      {
+        "personagem": "Usuário Agressor",
+        "intencao": "Ataque discriminatório e desumanizador.",
+        "fala_natural": "Vocês não pertencem a esse lugar. São só um bando de desorganizados que só suja a cidade. Ninguém aqui aguenta mais essa bagunça."
+      }
+    ],
+    "consequencia_pedagogica": "O aluno deve identificar que, embora a crítica à política seja válida, o ataque pessoal e discriminatório ultrapassa o limite da opinião e fere direitos, exigindo uma resposta de denúncia ou mediação."
+  },
+  "texto_base": {
+    "genero": "Artigo de opinião/Debate online simulado",
+    "titulo": "Praça Central: Entre a Ordem e o Direito de Viver",
+    "estrutura": {
+      "inicio": "A praça central da cidade sempre foi o coração pulsante da comunidade. Era um lugar de encontro, de lazer, mas também o ponto de comércio informal para centenas de famílias. Recentemente, a prefeitura anunciou um projeto de 'revitalização', que inclui a retirada de todos os vendedores ambulantes. A medida, que visa 'melhorar a estética' e o 'fluxo de pedestres', gerou um debate acalorado em todos os grupos de discussão online e em reuniões comunitárias.",
+      "conteudo_central": {
+        "paragrafos": [
+          "Muitos moradores e comerciantes se manifestaram, não atacando a ideia de melhoria, mas a forma como ela seria implementada. Eles apontaram que a praça não é apenas um cenário bonito; é um espaço de trabalho e subsistência. 'Não é só sobre a estética, é sobre o nosso pão. A praça é o nosso trabalho, o nosso direito de viver,' argumentou Dona Lúcia, uma vendedora de frutas há vinte anos. Outros concordaram, exigindo que a prefeitura criasse um plano de transição, em vez de apenas expulsar. 'A prefeitura deveria criar um plano de transição, em vez de apenas expulsar. Isso é falta de visão, não é um problema de moral,' disse um engenheiro civil que acompanhava o debate.",
+          "No entanto, o debate não foi pacífico. Em um fórum de discussão, um usuário, que não se identificou, começou a alimentar a tensão. Ele não discutiu a política ou a economia; ele atacou as pessoas. 'Vocês não pertencem a esse lugar. São só um bando de desorganizados que só suja a cidade. Ninguém aqui aguenta mais essa bagunça,' escreveu o usuário, usando palavras que desumanizavam o grupo inteiro. Outros participantes ficaram indignados com o tom, lembrando que discordar de uma política não significa atacar a dignidade de uma pessoa ou de um grupo. O debate, que deveria ser sobre regras urbanas, virou um ataque pessoal."
+        ],
+        "falas": [
+          {
+            "personagem": "Dona Lúcia (Comerciante)",
+            "fala": "Não é só sobre a estética, é sobre o nosso pão. A praça é o nosso trabalho, o nosso direito de viver."
+          },
+          {
+            "personagem": "Engenheiro Civil (Crítico da Ordem)",
+            "fala": "A prefeitura deveria criar um plano de transição, em vez de apenas expulsar. Isso é falta de visão, não é um problema de moral."
+          },
+          {
+            "personagem": "Usuário Agressor",
+            "fala": "Vocês não pertencem a esse lugar. São só um bando de desorganizados que só suja a cidade. Ninguém aqui aguenta mais essa bagunça."
+          }
+        ]
+      },
+      "fechamento": "Diante dessa escalada, um moderador do fórum interveio, pedindo calma e lembrando a todos que o objetivo do debate era a melhoria urbana, e não a humilhação. Ele sugeriu que, se alguém se sentisse atacado ou ameaçado por qualquer discurso, o caminho correto seria denunciar o conteúdo à plataforma, e não responder com agressividade. A responsabilidade de manter o respeito e o foco na discussão foi, então, colocada sobre todos os participantes."
+    },
+    "conteudo": "A praça central da cidade sempre foi o coração pulsante da comunidade. Era um lugar de encontro, de lazer, mas também o ponto de comércio informal para centenas de famílias. Recentemente, a prefeitura anunciou um projeto de 'revitalização', que inclui a retirada de todos os vendedores ambulantes. A medida, que visa 'melhorar a estética' e o 'fluxo de pedestres', gerou um debate acalorado em todos os grupos de discussão online e em reuniões comunitárias.\n\nMuitos moradores e comerciantes se manifestaram, não atacando a ideia de melhoria, mas a forma como ela seria implementada. Eles apontaram que a praça não é apenas um cenário bonito; é um espaço de trabalho e subsistência. \"Não é só sobre a estética, é sobre o nosso pão. A praça é o nosso trabalho, o nosso direito de viver,\" argumentou Dona Lúcia, uma vendedora de frutas há vinte anos. Outros concordaram, exigindo que a prefeitura criasse um plano de transição, em vez de apenas expulsar. \"A prefeitura deveria criar um plano de transição, em vez de apenas expulsar. Isso é falta de visão, não é um problema de moral,\" disse um engenheiro civil que acompanhava o debate.\n\nNo entanto, o debate não foi pacífico. Em um fórum de discussão, um usuário, que não se identificou, começou a alimentar a tensão. Ele não discutiu a política ou a economia; ele atacou as pessoas. \"Vocês não pertencem a esse lugar. São só um bando de desorganizados que só suja a cidade. Ninguém aqui aguenta mais essa bagunça,\" escreveu o usuário, usando palavras que desumanizavam o grupo inteiro. Outros participantes ficaram indignados com o tom, lembrando que discordar de uma política não significa atacar a dignidade de uma pessoa ou de um grupo. O debate, que deveria ser sobre regras urbanas, virou um ataque pessoal.\n\nDiante dessa escalada, um moderador do fórum interveio, pedindo calma e lembrando a todos que o objetivo do debate era a melhoria urbana, e não a humilhação. Ele sugeriu que, se alguém se sentisse atacado ou ameaçado por qualquer discurso, o caminho correto seria denunciar o conteúdo à plataforma, e não responder com agressividade. A responsabilidade de manter o respeito e o foco na discussão foi, então, colocada sobre todos os participantes."
+  },
+  "compreensao_base": {
+    "situacao_comunicativa": "Simulação de um debate público (online/reunião) sobre o impacto social e econômico de uma política urbana (retirada de vendedores ambulantes).",
+    "finalidade_do_texto": "Promover a reflexão sobre os limites da liberdade de expressão, diferenciando a crítica legítima (discordância de ideias/políticas) do discurso de ódio (ataque pessoal, discriminação, desumanização).",
+    "estrutura_narrativa": {
+      "inicio": "Apresenta o contexto social (praça como centro de comércio) e o conflito inicial (a medida da prefeitura). Estabelece o tema: a controvérsia entre 'ordem' e 'direito de subsistência'.",
+      "conteudo_central": {
+        "funcao_dos_paragrafos": "Desenvolver o conflito discursivo. O primeiro parágrafo estabelece a crítica legítima à política (foco no sistema/plano). O segundo parágrafo introduz o desvio do debate, mostrando a transição da crítica para o ataque pessoal e discriminatório.",
+        "funcao_das_falas": "Representar os diferentes posicionamentos. As falas de Dona Lúcia e do Engenheiro Civil são exemplos de crítica política e defesa de direitos. A fala do Usuário Agressor é o ponto de virada, representando o discurso de ódio.",
+        "falas_relevantes": [
+          {
+            "personagem": "Dona Lúcia (Comerciante)",
+            "fala": "Não é só sobre a estética, é sobre o nosso pão. A praça é o nosso trabalho, o nosso direito de viver.",
+            "funcao_interpretativa": "Representa a defesa de um direito social e econômico, sendo uma crítica legítima à política que ignora a realidade das pessoas."
+          },
+          {
+            "personagem": "Engenheiro Civil (Crítico da Ordem)",
+            "fala": "A prefeitura deveria criar um plano de transição, em vez de apenas expulsar. Isso é falta de visão, não é um problema de moral.",
+            "funcao_interpretativa": "É uma crítica construtiva e política, focada na falha do planejamento, e não na moralidade ou na pessoa."
+          },
+          {
+            "personagem": "Usuário Agressor",
+            "fala": "Vocês não pertencem a esse lugar. São só um bando de desorganizados que só suja a cidade. Ninguém aqui aguenta mais essa bagunça.",
+            "funcao_interpretativa": "Constitui o discurso de ódio. Utiliza generalizações ('só um bando'), desumanização ('não pertencem') e ataques diretos, ultrapassando o limite da crítica."
+          }
+        ]
+      },
+      "fechamento": "Oferece a resolução pedagógica: a intervenção do moderador. Enfatiza que, diante de ataques, o caminho correto é a denúncia à plataforma, e não a resposta agressiva, reforçando a responsabilidade cívica."
+    },
+    "trecho_opiniao_legitima": "Argumentos de Dona Lúcia e do Engenheiro Civil, que criticam a política de forma sistêmica (falta de plano, impacto no trabalho).",
+    "trecho_discurso_de_odio": "\"Vocês não pertencem a esse lugar. São só um bando de desorganizados que só suja a cidade. Ninguém aqui aguenta mais essa bagunça.\" (Usuário Agressor).",
+    "pistas_textuais": [
+      "O contraste entre 'direito de subsistência' e 'estética' (mostra o conflito de valores).",
+      "A mudança de foco do debate: de 'política' para 'pessoa' (indica a transição para o ataque).",
+      "O uso de termos como 'desumanizavam' e 'ataque pessoal' (orienta o aluno sobre o tipo de discurso).",
+      "A intervenção do moderador (aponta a solução responsável: denúncia)."
+    ],
+    "limite_interpretativo": "O aluno deve entender que criticar a *ação* (a prefeitura) é diferente de atacar o *grupo* (os vendedores). A crítica legítima aponta falhas no sistema; o discurso de ódio aponta falhas na humanidade.",
+    "erro_provavel_do_aluno": "Confundir a crítica forte (discordância veemente) com o discurso de ódio, ou achar que, por ser um debate público, qualquer ataque é aceitável.",
+    "operacoes_para_avaliar": [
+      "Diferenciar crítica de ataque (análise de intenção e alvo).",
+      "Identificar marcas linguísticas de generalização e inferiorização (análise lexical).",
+      "Posicionar-se eticamente diante do discurso de ódio (tomada de posição).",
+      "Sugerir um encaminhamento responsável (denúncia/mediação)."
+    ],
+    "evidencias_de_dominio": [
+      "Aponta o trecho exato que desqualifica o grupo em vez de criticar a política.",
+      "Explica que o ataque fere a dignidade humana, e não apenas o direito de propriedade ou a estética.",
+      "Justifica que a liberdade de expressão não cobre o direito de humilhar ou ameaçar.",
+      "Sugere a denúncia do conteúdo à plataforma ou a busca por mediação institucional."
+    ]
+  }
+}

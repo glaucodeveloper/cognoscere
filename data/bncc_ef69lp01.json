@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-02T21:57:11-03:00",
+  "source_pdf": "C:/dev/cognoscere/BNCC_EI_EF_110518_versaofinal_site.pdf",
+  "filters": {
+    "area": null,
+    "component": null
+  },
+  "total_skills": 1,
+  "areas": {
+    "Linguagens": {
+      "Língua Portuguesa": [
+        "EF69LP01"
+      ]
+    }
+  },
+  "skills": [
+    {
+      "code": "EF69LP01",
+      "area": "Linguagens",
+      "component": "Língua Portuguesa",
+      "page": 143,
+      "statement": "Diferenciar liberdade de expressão de discursos de ódio, posicionando-se contrariamente a esse tipo de discurso e vislumbrando possibilidades de denúncia quando for o caso."
+    }
+  ]
+}
