@@ -46,30 +46,46 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          for attempt in {1..60}; do
-            state="$(gh run list \
+          workflow_created_at="$(gh run view "$GITHUB_RUN_ID" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json createdAt \
+            --jq '.createdAt')"
+          workflow_epoch="$(date -d "$workflow_created_at" +%s)"
+
+          for attempt in {1..24}; do
+            legacy_run="$(gh run list \
               --repo "$GITHUB_REPOSITORY" \
               --workflow pages-build-deployment \
-              --commit "$GITHUB_SHA" \
               --limit 1 \
-              --json status,conclusion \
-              --jq '.[0] | if . == null then "pending" else "\(.status):\(.conclusion // "")" end')"
+              --json createdAt,status,conclusion \
+              --jq '.[0] | if . == null then "missing" else "\(.createdAt)|\(.status)|\(.conclusion // "")" end')"
 
-            case "$state" in
-              completed:success)
-                echo "Deploy legado concluído; publicando o artefato compilado por último."
-                exit 0
-                ;;
-              completed:*)
-                echo "Deploy legado terminou com estado $state; o artefato compilado pode prosseguir."
-                exit 0
-                ;;
-            esac
+            if [[ "$legacy_run" != "missing" ]]; then
+              IFS='|' read -r legacy_created_at legacy_status legacy_conclusion <<< "$legacy_run"
+              legacy_epoch="$(date -d "$legacy_created_at" +%s)"
+              delta=$((workflow_epoch - legacy_epoch))
+              if (( delta < 0 )); then
+                delta=$((-delta))
+              fi
 
-            echo "Aguardando deploy legado do commit $GITHUB_SHA ($state, tentativa $attempt/60)."
+              if (( delta <= 120 )); then
+                case "$legacy_status:$legacy_conclusion" in
+                  completed:success)
+                    echo "Deploy legado correlacionado concluído; publicando o artefato compilado por último."
+                    exit 0
+                    ;;
+                  completed:*)
+                    echo "Deploy legado correlacionado terminou com $legacy_status:$legacy_conclusion; prosseguindo."
+                    exit 0
+                    ;;
+                esac
+              fi
+            fi
+
+            echo "Aguardando deploy legado correlacionado ao push ($legacy_run, tentativa $attempt/24)."
             sleep 5
           done
 
-          echo "::warning::O deploy legado não terminou em 5 minutos; prosseguindo com o artefato compilado."
+          echo "::warning::Nenhum deploy legado correlacionado terminou em 2 minutos; prosseguindo com o artefato compilado."
       - id: deployment
         uses: actions/deploy-pages@v4
