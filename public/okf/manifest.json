@@ -1,0 +1,59 @@
+{
+  "$schema": "./schemas/manifest.schema.json",
+  "format": "cognoscere-okf-manifest",
+  "publicContractVersion": "1.0.0",
+  "generatedAt": "2026-07-13T13:54:48-03:00",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "reconstructionSources": [
+    {
+      "repositoryPath": "inicio.rb",
+      "role": "motor remanescente de geração, aplicação, progressão e auditoria"
+    },
+    {
+      "repositoryPath": "habilidades/ef69lp01.md",
+      "role": "recorte BNCC e compreensões pedagógicas remanescentes"
+    },
+    {
+      "repositoryPath": "data/quiz_6ano_ef69lp01_separated_textbase.json",
+      "role": "fixture legada de conteúdo"
+    },
+    {
+      "repositoryPath": "src/",
+      "commit": "40e135d",
+      "role": "remanescente versionado do pipeline TypeScript de cursos, sessões e referências"
+    }
+  ],
+  "schemas": {
+    "manifest": "schemas/manifest.schema.json",
+    "course": "schemas/course.schema.json",
+    "publicSkill": "schemas/public-skill.schema.json",
+    "material": "schemas/material.schema.json",
+    "promptTemplate": "schemas/prompt-template.schema.json",
+    "analysisResult": "schemas/analysis-result.schema.json"
+  },
+  "skills": [
+    {
+      "id": "ef69lp01",
+      "code": "EF69LP01",
+      "title": "Liberdade de expressão e discurso de ódio",
+      "path": "skills/ef69lp01/public-skill.json",
+      "status": "active"
+    }
+  ],
+  "promptTemplates": [
+    {
+      "id": "open-response-analysis",
+      "title": "Contrato público de análise de resposta aberta",
+      "path": "prompt-templates/open-response-analysis.json",
+      "status": "preview"
+    }
+  ],
+  "courses": [
+    {
+      "id": "leitura-critica-em-rede",
+      "title": "Leitura crítica em rede",
+      "path": "courses/leitura-critica-em-rede/course.json",
+      "status": "preview"
+    }
+  ]
+}

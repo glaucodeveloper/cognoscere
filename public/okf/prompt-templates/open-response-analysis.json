@@ -1,0 +1,101 @@
+{
+  "$schema": "../schemas/prompt-template.schema.json",
+  "format": "lumira-okf-public-prompt-contract",
+  "publicContractVersion": "1.0.0",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "id": "open-response-analysis",
+  "title": "Contrato público de análise de resposta aberta",
+  "capability": "analysis",
+  "visibility": "public-contract",
+  "templateExposure": "metadata-only",
+  "promptBodyPublished": false,
+  "purpose": "Produzir feedback formativo sobre uma resposta aberta, observando evidências textuais e indicando próximos passos sem substituir a validação humana nem atribuir progressão automaticamente.",
+  "inputs": [
+    {
+      "name": "skillCode",
+      "description": "Código público da habilidade observada.",
+      "sensitivity": "public"
+    },
+    {
+      "name": "publicMaterial",
+      "description": "Material público fixado para a atividade.",
+      "sensitivity": "public"
+    },
+    {
+      "name": "studentResponse",
+      "description": "Resposta minimizada e desvinculada de identificadores desnecessários.",
+      "sensitivity": "minimized-personal-data"
+    },
+    {
+      "name": "teacherObservation",
+      "description": "Observação humana opcional para contextualizar a leitura da resposta.",
+      "sensitivity": "internal"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "summary",
+      "description": "Síntese formativa em linguagem adequada ao estudante.",
+      "sensitivity": "public"
+    },
+    {
+      "name": "evidenceObserved",
+      "description": "Evidências de aprendizagem observadas sem revelar resposta de referência privada.",
+      "sensitivity": "public"
+    },
+    {
+      "name": "evidenceToDevelop",
+      "description": "Aspectos que podem ser fortalecidos na revisão da resposta.",
+      "sensitivity": "public"
+    },
+    {
+      "name": "nextSteps",
+      "description": "Ações concretas de revisão ou mediação.",
+      "sensitivity": "public"
+    },
+    {
+      "name": "confidence",
+      "description": "Confiança declarada e justificativa dos limites da análise.",
+      "sensitivity": "public"
+    }
+  ],
+  "guardrails": [
+    "Analisar apenas a resposta e o material fixado para a atividade.",
+    "Não inventar fatos, trechos, intenção ou contexto ausentes.",
+    "Não publicar compreensão-base detalhada, resposta de referência ou rubrica privada.",
+    "Não apresentar inferência automática como nota ou decisão definitiva.",
+    "Não atualizar progressão antes da revisão humana prevista pelo fluxo.",
+    "Não incluir dados de identificação do estudante no feedback público.",
+    "Distinguir dificuldade do estudante de possível falha do material ou da atividade."
+  ],
+  "humanOversight": {
+    "required": true,
+    "role": "Professor ou responsável pedagógico confirma, ajusta ou rejeita a análise antes de qualquer efeito pedagógico persistente.",
+    "progressionEffect": "none-until-reviewed"
+  },
+  "provenance": {
+    "legacyOkfStatus": "reconstructed-from-remnants",
+    "derivedFrom": [
+      {
+        "repositoryPath": "inicio.rb",
+        "role": "fluxo de resposta aberta, observação humana, evidência e progressão"
+      },
+      {
+        "repositoryPath": "habilidades/ef69lp01.md",
+        "role": "operações observáveis e exigência de justificativa textual"
+      },
+      {
+        "repositoryPath": "src/sessions.ts",
+        "commit": "40e135d",
+        "role": "remanescente do desenho de sondagem multifacetada e encaminhamento"
+      }
+    ],
+    "excludedInternalContent": [
+      "corpo completo do prompt",
+      "compreensões internas",
+      "respostas de referência",
+      "rubricas privadas",
+      "cadeia de raciocínio"
+    ]
+  }
+}

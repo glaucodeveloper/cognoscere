@@ -1,0 +1,93 @@
+{
+  "$schema": "../../../../schemas/analysis-result.schema.json",
+  "format": "lumira-okf-public-analysis-result",
+  "publicContractVersion": "1.0.0",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "id": "ef69lp01-analise-demonstrativa",
+  "activityId": "ef69lp01-fronteira-entre-critica-e-ataque",
+  "kind": "public-feedback-demo",
+  "status": "demo",
+  "summary": "Nesta demonstração sintética, a resposta distingue a crítica à decisão pública do ataque dirigido aos vendedores e reconhece a moderação como um encaminhamento responsável. O próximo avanço é tornar a justificativa mais precisa ao relacionar cada conclusão a uma expressão do texto.",
+  "strengths": [
+    "Reconhece que questionar a retirada dos vendedores é diferente de inferiorizar o grupo.",
+    "Percebe a mudança do foco da política urbana para o ataque às pessoas.",
+    "Propõe mediação ou denúncia em vez de responder com nova agressão."
+  ],
+  "evidenceObserved": [
+    {
+      "operation": "Distinguir crítica de ataque discriminatório",
+      "status": "observed",
+      "feedback": "A distinção aparece de forma coerente com o contraste apresentado no material."
+    },
+    {
+      "operation": "Indicar encaminhamento responsável",
+      "status": "observed",
+      "feedback": "A proposta de buscar moderação ou denúncia preserva o foco na proteção e na mediação."
+    }
+  ],
+  "evidenceToDevelop": [
+    {
+      "operation": "Justificar com pistas textuais explícitas",
+      "status": "partial",
+      "feedback": "A explicação pode melhorar se nomear duas expressões específicas e mostrar como elas mudam o alvo da discussão."
+    },
+    {
+      "operation": "Explicar o efeito da generalização",
+      "status": "partial",
+      "feedback": "Vale explicar por que atribuir uma característica negativa a todo o grupo ultrapassa a crítica à decisão pública."
+    }
+  ],
+  "nextSteps": [
+    "Sublinhe no material uma fala dirigida à decisão e outra dirigida às pessoas.",
+    "Reescreva a justificativa usando a estrutura: pista do texto, interpretação e consequência.",
+    "Confirme com o professor se as pistas escolhidas sustentam a diferença apontada."
+  ],
+  "confidence": {
+    "level": "medium",
+    "rationale": "O resultado é uma fixture sintética sem resposta real publicada e serve apenas para demonstrar o formato de feedback."
+  },
+  "humanReview": {
+    "required": true,
+    "status": "pending",
+    "reason": "Feedback pedagógico e qualquer decisão de progressão precisam ser confirmados por responsável humano."
+  },
+  "progression": {
+    "effect": "none",
+    "reason": "A análise é demonstrativa, não contém resposta real e não pode alterar o perfil ou a competência de estudante."
+  },
+  "privacy": {
+    "syntheticFixture": true,
+    "containsRealStudentData": false,
+    "rawResponsePublished": false
+  },
+  "provenance": {
+    "legacyOkfStatus": "reconstructed-from-remnants",
+    "derivedFrom": [
+      {
+        "repositoryPath": "inicio.rb",
+        "role": "evidência textual, observação humana e ausência de progressão sem validação"
+      },
+      {
+        "repositoryPath": "habilidades/ef69lp01.md",
+        "role": "operações públicas observáveis da habilidade"
+      },
+      {
+        "repositoryPath": "data/quiz_6ano_ef69lp01_separated_textbase.json",
+        "role": "situação de leitura da demonstração"
+      },
+      {
+        "repositoryPath": "src/reference-pipeline.ts",
+        "commit": "40e135d",
+        "role": "remanescente da organização de evidências por competência e nível"
+      }
+    ],
+    "excludedInternalContent": [
+      "resposta bruta de estudante",
+      "resposta de referência",
+      "rubrica privada",
+      "compreensão-base detalhada",
+      "prompt completo",
+      "cadeia de raciocínio"
+    ]
+  }
+}

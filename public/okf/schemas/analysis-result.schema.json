@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://glaucodeveloper.github.io/cognoscere/okf/schemas/analysis-result.schema.json",
+  "title": "Lumira OKF Public Analysis Result",
+  "description": "Public feedback projection. Raw student responses, answer references, private rubrics, detailed chain-of-thought and complete prompts are forbidden by omission.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "format",
+    "publicContractVersion",
+    "legacyOkfStatus",
+    "id",
+    "activityId",
+    "kind",
+    "status",
+    "summary",
+    "strengths",
+    "evidenceObserved",
+    "evidenceToDevelop",
+    "nextSteps",
+    "confidence",
+    "humanReview",
+    "progression",
+    "privacy",
+    "provenance"
+  ],
+  "properties": {
+    "$schema": { "type": "string", "minLength": 1 },
+    "format": { "const": "lumira-okf-public-analysis-result" },
+    "publicContractVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "legacyOkfStatus": { "const": "reconstructed-from-remnants" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "activityId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "kind": { "const": "public-feedback-demo" },
+    "status": { "const": "demo" },
+    "summary": { "type": "string", "minLength": 1 },
+    "strengths": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "evidenceObserved": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/evidenceFeedback" }
+    },
+    "evidenceToDevelop": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/evidenceFeedback" }
+    },
+    "nextSteps": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "rationale"],
+      "properties": {
+        "level": { "enum": ["low", "medium", "high"] },
+        "rationale": { "type": "string", "minLength": 1 }
+      }
+    },
+    "humanReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "status", "reason"],
+      "properties": {
+        "required": { "const": true },
+        "status": { "enum": ["pending", "approved", "adjusted"] },
+        "reason": { "type": "string", "minLength": 1 }
+      }
+    },
+    "progression": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["effect", "reason"],
+      "properties": {
+        "effect": { "const": "none" },
+        "reason": { "type": "string", "minLength": 1 }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["syntheticFixture", "containsRealStudentData", "rawResponsePublished"],
+      "properties": {
+        "syntheticFixture": { "const": true },
+        "containsRealStudentData": { "const": false },
+        "rawResponsePublished": { "const": false }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["legacyOkfStatus", "derivedFrom", "excludedInternalContent"],
+      "properties": {
+        "legacyOkfStatus": { "const": "reconstructed-from-remnants" },
+        "derivedFrom": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["repositoryPath", "role"],
+            "properties": {
+              "repositoryPath": { "type": "string", "minLength": 1 },
+              "commit": { "type": "string", "pattern": "^[0-9a-f]{7,40}$" },
+              "role": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "excludedInternalContent": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "evidenceFeedback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operation", "status", "feedback"],
+      "properties": {
+        "operation": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["observed", "partial", "not-observed"] },
+        "feedback": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

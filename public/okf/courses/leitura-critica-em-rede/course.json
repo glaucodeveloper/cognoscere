@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schemas/course.schema.json",
+  "format": "lumira-okf-public-course",
+  "publicContractVersion": "1.0.0",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "id": "leitura-critica-em-rede",
+  "title": "Leitura crítica em rede",
+  "subtitle": "Opinião, crítica e evidência em situações de circulação pública",
+  "area": "Linguagens",
+  "stage": "Ensino Fundamental II",
+  "grade": "6º ano do Ensino Fundamental",
+  "progress": 68,
+  "skillRefs": [
+    "skills/ef69lp01/public-skill.json"
+  ],
+  "promptRefs": [
+    "prompt-templates/open-response-analysis.json"
+  ],
+  "cycles": [
+    {
+      "id": "argumentacao-e-evidencia",
+      "title": "Argumentação e evidência",
+      "status": "in-progress",
+      "axes": [
+        {
+          "id": "opiniao-critica-e-respeito",
+          "title": "Opinião, crítica e respeito",
+          "summary": "Observe como o alvo, a linguagem e as consequências de uma fala ajudam a distinguir discordância de ataque discriminatório.",
+          "status": "current",
+          "duration": "18 min",
+          "materialPath": "courses/leitura-critica-em-rede/materials/ef69lp01-praca-central/material.json",
+          "activityPath": "courses/leitura-critica-em-rede/materials/ef69lp01-praca-central/activity.json"
+        }
+      ]
+    }
+  ],
+  "traceability": {
+    "skillCodes": [
+      "EF69LP01"
+    ],
+    "canonicalLevels": [
+      "Iniciação",
+      "Apropriação",
+      "Consolidação",
+      "Proficiência",
+      "Domínio"
+    ],
+    "source": "BNCC · EF69LP01 · habilidades/ef69lp01.md",
+    "status": "legacy-needs-review",
+    "sources": [
+      {
+        "repositoryPath": "inicio.rb",
+        "role": "arquitetura de geração, aplicação e progressão"
+      },
+      {
+        "repositoryPath": "habilidades/ef69lp01.md",
+        "role": "recorte BNCC e compreensão pedagógica curada"
+      },
+      {
+        "repositoryPath": "data/quiz_6ano_ef69lp01_separated_textbase.json",
+        "role": "fixture legada do material público"
+      },
+      {
+        "repositoryPath": "src/modules.ts",
+        "commit": "40e135d",
+        "role": "remanescente do contrato de curso por competência"
+      },
+      {
+        "repositoryPath": "src/reference-pipeline.ts",
+        "commit": "40e135d",
+        "role": "remanescente do vínculo entre competência, série e níveis"
+      }
+    ],
+    "contentStatus": "legacy-needs-review",
+    "notes": [
+      "A base OKF foi reconstruída a partir dos remanescentes disponíveis; os arquivos locais originais não estão presentes neste clone.",
+      "O material de leitura preserva uma fixture legada e permanece em revisão antes de uso pedagógico produtivo.",
+      "A progressão exibida é demonstrativa e não representa dados reais de estudante."
+    ]
+  }
+}

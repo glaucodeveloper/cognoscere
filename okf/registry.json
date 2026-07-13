@@ -1,0 +1,64 @@
+{
+  "format": "cognoscere-ruby-prompt-okf",
+  "okfVersion": "0.1",
+  "generatedAt": "2026-07-13T00:00:00-03:00",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "sources": [
+    {
+      "path": "inicio.rb",
+      "sha256": "92d6a8adabdc12916eeadbe10acb697284b40b55017bc34a822fb5a61b217fa6"
+    },
+    {
+      "path": "habilidades/ef69lp01.md",
+      "sha256": "0d5d45c9ec250f4572e78817d626c6964649f38b0a4d27c4b0958a99331b0437"
+    }
+  ],
+  "templates": [
+    {
+      "id": "text-base-generation",
+      "stage": "generation",
+      "path": "prompts/text-base-generation.md",
+      "source_symbol": "text_base_generation_prompt_for + TEXT_BASE_GENERATION_INSTRUCTIONS",
+      "sha256": "8486705195472388d9615c53d7f6b94a002533e27a34d4973e531c15f7737d1c"
+    },
+    {
+      "id": "question-generation",
+      "stage": "generation",
+      "path": "prompts/question-generation.md",
+      "source_symbol": "question_generation_prompt_for + QUESTION_GENERATION_INSTRUCTIONS",
+      "sha256": "bd3844e04c437039f728bbb2e8a1e84c96b0d1e1cb4094c8e0ba18328d526d01"
+    },
+    {
+      "id": "rewrite-report",
+      "stage": "audit",
+      "path": "prompts/rewrite-report.md",
+      "source_symbol": "rewrite_report_prompt_for + REWRITE_REPORT_INSTRUCTIONS",
+      "sha256": "47b598a651fd7cb2510f7a201d5b05dbfa8dda767c4b8692098bd06d5b11ed12"
+    },
+    {
+      "id": "json-repair",
+      "stage": "recovery",
+      "path": "prompts/json-repair.md",
+      "source_symbol": "FrameworkLlamaTextInference#repair_json_response",
+      "sha256": "7b9189e51e5ac9b829fea6a8e8d8c445dc26cf9fae5ad90eb835f237c66f2649"
+    },
+    {
+      "id": "admin-step",
+      "stage": "administration",
+      "path": "prompts/admin-step.md",
+      "source_symbol": "run_admin_step!",
+      "sha256": "1948a7c43c360fe73caa58e95b2211f1961667433b6fe2f98fc52fa740d38314"
+    }
+  ],
+  "comprehensions": {
+    "path": "prompts/ef69lp01-comprehensions.md",
+    "sections": [
+      "bncc_context_comprehension",
+      "text_base_comprehension",
+      "text_base_internal_analysis_comprehension",
+      "question_topic_comprehension",
+      "rewrite_report_comprehension"
+    ],
+    "sha256": "d001ad8fabd983ab1612bdb9acd7926673ed56ccf8b1df101227324ad9db05ec"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://glaucodeveloper.github.io/cognoscere/okf/schemas/public-skill.schema.json",
+  "title": "Lumira OKF Public Skill Projection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "format",
+    "publicContractVersion",
+    "legacyOkfStatus",
+    "id",
+    "code",
+    "title",
+    "area",
+    "component",
+    "stage",
+    "gradeBand",
+    "field",
+    "languagePractice",
+    "knowledgeObject",
+    "statement",
+    "learningFocus",
+    "publicOperations",
+    "publicEvidence",
+    "canonicalLevels",
+    "source",
+    "provenance"
+  ],
+  "properties": {
+    "$schema": { "type": "string", "minLength": 1 },
+    "format": { "const": "lumira-okf-public-skill" },
+    "publicContractVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "legacyOkfStatus": { "const": "reconstructed-from-remnants" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "code": { "type": "string", "pattern": "^EF[0-9]{2}[A-Z]{2}[0-9]{2}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "area": { "type": "string", "minLength": 1 },
+    "component": { "type": "string", "minLength": 1 },
+    "stage": { "type": "string", "minLength": 1 },
+    "gradeBand": { "type": "string", "minLength": 1 },
+    "field": { "type": "string", "minLength": 1 },
+    "languagePractice": { "type": "string", "minLength": 1 },
+    "knowledgeObject": { "type": "string", "minLength": 1 },
+    "statement": { "type": "string", "minLength": 1 },
+    "learningFocus": { "type": "string", "minLength": 1 },
+    "publicOperations": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "publicEvidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "canonicalLevels": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "prefixItems": [
+        { "$ref": "#/$defs/initiation" },
+        { "$ref": "#/$defs/appropriation" },
+        { "$ref": "#/$defs/consolidation" },
+        { "$ref": "#/$defs/proficiency" },
+        { "$ref": "#/$defs/mastery" }
+      ],
+      "items": false
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["document", "locator", "repositoryArtifact"],
+      "properties": {
+        "document": { "type": "string", "minLength": 1 },
+        "locator": { "type": "string", "minLength": 1 },
+        "repositoryArtifact": { "type": "string", "minLength": 1 }
+      }
+    },
+    "provenance": { "$ref": "#/$defs/provenance" }
+  },
+  "$defs": {
+    "level": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["order", "name", "publicMeaning"],
+      "properties": {
+        "order": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "name": { "type": "string" },
+        "publicMeaning": { "type": "string", "minLength": 1 }
+      }
+    },
+    "initiation": { "allOf": [{ "$ref": "#/$defs/level" }, { "properties": { "order": { "const": 1 }, "name": { "const": "Iniciação" } } }] },
+    "appropriation": { "allOf": [{ "$ref": "#/$defs/level" }, { "properties": { "order": { "const": 2 }, "name": { "const": "Apropriação" } } }] },
+    "consolidation": { "allOf": [{ "$ref": "#/$defs/level" }, { "properties": { "order": { "const": 3 }, "name": { "const": "Consolidação" } } }] },
+    "proficiency": { "allOf": [{ "$ref": "#/$defs/level" }, { "properties": { "order": { "const": 4 }, "name": { "const": "Proficiência" } } }] },
+    "mastery": { "allOf": [{ "$ref": "#/$defs/level" }, { "properties": { "order": { "const": 5 }, "name": { "const": "Domínio" } } }] },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["legacyOkfStatus", "derivedFrom", "visibility", "excludedInternalContent"],
+      "properties": {
+        "legacyOkfStatus": { "const": "reconstructed-from-remnants" },
+        "derivedFrom": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["repositoryPath", "role"],
+            "properties": {
+              "repositoryPath": { "type": "string", "minLength": 1 },
+              "commit": { "type": "string", "pattern": "^[0-9a-f]{7,40}$" },
+              "role": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "visibility": { "const": "public-projection" },
+        "excludedInternalContent": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

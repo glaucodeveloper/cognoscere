@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../schemas/material.schema.json",
+  "format": "lumira-okf-public-activity",
+  "publicContractVersion": "1.0.0",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "id": "ef69lp01-fronteira-entre-critica-e-ataque",
+  "title": "Quando a crítica se transforma em ataque?",
+  "type": "open-response",
+  "prompt": "No debate sobre a Praça Central, em que momento a discussão deixa de tratar da política urbana e passa a atacar um grupo de pessoas? Explique sua interpretação e indique um encaminhamento responsável para a situação.",
+  "studentCommand": "Escreva de um a dois parágrafos. Use pelo menos duas pistas do texto para justificar sua leitura e explique por que o encaminhamento escolhido evita ampliar a agressão.",
+  "evidenceHints": [
+    "Observe quem ou o que é criticado em cada fala.",
+    "Procure palavras que generalizam ou inferiorizam um grupo.",
+    "Retome o que o moderador propõe ao final."
+  ],
+  "analysisDemoPath": "courses/leitura-critica-em-rede/materials/ef69lp01-praca-central/analysis-demo.json",
+  "provenance": {
+    "legacyOkfStatus": "reconstructed-from-remnants",
+    "derivedFrom": [
+      {
+        "repositoryPath": "habilidades/ef69lp01.md",
+        "role": "filosofia de pergunta aberta, justificativa e evidência textual"
+      },
+      {
+        "repositoryPath": "inicio.rb",
+        "role": "contrato de atividade aberta e coleta de evidência"
+      },
+      {
+        "repositoryPath": "data/quiz_6ano_ef69lp01_separated_textbase.json",
+        "role": "situação pública fixada para a atividade"
+      },
+      {
+        "repositoryPath": "src/sessions.ts",
+        "commit": "40e135d",
+        "role": "remanescente da sondagem multifacetada sem resposta binária"
+      }
+    ],
+    "artifactStatus": "reconstructed-demo",
+    "promptVersion": "okf-public-activity-1.0.0",
+    "reviewRequired": true,
+    "reviewReasons": [
+      "A atividade demonstra o contrato público e ainda requer validação docente antes de uso produtivo.",
+      "O material-base associado permanece marcado como legacy-needs-review."
+    ],
+    "excludedInternalFields": [
+      "resposta_referencia",
+      "rubrica_analise",
+      "erro_provavel interno",
+      "atualizacao_perfil",
+      "prompt interno de análise"
+    ]
+  }
+}

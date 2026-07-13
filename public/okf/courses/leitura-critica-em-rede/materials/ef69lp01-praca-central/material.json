@@ -1,0 +1,92 @@
+{
+  "$schema": "../../../../schemas/material.schema.json",
+  "format": "lumira-okf-public-material",
+  "publicContractVersion": "1.0.0",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "id": "ef69lp01-praca-central",
+  "title": "Praça Central: Entre a Ordem e o Direito de Viver",
+  "kind": "reading-material",
+  "status": "legacy-needs-review",
+  "audience": "Estudantes do 6º ano do Ensino Fundamental",
+  "skill": {
+    "code": "EF69LP01",
+    "title": "Liberdade de expressão e discurso de ódio",
+    "statement": "Diferenciar liberdade de expressão de discursos de ódio, posicionando-se contrariamente a esse tipo de discurso e vislumbrando possibilidades de denúncia quando for o caso.",
+    "path": "skills/ef69lp01/public-skill.json"
+  },
+  "source": {
+    "title": "Base Nacional Comum Curricular (BNCC)",
+    "theme": "Polêmica após a retirada de vendedores ambulantes da praça central",
+    "genre": "Artigo de opinião e debate online simulado",
+    "curriculumField": "Campo jornalístico-midiático",
+    "fixtureStatus": "legacy-needs-review"
+  },
+  "text": {
+    "introduction": "A praça central da cidade sempre foi o coração pulsante da comunidade. Era um lugar de encontro, de lazer, mas também o ponto de comércio informal para centenas de famílias. Recentemente, a prefeitura anunciou um projeto de 'revitalização', que inclui a retirada de todos os vendedores ambulantes. A medida, que visa 'melhorar a estética' e o 'fluxo de pedestres', gerou um debate acalorado em todos os grupos de discussão online e em reuniões comunitárias.",
+    "sections": [
+      {
+        "heading": "O debate sobre a retirada dos vendedores",
+        "paragraphs": [
+          "Muitos moradores e comerciantes se manifestaram, não atacando a ideia de melhoria, mas a forma como ela seria implementada. Eles apontaram que a praça não é apenas um cenário bonito; é um espaço de trabalho e subsistência. 'Não é só sobre a estética, é sobre o nosso pão. A praça é o nosso trabalho, o nosso direito de viver,' argumentou Dona Lúcia, uma vendedora de frutas há vinte anos. Outros concordaram, exigindo que a prefeitura criasse um plano de transição, em vez de apenas expulsar. 'A prefeitura deveria criar um plano de transição, em vez de apenas expulsar. Isso é falta de visão, não é um problema de moral,' disse um engenheiro civil que acompanhava o debate.",
+          "No entanto, o debate não foi pacífico. Em um fórum de discussão, um usuário, que não se identificou, começou a alimentar a tensão. Ele não discutiu a política ou a economia; ele atacou as pessoas. 'Vocês não pertencem a esse lugar. São só um bando de desorganizados que só suja a cidade. Ninguém aqui aguenta mais essa bagunça,' escreveu o usuário, usando palavras que desumanizavam o grupo inteiro. Outros participantes ficaram indignados com o tom, lembrando que discordar de uma política não significa atacar a dignidade de uma pessoa ou de um grupo. O debate, que deveria ser sobre regras urbanas, virou um ataque pessoal."
+        ]
+      }
+    ],
+    "closing": "Diante dessa escalada, um moderador do fórum interveio, pedindo calma e lembrando a todos que o objetivo do debate era a melhoria urbana, e não a humilhação. Ele sugeriu que, se alguém se sentisse atacado ou ameaçado por qualquer discurso, o caminho correto seria denunciar o conteúdo à plataforma, e não responder com agressividade. A responsabilidade de manter o respeito e o foco na discussão foi, então, colocada sobre todos os participantes."
+  },
+  "publicAnalysis": {
+    "operations": [
+      "Identificar se uma fala critica uma decisão ou desqualifica pessoas.",
+      "Comparar o alvo, as palavras e a consequência das falas do debate.",
+      "Justificar uma interpretação com pistas do texto.",
+      "Propor uma resposta responsável diante de ataque ou discriminação."
+    ],
+    "evidenceToNotice": [
+      "Observe quando o assunto deixa de ser a política urbana e passa a ser um grupo de pessoas.",
+      "Compare as falas que propõem mudanças na decisão com a fala que generaliza e inferioriza.",
+      "Considere o papel da intervenção do moderador no encerramento do conflito."
+    ],
+    "misconceptions": [
+      "Tratar toda discordância forte como discurso de ódio.",
+      "Considerar aceitável qualquer ataque apenas porque ocorreu em um debate público.",
+      "Apresentar opinião pessoal sem relacioná-la a uma pista do texto."
+    ]
+  },
+  "provenance": {
+    "legacyOkfStatus": "reconstructed-from-remnants",
+    "derivedFrom": [
+      {
+        "repositoryPath": "data/quiz_6ano_ef69lp01_separated_textbase.json",
+        "role": "fixture legada que fornece o texto público"
+      },
+      {
+        "repositoryPath": "habilidades/ef69lp01.md",
+        "role": "recorte BNCC e critérios públicos de observação"
+      },
+      {
+        "repositoryPath": "inicio.rb",
+        "role": "contrato atual de geração e separação entre conteúdo público e análise interna"
+      },
+      {
+        "repositoryPath": "src/modules.ts",
+        "commit": "40e135d",
+        "role": "remanescente da geração de módulos por competência"
+      }
+    ],
+    "artifactStatus": "legacy-needs-review",
+    "promptVersion": "legacy-unversioned-needs-review",
+    "reviewRequired": true,
+    "reviewReasons": [
+      "O texto legado possui aproximadamente 368 palavras, abaixo da referência atual de 550 a 750 palavras definida no motor.",
+      "A fixture legada não contém tese_de_abertura, problema_argumentativo e retomada_da_tese_no_fechamento exigidos pelo contrato atual.",
+      "O conteúdo precisa de revisão pedagógica, editorial e de adequação etária antes de uso produtivo."
+    ],
+    "excludedInternalFields": [
+      "compreensao_base",
+      "abstracoes_narrativas",
+      "resposta_referencia",
+      "rubrica_analise",
+      "instruções completas de geração"
+    ]
+  }
+}
