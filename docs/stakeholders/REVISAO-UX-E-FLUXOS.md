@@ -8,6 +8,8 @@
 
 A plataforma apresenta uma identidade visual coerente, com boa leitura, hierarquia clara e uma separação compreensível entre aprendizagem, social e competição. O percurso principal — descoberta, matrícula, quiz, curso e desafio — é visível e tem CTAs claros.
 
+A revisão de direção visual consolidou a plataforma autenticada como um **campus horizontal full-width**: navegação global no topo, conteúdo ocupando toda a largura útil e chat social em sidebar flutuante recolhível. A solução foi conferida em desktop e mobile, preservando a tarefa principal e a presença da comunidade.
+
 Para a próxima fase, as três prioridades são:
 
 1. Trocar os símbolos tipográficos remanescentes por SVGs de uma única família.
@@ -21,7 +23,7 @@ Para a próxima fase, as três prioridades são:
 | `/` | Apresentar proposta, diferenciais e matrícula | Aprovada; hero e CTA claros | [captura](../../output/stakeholders/01-publica.png) |
 | `/matricula` e `/cadastro` | Coletar dados iniciais | Atenção: CTA fica abaixo da dobra no mobile | [captura mobile](../../output/stakeholders/05-mobile-matricula.png) |
 | `/nivelamento` e `/quizzes/hoje` | Diagnosticar e registrar evidência | Aprovada; enunciado, tempo e alternativas são compreensíveis | [captura](../../output/stakeholders/07-quiz.png) |
-| `/inicio` | Retomar percurso e orientar próxima ação | Aprovada; boa hierarquia entre estudo, quiz e competição | [captura](../../output/stakeholders/02-inicio.png) |
+| `/inicio` | Retomar percurso e orientar próxima ação | Aprovada; conteúdo full-width e chat social flutuante validados em desktop e mobile | [desktop](../../output/stakeholders/11-fullwidth-social-desktop.png) · [mobile](../../output/stakeholders/12-social-mobile.png) |
 | `/areas` | Explorar domínio BNCC | Aprovada; grade escaneável e CTA por área | [captura](../../output/stakeholders/10-areas.png) |
 | `/cursos/:courseId/eixos/:axisId` | Continuar material integrado | Aprovada; sequência e estado dos eixos claros | [captura](../../output/stakeholders/06-curso.png) |
 | `/forum` e páginas de comunidade/post | Descobrir, votar, comentar e publicar | Atenção: ações sociais devem ganhar ícones SVG e estados de moderação | [captura](../../output/stakeholders/03-forum.png) |
@@ -110,8 +112,8 @@ flowchart LR
 | Critério | Estado | Observação |
 | --- | --- | --- |
 | Hierarquia e CTA | Bom | Uma ação principal por tela, com contraste adequado. |
-| Navegação e deep links | Bom | Rotas por hash suportam GitHub Pages; sidebar e navegação inferior mantêm o acesso às áreas principais. |
-| Mobile | Atenção | Matrícula testada em 390 px; a continuação requer rolagem. Validar também quiz, competição e conta em produção. |
+| Navegação e deep links | Bom | Rotas por hash suportam GitHub Pages; navegação horizontal no desktop e inferior no mobile mantêm o acesso às áreas principais. |
+| Mobile | Atenção | Chat social validado como gaveta em 390 px. Na matrícula, a continuação ainda requer rolagem; validar também quiz, competição e conta em produção. |
 | Formulários | Bom no MVP | Labels visíveis, e-mail semântico, autocomplete e erro de matrícula com `role=alert`. Ainda falta loading/disabled para integrações reais. |
 | Acessibilidade | Parcial | Skip link, foco e redução de movimento existem. Converter símbolos tipográficos em SVG e completar labels de ícones. |
 | Social e moderação | Parcial | O modelo é claro, mas os fluxos de denúncia, bloqueio e moderação ainda são contratos de MVP, não backend implementado. |
@@ -129,6 +131,14 @@ flowchart LR
 | P2 | Criar estados de carregamento, vazio, erro e sucesso conectados aos serviços reais | Clareza operacional |
 | P2 | Validar contraste e navegação por teclado com dados reais | Conformidade WCAG AA |
 
+## Validação da direção full-width e social
+
+- **Desktop (1440 × 1100):** o conteúdo não usa contêiner central limitante; a sidebar social fica fixa à direita, com rolagem própria, acionador na topbar e fechamento explícito.
+- **Mobile (390 × 844):** o painel vira uma gaveta flutuante entre a topbar e a navegação inferior, ocupa a largura disponível sem criar rolagem horizontal e mantém controles com pelo menos 44 px.
+- **Acessibilidade:** o acionador informa o estado por `aria-expanded`; o painel usa nome acessível e `aria-hidden`; `Esc` fecha primeiro um modal ativo e, na ausência dele, fecha o chat.
+
+[Ver validação desktop](../../output/stakeholders/11-fullwidth-social-desktop.png) · [Ver validação mobile](../../output/stakeholders/12-social-mobile.png)
+
 ## Índice de capturas
 
 Todas as imagens foram geradas a partir do build local em execução; são artefatos do repositório e podem ser usados no alinhamento com stakeholders.
@@ -143,3 +153,5 @@ Todas as imagens foram geradas a partir do build local em execução; são artef
 8. [Perfil](../../output/stakeholders/08-perfil.png)
 9. [Métodos de pagamento](../../output/stakeholders/09-configuracoes.png)
 10. [Áreas do conhecimento](../../output/stakeholders/10-areas.png)
+11. [Plataforma full-width e chat social — desktop](../../output/stakeholders/11-fullwidth-social-desktop.png)
+12. [Chat social em gaveta — mobile](../../output/stakeholders/12-social-mobile.png)
