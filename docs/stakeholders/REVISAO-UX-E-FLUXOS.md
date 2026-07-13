@@ -195,7 +195,7 @@ stateDiagram-v2
 3. `OKF v0.1` e o contrato JSON `1.0.0` apareciam como se fossem a mesma versão; o contrato público passou a usar `publicContractVersion` e a interface exibe “Contrato 1.0.0”.
 4. O favicon ausente gerava erro 404 no console; foi incluído um ícone SVG inline.
 
-[Catálogo desktop](../../output/playwright/cognoscere-okf/13-okf-course-catalog.png) · [curso desktop](../../output/playwright/cognoscere-okf/14-okf-course-overview.png) · [material e rastreabilidade](../../output/playwright/cognoscere-okf/15-okf-course-material.png) · [atividade e pré-análise](../../output/playwright/cognoscere-okf/16-okf-open-response-analysis.png) · [curso mobile](../../output/playwright/cognoscere-okf/17-okf-course-mobile.png) · [chat mobile](../../output/playwright/cognoscere-okf/18-okf-social-mobile.png)
+[Catálogo desktop](../../output/playwright/cognoscere-okf/13-okf-course-catalog.png) · [curso desktop](../../output/playwright/cognoscere-okf/14-okf-course-overview.png) · [material e rastreabilidade](../../output/playwright/cognoscere-okf/15-okf-course-material.png) · [atividade e pré-análise](../../output/playwright/cognoscere-okf/16-okf-open-response-analysis.png) · [curso mobile](../../output/playwright/cognoscere-okf/17-okf-course-mobile.png) · [chat mobile](../../output/playwright/cognoscere-okf/18-okf-social-mobile.png) · [catálogo publicado no GitHub Pages](../../output/playwright/cognoscere-okf/19-live-course-catalog.png)
 
 ## Índice de capturas
 
@@ -219,3 +219,4 @@ Todas as imagens foram geradas a partir do build local em execução; são artef
 16. [Resposta aberta e pré-análise demonstrativa](../../output/playwright/cognoscere-okf/16-okf-open-response-analysis.png)
 17. [Curso OKF responsivo — mobile](../../output/playwright/cognoscere-okf/17-okf-course-mobile.png)
 18. [Chat social em gaveta sobre o curso — mobile](../../output/playwright/cognoscere-okf/18-okf-social-mobile.png)
+19. [Catálogo validado no endereço público do GitHub Pages](../../output/playwright/cognoscere-okf/19-live-course-catalog.png)

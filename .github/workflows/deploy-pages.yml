@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -39,5 +40,36 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Aguardar o deploy legado concorrente
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          for attempt in {1..60}; do
+            state="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow pages-build-deployment \
+              --commit "$GITHUB_SHA" \
+              --limit 1 \
+              --json status,conclusion \
+              --jq '.[0] | if . == null then "pending" else "\(.status):\(.conclusion // "")" end')"
+
+            case "$state" in
+              completed:success)
+                echo "Deploy legado concluído; publicando o artefato compilado por último."
+                exit 0
+                ;;
+              completed:*)
+                echo "Deploy legado terminou com estado $state; o artefato compilado pode prosseguir."
+                exit 0
+                ;;
+            esac
+
+            echo "Aguardando deploy legado do commit $GITHUB_SHA ($state, tentativa $attempt/60)."
+            sleep 5
+          done
+
+          echo "::warning::O deploy legado não terminou em 5 minutos; prosseguindo com o artefato compilado."
       - id: deployment
         uses: actions/deploy-pages@v4
