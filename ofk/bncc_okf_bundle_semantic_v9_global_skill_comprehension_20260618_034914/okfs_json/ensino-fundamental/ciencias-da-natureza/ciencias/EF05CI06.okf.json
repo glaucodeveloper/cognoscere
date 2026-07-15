@@ -1,0 +1,163 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EF05CI06 - Selecionar: argumentos que justifiquem por que os sistemas digestório e respiratór...",
+  "recorte_bncc": {
+    "codigo": "EF05CI06",
+    "etapa": "Ensino Fundamental",
+    "segmento": "Anos Iniciais",
+    "ano_ou_bloco": "5º ano",
+    "area": "Ciências da Natureza",
+    "componente": "Ciências",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": null,
+    "pagina_pdf": 343,
+    "habilidade": "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas"
+  },
+  "semantic_model": {
+    "normalized_statement": "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas",
+    "dominant_verbs": [
+      "selecionar"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "selecionar",
+        "semantic_operation": "seleção criterial",
+        "answer_evidence": "escolher elementos adequados a um critério ou finalidade"
+      }
+    ],
+    "object_core": "argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas",
+    "raw_object_core": "argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [],
+    "semantic_clauses": [
+      "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo",
+      "com base na identificação das funções desses sistemas"
+    ],
+    "connector_constraints": {},
+    "key_terms_from_statement": [
+      "com base na identificação das funções desses sistemas"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"selecionar\"",
+        "semantic_commitment": "A resposta deve realizar seleção criterial, não apenas mencionar o tema.",
+        "evidence_required": "escolher elementos adequados a um critério ou finalidade"
+      },
+      {
+        "id": "C02",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"com base na identificação das funções desses sistemas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      }
+    ],
+    "operation_family": "seleção criterial"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EF05CI06 como uma frase de ação em Ciências: “Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas”. A cadeia verbal \"selecionar\" organiza a aprendizagem como seleção criterial. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com uma ação situada sobre argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas: o estudante precisa mostrar o que faz com esse material, qual critério usa e que resultado produz.\n\nNa teoria escolar das Ciências da Natureza, argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas deve aparecer como fenômeno, evidência, modelo ou relação observável; a resposta ganha força quando liga observação e explicação.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo”; “com base na identificação das funções desses sistemas”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: selecionar: seleção criterial — evidência esperada: escolher elementos adequados a um critério ou finalidade.\n\nTermos que precisam ganhar função na situação de aprendizagem: “com base na identificação das funções desses sistemas”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EF05CI06 aparece quando a resposta liga o caso apresentado a “argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas” e executa seleção criterial de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Fundamental, 5º ano, a compreensão pode exigir justificativa curta, comparação, registro e escolha de procedimento, desde que os dados estejam visíveis e a pergunta preserve uma situação concreta.",
+    "text_base_comprehension": "Para EF05CI06, o texto-base deve colocar “argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas” em uma situação concreta de Ciências, com fatos suficientes para que o estudante realize seleção criterial. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"selecionar\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EF05CI06 deve verificar se o texto-base criou condições reais para operar sobre “argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"selecionar\", à operação seleção criterial, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EF05CI06 devem acionar seleção criterial sobre “argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"selecionar\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EF05CI06 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar seleção criterial sobre “argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar seleção criterial, não apenas mencionar o tema.",
+        "evidence": "escolher elementos adequados a um critério ou finalidade"
+      },
+      {
+        "id": "C02",
+        "expected": "O objeto de operação é \"argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "expected": "O termo \"com base na identificação das funções desses sistemas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 343,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "09215e9089450ebdba41d42f2b05f9a302ccaf4b142a5aad223eb982de49ec3b",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

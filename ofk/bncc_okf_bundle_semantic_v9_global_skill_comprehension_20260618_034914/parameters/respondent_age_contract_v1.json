@@ -1,0 +1,80 @@
+{
+  "id": "respondent_age_contract_v1",
+  "type": "okf_bundle_runtime_parameter_contract",
+  "hierarchy_position": "bundle_root/parameters",
+  "scope": "all_okfs_all_stages_all_components",
+  "parameter": {
+    "name": "respondent_age",
+    "type": "integer",
+    "unit": "years",
+    "required": true,
+    "recommended_range": {
+      "min": 3,
+      "max": 99
+    },
+    "school_common_range": {
+      "min": 4,
+      "max": 18
+    },
+    "description": "Idade real do respondente/aluno em anos completos, usada para calibrar nível de palavras, extensão frasal, concretude, abstração e interpretação da resposta."
+  },
+  "priority_rule": {
+    "skill_okf": "define o que será avaliado: verbo, objeto, compromissos e operação semântica",
+    "respondent_age": "define como a linguagem deve ser calibrada para o respondente",
+    "grade_or_block": "define referência curricular secundária e expectativa pedagógica geral",
+    "conflict_resolution": "quando idade e série/bloco divergirem, manter a habilidade e ajustar somente linguagem/forma de sondagem pela idade"
+  },
+  "generation_effects": [
+    "nível de palavras",
+    "tamanho e arquitetura das frases",
+    "concretude dos exemplos",
+    "quantidade de abstração",
+    "modo de contextualizar termos difíceis",
+    "tipo de personagem e conflito narrativo",
+    "complexidade da pergunta",
+    "expectativa de resposta"
+  ],
+  "assessment_effects": [
+    "interpretar vocabulário simples conforme idade",
+    "não punir informalidade compatível com idade se houver compreensão semântica",
+    "abstrair critério por pistas, exemplos, comparações, limites, regras aplicadas e relações informação-conclusão",
+    "manter pontuação baseada na habilidade, usando idade apenas para calibrar expressão"
+  ],
+  "age_bands": [
+    {
+      "min": 3,
+      "max": 5,
+      "profile": "Educação Infantil provável: oralidade mediada, palavras concretas, frases curtas, ação corporal, imagem e repetição significativa."
+    },
+    {
+      "min": 6,
+      "max": 8,
+      "profile": "Anos iniciais iniciais: palavras familiares, frases curtas a médias, cena concreta, pistas explícitas e pergunta simples."
+    },
+    {
+      "min": 9,
+      "max": 10,
+      "profile": "Anos iniciais finais: vocabulário simples com termos escolares contextualizados, frases médias e justificativa curta."
+    },
+    {
+      "min": 11,
+      "max": 12,
+      "profile": "Transição para anos finais: linguagem acessível de pré-adolescente, frases médias desenvolvidas e abstração explicada pela cena."
+    },
+    {
+      "min": 13,
+      "max": 14,
+      "profile": "Anos finais: linguagem adolescente acessível, frases desenvolvidas legíveis, investigação, comparação e inferências controladas."
+    },
+    {
+      "min": 15,
+      "max": 17,
+      "profile": "Ensino Médio provável: linguagem mais abstrata e argumentativa, nuance, relações conceituais, dados, critérios e posicionamento."
+    },
+    {
+      "min": 18,
+      "max": 99,
+      "profile": "Jovem/adulto: linguagem mais densa possível, mas didática, situada, lúdica e alinhada ao nível curricular da habilidade."
+    }
+  ]
+}

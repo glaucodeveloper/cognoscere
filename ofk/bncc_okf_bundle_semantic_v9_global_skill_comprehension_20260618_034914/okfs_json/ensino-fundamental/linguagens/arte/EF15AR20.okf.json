@@ -1,0 +1,193 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EF15AR20 - Experimentar: o trabalho colaborativo, coletivo e autoral em improvisações teatrais...",
+  "recorte_bncc": {
+    "codigo": "EF15AR20",
+    "etapa": "Ensino Fundamental",
+    "segmento": "Anos Iniciais",
+    "ano_ou_bloco": "1º ao 5º ano",
+    "area": "Linguagens",
+    "componente": "Arte",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": null,
+    "pagina_pdf": 205,
+    "habilidade": "Experimentar o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais"
+  },
+  "semantic_model": {
+    "normalized_statement": "Experimentar o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais",
+    "dominant_verbs": [
+      "experimentar"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "experimentar",
+        "semantic_operation": "experimentação prática",
+        "answer_evidence": "realizar prática e observar efeitos da ação"
+      }
+    ],
+    "object_core": "o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais",
+    "raw_object_core": "o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [
+      {
+        "action": "explorando",
+        "clause": "explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      }
+    ],
+    "semantic_clauses": [
+      "Experimentar o trabalho colaborativo",
+      "coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro",
+      "explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais"
+    ],
+    "connector_constraints": {},
+    "key_terms_from_statement": [
+      "o trabalho colaborativo",
+      "coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"experimentar\"",
+        "semantic_commitment": "A resposta deve realizar experimentação prática, não apenas mencionar o tema.",
+        "evidence_required": "realizar prática e observar efeitos da ação"
+      },
+      {
+        "id": "C02",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"o trabalho colaborativo\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C04",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C05",
+        "source": "gerúndio/ação decorrente: explorando",
+        "semantic_commitment": "O trecho 'explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "operation_family": "experimentação prática"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EF15AR20 como uma frase de ação em Arte: “Experimentar o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais”. A cadeia verbal \"experimentar\" organiza a aprendizagem como experimentação prática. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com uma ação situada sobre o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais: o estudante precisa mostrar o que faz com esse material, qual critério usa e que resultado produz.\n\nNa teoria escolar de Linguagens, o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais funciona como prática de produção de sentido: forma, interlocutor, contexto, suporte, circulação e efeito precisam orientar a leitura ou a produção.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Experimentar o trabalho colaborativo”; “coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro”; “explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: experimentar: experimentação prática — evidência esperada: realizar prática e observar efeitos da ação.\n\nRestrições e ações decorrentes do enunciado: ações decorrentes: explorando: ação decorrente ou procedimento interno. Esses elementos definem limites, meios ou consequências que precisam aparecer quando forem relevantes à resposta.\n\nTermos que precisam ganhar função na situação de aprendizagem: “o trabalho colaborativo”; “coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EF15AR20 aparece quando a resposta liga o caso apresentado a “o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais” e executa experimentação prática de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Fundamental, 1º ao 5º ano, a compreensão pode exigir justificativa curta, comparação, registro e escolha de procedimento, desde que os dados estejam visíveis e a pergunta preserve uma situação concreta.",
+    "text_base_comprehension": "Para EF15AR20, o texto-base deve colocar “o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais” em uma situação concreta de Arte, com fatos suficientes para que o estudante realize experimentação prática. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"experimentar\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EF15AR20 deve verificar se o texto-base criou condições reais para operar sobre “o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"experimentar\", à operação experimentação prática, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EF15AR20 devem acionar experimentação prática sobre “o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"experimentar\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EF15AR20 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar experimentação prática sobre “o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar experimentação prática, não apenas mencionar o tema.",
+        "evidence": "realizar prática e observar efeitos da ação"
+      },
+      {
+        "id": "C02",
+        "expected": "O objeto de operação é \"o trabalho colaborativo, coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro, explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "expected": "O termo \"o trabalho colaborativo\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C04",
+        "expected": "O termo \"coletivo e autoral em improvisações teatrais e processos narrativos criativos em teatro\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C05",
+        "expected": "O trecho 'explorando desde a teatralidade dos gestos e das ações do cotidiano até elementos de diferentes matrizes estéticas e culturais' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 205,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "dc65ee2cd288746a2a5e040e0f1dcdd8a01d6968fa954190afe4b28d7b42d63d",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

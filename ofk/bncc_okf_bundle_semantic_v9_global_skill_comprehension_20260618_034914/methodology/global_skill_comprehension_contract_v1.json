@@ -1,0 +1,20 @@
+{
+  "id": "global_skill_comprehension_contract_v1",
+  "scope": "all_okfs_all_stages_all_components",
+  "applies_to": [
+    "bncc_context_comprehension",
+    "text_base_comprehension",
+    "text_base_internal_analysis_comprehension",
+    "question_topic_comprehension",
+    "rewrite_report_comprehension",
+    "response_assessment_model"
+  ],
+  "principle": "Toda compreensão de habilidade parte da construção textual do enunciado da BNCC: verbo, objeto, conectores, condições, meios, finalidade, termos nucleares e ações decorrentes.",
+  "assessment_rule": "Um avaliador ou LLM não deve aceitar como compreensão plena uma resposta que fale de tema próximo, conteúdo decorado ou opinião lateral sem operar diretamente sobre o objeto da habilidade. A compreensão se torna avaliável quando o estudante transforma esse objeto segundo a ação verbal exigida.",
+  "bncc_context_role": "Explicar a habilidade específica de acordo com a construção textual da BNCC, usando análise da operação verbal, objeto, teoria da área e analogias de uso.",
+  "moved_from_okf_modules": [
+    "deve nascer da linguagem do próprio enunciado, antes de qualquer repertório externo",
+    "Um avaliador ou LLM não deve aceitar como compreensão plena...",
+    "A compreensão nasce quando..."
+  ]
+}

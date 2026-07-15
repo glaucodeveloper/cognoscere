@@ -1,0 +1,219 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EI01EF03 - Demonstrar: interesse ao ouvir histórias lidas ou contadas",
+  "recorte_bncc": {
+    "codigo": "EI01EF03",
+    "etapa": "Educação Infantil",
+    "segmento": "Educação Infantil",
+    "ano_ou_bloco": "Bebês (zero a 1 ano e 6 meses)",
+    "area": "Educação Infantil",
+    "componente": "Educação Infantil",
+    "campo_ou_unidade": "Escuta, fala, pensamento e imaginação",
+    "competencia_relacionada": null,
+    "pagina_pdf": 51,
+    "habilidade": "Demonstrar interesse ao ouvir histórias lidas ou contadas, observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)"
+  },
+  "semantic_model": {
+    "normalized_statement": "Demonstrar interesse ao ouvir histórias lidas ou contadas, observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)",
+    "dominant_verbs": [
+      "demonstrar"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "demonstrar",
+        "semantic_operation": "mobilização semântica",
+        "answer_evidence": "mostrar na resposta a operação exigida pelo enunciado"
+      }
+    ],
+    "object_core": "interesse ao ouvir histórias lidas ou contadas",
+    "raw_object_core": "interesse ao ouvir histórias lidas ou contadas",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [
+      {
+        "action": "observando",
+        "clause": "observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      }
+    ],
+    "semantic_clauses": [
+      "Demonstrar interesse ao ouvir histórias lidas ou contadas",
+      "observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)"
+    ],
+    "connector_constraints": {
+      "criterio_limite": [
+        "observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)"
+      ]
+    },
+    "key_terms_from_statement": [
+      "Demonstrar interesse ao ouvir histórias lidas ou contadas",
+      "observando ilustrações e os movimentos de leitura do adulto-leitor",
+      "modo de segurar o portador e de virar as páginas"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"demonstrar\"",
+        "semantic_commitment": "A resposta deve realizar mobilização semântica, não apenas mencionar o tema.",
+        "evidence_required": "mostrar na resposta a operação exigida pelo enunciado"
+      },
+      {
+        "id": "C02",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"interesse ao ouvir histórias lidas ou contadas\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "source": "criterio_limite",
+        "semantic_commitment": "O trecho \"observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C04",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"Demonstrar interesse ao ouvir histórias lidas ou contadas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C05",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"observando ilustrações e os movimentos de leitura do adulto-leitor\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C06",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"modo de segurar o portador e de virar as páginas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C07",
+        "source": "gerúndio/ação decorrente: observando",
+        "semantic_commitment": "O trecho 'observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "operation_family": "mobilização semântica"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EI01EF03 como uma frase de ação em Educação Infantil: “Demonstrar interesse ao ouvir histórias lidas ou contadas, observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)”. A cadeia verbal \"demonstrar\" organiza a aprendizagem como mobilização semântica. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “interesse ao ouvir histórias lidas ou contadas”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com uma ação situada sobre interesse ao ouvir histórias lidas ou contadas: o estudante precisa mostrar o que faz com esse material, qual critério usa e que resultado produz.\n\nNa Educação Infantil, interesse ao ouvir histórias lidas ou contadas deve ser vivido como experiência concreta, sensorial, corporal, relacional e lúdica; a evidência aparece em ações, escolhas, interações e narrativas observáveis.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Demonstrar interesse ao ouvir histórias lidas ou contadas”; “observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: demonstrar: mobilização semântica — evidência esperada: mostrar na resposta a operação exigida pelo enunciado.\n\nRestrições e ações decorrentes do enunciado: criterio_limite: \"observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)\"; ações decorrentes: observando: ação decorrente ou procedimento interno. Esses elementos definem limites, meios ou consequências que precisam aparecer quando forem relevantes à resposta.\n\nTermos que precisam ganhar função na situação de aprendizagem: “Demonstrar interesse ao ouvir histórias lidas ou contadas”; “observando ilustrações e os movimentos de leitura do adulto-leitor”; “modo de segurar o portador e de virar as páginas”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EI01EF03 aparece quando a resposta liga o caso apresentado a “interesse ao ouvir histórias lidas ou contadas” e executa mobilização semântica de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Educação Infantil, Bebês (zero a 1 ano e 6 meses), a compreensão deve ser observada em gestos, escolhas, fala emergente, exploração e interação mediada; a situação precisa permitir resposta corporal, oral ou visual antes de exigir formulação abstrata.",
+    "text_base_comprehension": "Para EI01EF03, o texto-base deve colocar “interesse ao ouvir histórias lidas ou contadas” em uma situação concreta de Educação Infantil, com fatos suficientes para que o estudante realize mobilização semântica. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"demonstrar\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EI01EF03 deve verificar se o texto-base criou condições reais para operar sobre “interesse ao ouvir histórias lidas ou contadas”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"demonstrar\", à operação mobilização semântica, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05, C06, C07.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EI01EF03 devem acionar mobilização semântica sobre “interesse ao ouvir histórias lidas ou contadas” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"demonstrar\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EI01EF03 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar mobilização semântica sobre “interesse ao ouvir histórias lidas ou contadas”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar mobilização semântica, não apenas mencionar o tema.",
+        "evidence": "mostrar na resposta a operação exigida pelo enunciado"
+      },
+      {
+        "id": "C02",
+        "expected": "O objeto de operação é \"interesse ao ouvir histórias lidas ou contadas\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "expected": "O trecho \"observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C04",
+        "expected": "O termo \"Demonstrar interesse ao ouvir histórias lidas ou contadas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C05",
+        "expected": "O termo \"observando ilustrações e os movimentos de leitura do adulto-leitor\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C06",
+        "expected": "O termo \"modo de segurar o portador e de virar as páginas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C07",
+        "expected": "O trecho 'observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 51,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "670ce875d864b0a0262594e6e39d9283ed0e8623061f05929f169753f2eabda6",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

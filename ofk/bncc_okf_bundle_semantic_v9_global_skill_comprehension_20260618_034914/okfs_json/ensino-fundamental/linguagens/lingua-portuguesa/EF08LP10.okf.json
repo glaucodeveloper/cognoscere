@@ -1,0 +1,261 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EF08LP10 - Interpretar: em textos lidos ou de produção própria, efeitos de sentido de modifica...",
+  "recorte_bncc": {
+    "codigo": "EF08LP10",
+    "etapa": "Ensino Fundamental",
+    "segmento": "Anos Finais",
+    "ano_ou_bloco": "8º ano",
+    "area": "Linguagens",
+    "componente": "Língua Portuguesa",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": null,
+    "pagina_pdf": 191,
+    "habilidade": "Interpretar, em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais), usando-os para enriquecer seus próprios textos"
+  },
+  "semantic_model": {
+    "normalized_statement": "Interpretar, em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais), usando-os para enriquecer seus próprios textos",
+    "dominant_verbs": [
+      "interpretar"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "interpretar",
+        "semantic_operation": "interpretação inferencial",
+        "answer_evidence": "construir sentido a partir de pistas e justificar a inferência"
+      }
+    ],
+    "object_core": "em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)",
+    "raw_object_core": "em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [
+      {
+        "action": "usando",
+        "clause": "usando-os para enriquecer seus próprios textos",
+        "semantic_role": "restrição de modo/critério"
+      }
+    ],
+    "semantic_clauses": [
+      "Interpretar",
+      "em textos lidos ou de produção própria",
+      "efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)",
+      "usando-os para enriquecer seus próprios textos"
+    ],
+    "connector_constraints": {
+      "finalidade": [
+        "para enriquecer seus próprios textos"
+      ],
+      "meio_procedimento": [
+        "usando-os"
+      ],
+      "objeto_fonte": [
+        "em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)"
+      ]
+    },
+    "key_terms_from_statement": [
+      "em textos lidos ou de produção própria",
+      "efeitos de sentido de modificadores do verbo",
+      "adjuntos adverbiais – advérbios e expressões adverbiais",
+      "enriquecer seus próprios textos"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"interpretar\"",
+        "semantic_commitment": "A resposta deve realizar interpretação inferencial, não apenas mencionar o tema.",
+        "evidence_required": "construir sentido a partir de pistas e justificar a inferência"
+      },
+      {
+        "id": "C02",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "source": "finalidade",
+        "semantic_commitment": "O trecho \"para enriquecer seus próprios textos\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C04",
+        "source": "meio_procedimento",
+        "semantic_commitment": "O trecho \"usando-os\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C05",
+        "source": "objeto_fonte",
+        "semantic_commitment": "O trecho \"em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"em textos lidos ou de produção própria\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C07",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"efeitos de sentido de modificadores do verbo\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C08",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"adjuntos adverbiais – advérbios e expressões adverbiais\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C09",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"enriquecer seus próprios textos\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C10",
+        "source": "gerúndio/ação decorrente: usando",
+        "semantic_commitment": "O trecho 'usando-os para enriquecer seus próprios textos' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "operation_family": "interpretação inferencial"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EF08LP10 como uma frase de ação em Língua Portuguesa: “Interpretar, em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais), usando-os para enriquecer seus próprios textos”. A cadeia verbal \"interpretar\" organiza a aprendizagem como interpretação inferencial. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com reconstruir um percurso de sentido: o estudante retira de em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais) uma relação que não se reduz à cópia de uma frase.\n\nNa teoria escolar de Linguagens, em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais) funciona como prática de produção de sentido: forma, interlocutor, contexto, suporte, circulação e efeito precisam orientar a leitura ou a produção.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Interpretar”; “em textos lidos ou de produção própria”; “efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)”; “usando-os para enriquecer seus próprios textos”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: interpretar: interpretação inferencial — evidência esperada: construir sentido a partir de pistas e justificar a inferência.\n\nRestrições e ações decorrentes do enunciado: finalidade: \"para enriquecer seus próprios textos\"; meio_procedimento: \"usando-os\"; objeto_fonte: \"em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)\"; ações decorrentes: usando: restrição de modo/critério. Esses elementos definem limites, meios ou consequências que precisam aparecer quando forem relevantes à resposta.\n\nTermos que precisam ganhar função na situação de aprendizagem: “em textos lidos ou de produção própria”; “efeitos de sentido de modificadores do verbo”; “adjuntos adverbiais – advérbios e expressões adverbiais”; “enriquecer seus próprios textos”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EF08LP10 aparece quando a resposta liga o caso apresentado a “em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)” e executa interpretação inferencial de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Fundamental, 8º ano, a compreensão pode trabalhar conflito, critério e inferência controlada; a resposta deve mostrar raciocínio, mas ainda precisa de pistas textuais ou situacionais bem estabelecidas.",
+    "text_base_comprehension": "Para EF08LP10, o texto-base deve colocar “em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)” em uma situação concreta de Língua Portuguesa, com fatos suficientes para que o estudante realize interpretação inferencial. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"interpretar\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EF08LP10 deve verificar se o texto-base criou condições reais para operar sobre “em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"interpretar\", à operação interpretação inferencial, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05, C06, C07, C08, C09, C10.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EF08LP10 devem acionar interpretação inferencial sobre “em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"interpretar\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EF08LP10 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar interpretação inferencial sobre “em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar interpretação inferencial, não apenas mencionar o tema.",
+        "evidence": "construir sentido a partir de pistas e justificar a inferência"
+      },
+      {
+        "id": "C02",
+        "expected": "O objeto de operação é \"em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "expected": "O trecho \"para enriquecer seus próprios textos\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C04",
+        "expected": "O trecho \"usando-os\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C05",
+        "expected": "O trecho \"em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais – advérbios e expressões adverbiais)\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "expected": "O termo \"em textos lidos ou de produção própria\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C07",
+        "expected": "O termo \"efeitos de sentido de modificadores do verbo\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C08",
+        "expected": "O termo \"adjuntos adverbiais – advérbios e expressões adverbiais\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C09",
+        "expected": "O termo \"enriquecer seus próprios textos\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C10",
+        "expected": "O trecho 'usando-os para enriquecer seus próprios textos' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 191,
+    "statement_source": "user_lingua_portuguesa_json",
+    "statement_sha256": "b4ed08a7b558ee2e0ee5836c926bf0ad619c6c63da10b93b0a4dfda732c9ef60",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

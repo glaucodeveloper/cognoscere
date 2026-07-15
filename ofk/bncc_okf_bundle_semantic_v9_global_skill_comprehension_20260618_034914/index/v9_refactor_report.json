@@ -1,0 +1,21 @@
+{
+  "bundle": "bncc_okf_bundle_semantic_v9_global_skill_comprehension_20260618_034914",
+  "source_bundle": "bncc_okf_bundle_semantic_v8_global_question_hypothesis_20260617_194905.zip",
+  "okfs_rewritten": 1580,
+  "guard_patterns_scanned": [
+    "deve nascer da linguagem do próprio enunciado",
+    "antes de qualquer repertório externo",
+    "Um avaliador ou LLM não deve aceitar como compreensão plena",
+    "A compreensão nasce quando",
+    "Portanto, a habilidade não é o assunto nominal da frase",
+    "Esse objeto é o centro de gravidade da habilidade",
+    "Assim, o contexto BNCC aqui não deve ser entendido"
+  ],
+  "guard_patterns_found_in_okfs_md": [],
+  "total_guard_pattern_hits": 0,
+  "status": "clean",
+  "new_global_files": [
+    "methodology/global_skill_comprehension_contract_v1.md",
+    "methodology/global_skill_comprehension_contract_v1.json"
+  ]
+}

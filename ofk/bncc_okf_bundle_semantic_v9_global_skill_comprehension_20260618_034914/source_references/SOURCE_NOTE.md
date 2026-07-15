@@ -1,0 +1,1 @@
+O PDF completo não foi duplicado no bundle para manter o arquivo menor. O manifesto registra o PDF fonte. A extração textual base veio do bundle anterior gerado a partir do PDF e do JSON de Língua Portuguesa.

@@ -1,0 +1,330 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EF03MA27 - Ler: dados apresentados em tabelas de dupla entrada, gráficos de barras ou...",
+  "recorte_bncc": {
+    "codigo": "EF03MA27",
+    "etapa": "Ensino Fundamental",
+    "segmento": "Anos Iniciais",
+    "ano_ou_bloco": "3º ano",
+    "area": "Matemática",
+    "componente": "Matemática",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": null,
+    "pagina_pdf": 291,
+    "habilidade": "Ler, interpretar e comparar dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas, utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos"
+  },
+  "semantic_model": {
+    "normalized_statement": "Ler, interpretar e comparar dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas, utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos",
+    "dominant_verbs": [
+      "ler",
+      "interpretar",
+      "comparar"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "ler",
+        "semantic_operation": "leitura compreensiva",
+        "answer_evidence": "reconstruir sentido, informação ou relação a partir do material lido"
+      },
+      {
+        "verb": "interpretar",
+        "semantic_operation": "interpretação inferencial",
+        "answer_evidence": "construir sentido a partir de pistas e justificar a inferência"
+      },
+      {
+        "verb": "comparar",
+        "semantic_operation": "comparação criterial",
+        "answer_evidence": "estabelecer semelhanças/diferenças com base em critérios explícitos"
+      }
+    ],
+    "object_core": "dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas",
+    "raw_object_core": "dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [
+      {
+        "action": "envolvendo",
+        "clause": "envolvendo resultados de pesquisas significativas",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "utilizando",
+        "clause": "utilizando termos como maior e menor frequência",
+        "semantic_role": "restrição de modo/critério"
+      },
+      {
+        "action": "apropriando-se",
+        "clause": "apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      }
+    ],
+    "semantic_clauses": [
+      "interpretar e comparar dados apresentados em tabelas de dupla entrada",
+      "gráficos de barras ou de colunas",
+      "envolvendo resultados de pesquisas significativas",
+      "utilizando termos como maior e menor frequência",
+      "apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos"
+    ],
+    "connector_constraints": {
+      "finalidade": [
+        "para compreender aspectos da realidade sociocultural significativos"
+      ],
+      "meio_procedimento": [
+        "utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem"
+      ],
+      "objeto_fonte": [
+        "em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas"
+      ]
+    },
+    "key_terms_from_statement": [
+      "e comparar dados apresentados em tabelas de dupla entrada",
+      "gráficos de barras ou de colunas",
+      "envolvendo resultados de pesquisas significativas",
+      "termos como maior e menor frequência",
+      "apropriando-se desse tipo de linguagem",
+      "aspectos da realidade sociocultural significativos"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"ler\"",
+        "semantic_commitment": "A resposta deve realizar leitura compreensiva, não apenas mencionar o tema.",
+        "evidence_required": "reconstruir sentido, informação ou relação a partir do material lido"
+      },
+      {
+        "id": "C02",
+        "source": "verbo \"interpretar\"",
+        "semantic_commitment": "A resposta deve realizar interpretação inferencial, não apenas mencionar o tema.",
+        "evidence_required": "construir sentido a partir de pistas e justificar a inferência"
+      },
+      {
+        "id": "C03",
+        "source": "verbo \"comparar\"",
+        "semantic_commitment": "A resposta deve realizar comparação criterial, não apenas mencionar o tema.",
+        "evidence_required": "estabelecer semelhanças/diferenças com base em critérios explícitos"
+      },
+      {
+        "id": "C04",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C05",
+        "source": "finalidade",
+        "semantic_commitment": "O trecho \"para compreender aspectos da realidade sociocultural significativos\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "source": "meio_procedimento",
+        "semantic_commitment": "O trecho \"utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C07",
+        "source": "objeto_fonte",
+        "semantic_commitment": "O trecho \"em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C08",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"e comparar dados apresentados em tabelas de dupla entrada\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C09",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"gráficos de barras ou de colunas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C10",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"envolvendo resultados de pesquisas significativas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C11",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"termos como maior e menor frequência\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C12",
+        "source": "gerúndio/ação decorrente: envolvendo",
+        "semantic_commitment": "O trecho 'envolvendo resultados de pesquisas significativas' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C13",
+        "source": "gerúndio/ação decorrente: utilizando",
+        "semantic_commitment": "O trecho 'utilizando termos como maior e menor frequência' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C14",
+        "source": "gerúndio/ação decorrente: apropriando-se",
+        "semantic_commitment": "O trecho 'apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "operation_family": "leitura compreensiva"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EF03MA27 como uma frase de ação em Matemática: “Ler, interpretar e comparar dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas, utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos”. A cadeia verbal \"ler\", \"interpretar\" e \"comparar\" organiza a aprendizagem como leitura compreensiva. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com reconstruir um percurso de sentido: o estudante retira de dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas uma relação que não se reduz à cópia de uma frase.\n\nNa teoria escolar da Matemática, essa habilidade trabalha dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas como relação entre representação, procedimento e verificação: o estudante precisa mostrar como sabe, não apenas apresentar um resultado.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “interpretar e comparar dados apresentados em tabelas de dupla entrada”; “gráficos de barras ou de colunas”; “envolvendo resultados de pesquisas significativas”; “utilizando termos como maior e menor frequência”; “apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: ler: leitura compreensiva — evidência esperada: reconstruir sentido, informação ou relação a partir do material lido; interpretar: interpretação inferencial — evidência esperada: construir sentido a partir de pistas e justificar a inferência; comparar: comparação criterial — evidência esperada: estabelecer semelhanças/diferenças com base em critérios explícitos.\n\nRestrições e ações decorrentes do enunciado: finalidade: \"para compreender aspectos da realidade sociocultural significativos\"; meio_procedimento: \"utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem\"; objeto_fonte: \"em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas\"; ações decorrentes: envolvendo: ação decorrente ou procedimento interno; utilizando: restrição de modo/critério; apropriando-se: ação decorrente ou procedimento interno. Esses elementos definem limites, meios ou consequências que precisam aparecer quando forem relevantes à resposta.\n\nTermos que precisam ganhar função na situação de aprendizagem: “e comparar dados apresentados em tabelas de dupla entrada”; “gráficos de barras ou de colunas”; “envolvendo resultados de pesquisas significativas”; “termos como maior e menor frequência”; “apropriando-se desse tipo de linguagem”; “aspectos da realidade sociocultural significativos”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EF03MA27 aparece quando a resposta liga o caso apresentado a “dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas” e executa leitura compreensiva de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Fundamental, 3º ano, a compreensão deve aparecer por linguagem concreta, exemplos próximos, comparação visível e justificativa simples; a abstração precisa nascer da ação na cena.",
+    "text_base_comprehension": "Para EF03MA27, o texto-base deve colocar “dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas” em uma situação concreta de Matemática, com fatos suficientes para que o estudante realize leitura compreensiva. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"ler\", \"interpretar\" e \"comparar\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EF03MA27 deve verificar se o texto-base criou condições reais para operar sobre “dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"ler\", \"interpretar\" e \"comparar\", à operação leitura compreensiva, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05, C06, C07, C08, C09, C10.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EF03MA27 devem acionar leitura compreensiva sobre “dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"ler\", \"interpretar\" e \"comparar\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EF03MA27 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar leitura compreensiva sobre “dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar leitura compreensiva, não apenas mencionar o tema.",
+        "evidence": "reconstruir sentido, informação ou relação a partir do material lido"
+      },
+      {
+        "id": "C02",
+        "expected": "A resposta deve realizar interpretação inferencial, não apenas mencionar o tema.",
+        "evidence": "construir sentido a partir de pistas e justificar a inferência"
+      },
+      {
+        "id": "C03",
+        "expected": "A resposta deve realizar comparação criterial, não apenas mencionar o tema.",
+        "evidence": "estabelecer semelhanças/diferenças com base em critérios explícitos"
+      },
+      {
+        "id": "C04",
+        "expected": "O objeto de operação é \"dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C05",
+        "expected": "O trecho \"para compreender aspectos da realidade sociocultural significativos\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "expected": "O trecho \"utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C07",
+        "expected": "O trecho \"em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C08",
+        "expected": "O termo \"e comparar dados apresentados em tabelas de dupla entrada\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C09",
+        "expected": "O termo \"gráficos de barras ou de colunas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C10",
+        "expected": "O termo \"envolvendo resultados de pesquisas significativas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C11",
+        "expected": "O termo \"termos como maior e menor frequência\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C12",
+        "expected": "O trecho 'envolvendo resultados de pesquisas significativas' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C13",
+        "expected": "O trecho 'utilizando termos como maior e menor frequência' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C14",
+        "expected": "O trecho 'apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 291,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "53acd03e664f5d55758cf1ecf667aa037ec7d106a234c9f6ff44313678c29765",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

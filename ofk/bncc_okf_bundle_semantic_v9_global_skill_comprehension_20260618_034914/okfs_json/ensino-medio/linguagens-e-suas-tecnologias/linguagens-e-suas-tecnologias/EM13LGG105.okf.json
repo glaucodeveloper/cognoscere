@@ -1,0 +1,446 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EM13LGG105 - Analisar: diversos processos de remidiação de produções multissemióticas",
+  "recorte_bncc": {
+    "codigo": "EM13LGG105",
+    "etapa": "Ensino Médio",
+    "segmento": "Ensino Médio",
+    "ano_ou_bloco": "1ª à 3ª série do Ensino Médio",
+    "area": "Linguagens e suas Tecnologias",
+    "componente": "Linguagens e suas Tecnologias",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": "1",
+    "pagina_pdf": 493,
+    "habilidade": "Analisar e experimentar diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social. Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconheci- mento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza. Essa competência específica diz respeito à compreensão e análise de situações e con- textos de produção de sentidos nas práticas sociais de linguagem, na recepção ou na produção de discursos, percebendo conflitos e relações de poder que caracterizam essas práticas. Para desenvolver essa competência, os estudantes de Ensino Médio precisam analisar e compreender as circunstâncias sociais, históricas e ideológicas em que se dão diversas práticas e discursos. Isso significa interpretar de modo contextualizado tanto produções artísticas (uma pintura como Guernica, um romance como Macunaíma, uma obra literá- ria como Terra sonâmbula, uma peça musical para coro e orquestra como Choros nº 10 ou uma canção como O bêbado e a equilibrista, um espetáculo de dança como Gira em suas relações com a música do Metá Metá etc.) quanto textos de outros campos (o remix político George Bush/Imagine, determinado projeto de lei, uma notícia acompanhada de artigos de opinião em algum veículo jornalístico, entre muitos outros exemplos). Desse modo, os estudantes poderão compreender a pluralidade dos discursos e pro- duzi-los de maneira posicionada – valorizando e respeitando as individualidades, as diferenças de ideias e posições e pautando-se por valores democráticos –, e também atuar de forma reflexiva, cooperativa e empática, sem preconceitos e buscando estabe- lecer o diálogo"
+  },
+  "semantic_model": {
+    "normalized_statement": "Analisar e experimentar diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social. Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconheci- mento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza. Essa competência específica diz respeito à compreensão e análise de situações e con- textos de produção de sentidos nas práticas sociais de linguagem, na recepção ou na produção de discursos, percebendo conflitos e relações de poder que caracterizam essas práticas. Para desenvolver essa competência, os estudantes de Ensino Médio precisam analisar e compreender as circunstâncias sociais, históricas e ideológicas em que se dão diversas práticas e discursos. Isso significa interpretar de modo contextualizado tanto produções artísticas (uma pintura como Guernica, um romance como Macunaíma, uma obra literá- ria como Terra sonâmbula, uma peça musical para coro e orquestra como Choros nº 10 ou uma canção como O bêbado e a equilibrista, um espetáculo de dança como Gira em suas relações com a música do Metá Metá etc.) quanto textos de outros campos (o remix político George Bush/Imagine, determinado projeto de lei, uma notícia acompanhada de artigos de opinião em algum veículo jornalístico, entre muitos outros exemplos). Desse modo, os estudantes poderão compreender a pluralidade dos discursos e pro- duzi-los de maneira posicionada – valorizando e respeitando as individualidades, as diferenças de ideias e posições e pautando-se por valores democráticos –, e também atuar de forma reflexiva, cooperativa e empática, sem preconceitos e buscando estabe- lecer o diálogo",
+    "dominant_verbs": [
+      "analisar",
+      "experimentar",
+      "compreender"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "analisar",
+        "semantic_operation": "análise decompositiva",
+        "answer_evidence": "decompor o objeto em partes, relações, procedimentos ou efeitos"
+      },
+      {
+        "verb": "experimentar",
+        "semantic_operation": "experimentação prática",
+        "answer_evidence": "realizar prática e observar efeitos da ação"
+      },
+      {
+        "verb": "compreender",
+        "semantic_operation": "compreensão relacional",
+        "answer_evidence": "reconstruir o sentido do objeto e suas relações internas"
+      }
+    ],
+    "object_core": "diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social",
+    "raw_object_core": "diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [
+      {
+        "action": "desenvolvendo",
+        "clause": "desenvolvendo diferentes modos de participação e intervenção social",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "respeitando",
+        "clause": "respeitando as diversidades e a pluralidade de ideias e posições",
+        "semantic_role": "restrição de modo/critério"
+      },
+      {
+        "action": "exercitando",
+        "clause": "exercitando o autoconheci- mento",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "combatendo",
+        "clause": "combatendo preconceitos de qualquer natureza",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "percebendo",
+        "clause": "percebendo conflitos e relações de poder que caracterizam essas práticas",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "valorizando",
+        "clause": "valorizando",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "respeitando",
+        "clause": "respeitando as individualidades",
+        "semantic_role": "restrição de modo/critério"
+      },
+      {
+        "action": "pautando-se",
+        "clause": "pautando-se por valores democráticos –",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      }
+    ],
+    "semantic_clauses": [
+      "Analisar e experimentar diversos processos de remidiação de produções multissemióticas",
+      "multimídia e transmídia",
+      "desenvolvendo diferentes modos de participação e intervenção social",
+      "Compreender os processos identitários",
+      "conflitos e relações de poder que permeiam as práticas sociais de linguagem",
+      "respeitando as diversidades e a pluralidade de ideias e posições",
+      "e atuar socialmente com base em princípios e valores assentados na democracia",
+      "na igualdade e nos Direitos Humanos",
+      "exercitando o autoconheci- mento",
+      "a empatia",
+      "o diálogo",
+      "a resolução de conflitos e a cooperação"
+    ],
+    "connector_constraints": {
+      "finalidade": [
+        "Para desenvolver essa competência, os estudantes de Ensino Médio precisam analisar e compreender as circunstâncias sociais, históricas e ideológicas em que se dão diversas práticas e discursos",
+        "para coro e orquestra como Choros nº 10 ou uma canção como O bêbado e a equilibrista, um espetáculo de dança como Gira em suas relações com a música do Metá Metá etc"
+      ],
+      "criterio_limite": [
+        "respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente",
+        "com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconheci- mento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza",
+        "respeitando as individualidades, as diferenças de ideias e posições e pautando-se por valores democráticos –, e também atuar de forma reflexiva, cooperativa e empática",
+        "sem preconceitos e buscando estabe- lecer o diálogo"
+      ]
+    },
+    "key_terms_from_statement": [
+      "e experimentar diversos processos de remidiação de produções multissemióticas",
+      "multimídia e transmídia",
+      "desenvolvendo diferentes modos de participação e intervenção social",
+      "os processos identitários",
+      "conflitos e relações de poder que permeiam as práticas sociais de linguagem",
+      "as diversidades e a pluralidade de ideias e posições",
+      "e atuar socialmente",
+      "princípios e valores assentados na democracia",
+      "na igualdade e nos Direitos Humanos",
+      "exercitando o autoconheci- mento",
+      "a empatia",
+      "o diálogo"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"analisar\"",
+        "semantic_commitment": "A resposta deve realizar análise decompositiva, não apenas mencionar o tema.",
+        "evidence_required": "decompor o objeto em partes, relações, procedimentos ou efeitos"
+      },
+      {
+        "id": "C02",
+        "source": "verbo \"experimentar\"",
+        "semantic_commitment": "A resposta deve realizar experimentação prática, não apenas mencionar o tema.",
+        "evidence_required": "realizar prática e observar efeitos da ação"
+      },
+      {
+        "id": "C03",
+        "source": "verbo \"compreender\"",
+        "semantic_commitment": "A resposta deve realizar compreensão relacional, não apenas mencionar o tema.",
+        "evidence_required": "reconstruir o sentido do objeto e suas relações internas"
+      },
+      {
+        "id": "C04",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C05",
+        "source": "finalidade",
+        "semantic_commitment": "O trecho \"Para desenvolver essa competência, os estudantes de Ensino Médio precisam analisar e compreender as circunstâncias sociais, históricas e ideológicas em que se dão diversas práticas e discursos\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "source": "finalidade",
+        "semantic_commitment": "O trecho \"para coro e orquestra como Choros nº 10 ou uma canção como O bêbado e a equilibrista, um espetáculo de dança como Gira em suas relações com a música do Metá Metá etc\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C07",
+        "source": "criterio_limite",
+        "semantic_commitment": "O trecho \"respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C08",
+        "source": "criterio_limite",
+        "semantic_commitment": "O trecho \"com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconheci- mento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C09",
+        "source": "criterio_limite",
+        "semantic_commitment": "O trecho \"respeitando as individualidades, as diferenças de ideias e posições e pautando-se por valores democráticos –, e também atuar de forma reflexiva, cooperativa e empática\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C10",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"e experimentar diversos processos de remidiação de produções multissemióticas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C11",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"multimídia e transmídia\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C12",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"desenvolvendo diferentes modos de participação e intervenção social\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C13",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"os processos identitários\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C14",
+        "source": "gerúndio/ação decorrente: desenvolvendo",
+        "semantic_commitment": "O trecho 'desenvolvendo diferentes modos de participação e intervenção social' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C15",
+        "source": "gerúndio/ação decorrente: respeitando",
+        "semantic_commitment": "O trecho 'respeitando as diversidades e a pluralidade de ideias e posições' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C16",
+        "source": "gerúndio/ação decorrente: exercitando",
+        "semantic_commitment": "O trecho 'exercitando o autoconheci- mento' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C17",
+        "source": "gerúndio/ação decorrente: combatendo",
+        "semantic_commitment": "O trecho 'combatendo preconceitos de qualquer natureza' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C18",
+        "source": "gerúndio/ação decorrente: percebendo",
+        "semantic_commitment": "O trecho 'percebendo conflitos e relações de poder que caracterizam essas práticas' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C19",
+        "source": "gerúndio/ação decorrente: valorizando",
+        "semantic_commitment": "O trecho 'valorizando' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C20",
+        "source": "gerúndio/ação decorrente: respeitando",
+        "semantic_commitment": "O trecho 'respeitando as individualidades' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C21",
+        "source": "gerúndio/ação decorrente: pautando-se",
+        "semantic_commitment": "O trecho 'pautando-se por valores democráticos –' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "operation_family": "análise decompositiva"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EM13LGG105 como uma frase de ação em Linguagens e suas Tecnologias: “Analisar e experimentar diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social. Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconheci- mento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza. Essa competência específica diz respeito à compreensão e análise de situações e con- textos de produção de sentidos nas práticas sociais de linguagem, na recepção ou na produção de discursos, percebendo conflitos e relações de poder que caracterizam essas práticas. Para desenvolver essa competência, os estudantes de Ensino Médio precisam analisar e compreender as circunstâncias sociais, históricas e ideológicas em que se dão diversas práticas e discursos. Isso significa interpretar de modo contextualizado tanto produções artísticas (uma pintura como Guernica, um romance como Macunaíma, uma obra literá- ria como Terra sonâmbula, uma peça musical para coro e orquestra como Choros nº 10 ou uma canção como O bêbado e a equilibrista, um espetáculo de dança como Gira em suas relações com a música do Metá Metá etc.) quanto textos de outros campos (o remix político George Bush/Imagine, determinado projeto de lei, uma notícia acompanhada de artigos de opinião em algum veículo jornalístico, entre muitos outros exemplos). Desse modo, os estudantes poderão compreender a pluralidade dos discursos e pro- duzi-los de maneira posicionada – valorizando e respeitando as individualidades, as diferenças de ideias e posições e pautando-se por valores democráticos –, e também atuar de forma reflexiva, cooperativa e empática, sem preconceitos e buscando estabe- lecer o diálogo”. A cadeia verbal \"analisar\", \"experimentar\" e \"compreender\" organiza a aprendizagem como análise decompositiva. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com abrir um mecanismo para observar suas partes: o estudante não fica no nome geral de diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social, mas mostra relações, funções, causas, efeitos ou escolhas internas.\n\nNa teoria escolar de Linguagens, diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social funciona como prática de produção de sentido: forma, interlocutor, contexto, suporte, circulação e efeito precisam orientar a leitura ou a produção.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Analisar e experimentar diversos processos de remidiação de produções multissemióticas”; “multimídia e transmídia”; “desenvolvendo diferentes modos de participação e intervenção social”; “Compreender os processos identitários”; “conflitos e relações de poder que permeiam as práticas sociais de linguagem”; “respeitando as diversidades e a pluralidade de ideias e posições”; “e atuar socialmente com base em princípios e valores assentados na democracia”; “na igualdade e nos Direitos Humanos”; “exercitando o autoconheci- mento”; “a empatia”; “o diálogo”; “a resolução de conflitos e a cooperação”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: analisar: análise decompositiva — evidência esperada: decompor o objeto em partes, relações, procedimentos ou efeitos; experimentar: experimentação prática — evidência esperada: realizar prática e observar efeitos da ação; compreender: compreensão relacional — evidência esperada: reconstruir o sentido do objeto e suas relações internas.\n\nRestrições e ações decorrentes do enunciado: finalidade: \"Para desenvolver essa competência, os estudantes de Ensino Médio precisam analisar e compreender as circunstâncias sociais, históricas e ideológicas em que se dão diversas práticas e discursos\", \"para coro e orquestra como Choros nº 10 ou uma canção como O bêbado e a equilibrista, um espetáculo de dança como Gira em suas relações com a música do Metá Metá etc\"; criterio_limite: \"respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente\", \"com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconheci- mento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza\", \"respeitando as individualidades, as diferenças de ideias e posições e pautando-se por valores democráticos –, e também atuar de forma reflexiva, cooperativa e empática\", \"sem preconceitos e buscando estabe- lecer o diálogo\"; ações decorrentes: desenvolvendo: ação decorrente ou procedimento interno; respeitando: restrição de modo/critério; exercitando: ação decorrente ou procedimento interno; combatendo: ação decorrente ou procedimento interno; percebendo: ação decorrente ou procedimento interno; valorizando: ação decorrente ou procedimento interno; respeitando: restrição de modo/critério; pautando-se: ação decorrente ou procedimento interno. Esses elementos definem limites, meios ou consequências que precisam aparecer quando forem relevantes à resposta.\n\nTermos que precisam ganhar função na situação de aprendizagem: “e experimentar diversos processos de remidiação de produções multissemióticas”; “multimídia e transmídia”; “desenvolvendo diferentes modos de participação e intervenção social”; “os processos identitários”; “conflitos e relações de poder que permeiam as práticas sociais de linguagem”; “as diversidades e a pluralidade de ideias e posições”; “e atuar socialmente”; “princípios e valores assentados na democracia”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EM13LGG105 aparece quando a resposta liga o caso apresentado a “diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social” e executa análise decompositiva de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Médio, 1ª à 3ª série do Ensino Médio, a compreensão pode articular teoria, método, comparação entre fontes, escolhas de procedimento e justificativa conceitual, sem abandonar o vínculo com o caso ou material da atividade.",
+    "text_base_comprehension": "Para EM13LGG105, o texto-base deve colocar “diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social” em uma situação concreta de Linguagens e suas Tecnologias, com fatos suficientes para que o estudante realize análise decompositiva. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"analisar\", \"experimentar\" e \"compreender\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EM13LGG105 deve verificar se o texto-base criou condições reais para operar sobre “diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"analisar\", \"experimentar\" e \"compreender\", à operação análise decompositiva, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05, C06, C07, C08, C09, C10.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EM13LGG105 devem acionar análise decompositiva sobre “diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"analisar\", \"experimentar\" e \"compreender\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EM13LGG105 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar análise decompositiva sobre “diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar análise decompositiva, não apenas mencionar o tema.",
+        "evidence": "decompor o objeto em partes, relações, procedimentos ou efeitos"
+      },
+      {
+        "id": "C02",
+        "expected": "A resposta deve realizar experimentação prática, não apenas mencionar o tema.",
+        "evidence": "realizar prática e observar efeitos da ação"
+      },
+      {
+        "id": "C03",
+        "expected": "A resposta deve realizar compreensão relacional, não apenas mencionar o tema.",
+        "evidence": "reconstruir o sentido do objeto e suas relações internas"
+      },
+      {
+        "id": "C04",
+        "expected": "O objeto de operação é \"diversos processos de remidiação de produções multissemióticas, multimídia e transmídia, desenvolvendo diferentes modos de participação e intervenção social\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C05",
+        "expected": "O trecho \"Para desenvolver essa competência, os estudantes de Ensino Médio precisam analisar e compreender as circunstâncias sociais, históricas e ideológicas em que se dão diversas práticas e discursos\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "expected": "O trecho \"para coro e orquestra como Choros nº 10 ou uma canção como O bêbado e a equilibrista, um espetáculo de dança como Gira em suas relações com a música do Metá Metá etc\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C07",
+        "expected": "O trecho \"respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C08",
+        "expected": "O trecho \"com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconheci- mento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C09",
+        "expected": "O trecho \"respeitando as individualidades, as diferenças de ideias e posições e pautando-se por valores democráticos –, e também atuar de forma reflexiva, cooperativa e empática\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C10",
+        "expected": "O termo \"e experimentar diversos processos de remidiação de produções multissemióticas\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C11",
+        "expected": "O termo \"multimídia e transmídia\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C12",
+        "expected": "O termo \"desenvolvendo diferentes modos de participação e intervenção social\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C13",
+        "expected": "O termo \"os processos identitários\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C14",
+        "expected": "O trecho 'desenvolvendo diferentes modos de participação e intervenção social' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C15",
+        "expected": "O trecho 'respeitando as diversidades e a pluralidade de ideias e posições' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C16",
+        "expected": "O trecho 'exercitando o autoconheci- mento' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C17",
+        "expected": "O trecho 'combatendo preconceitos de qualquer natureza' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C18",
+        "expected": "O trecho 'percebendo conflitos e relações de poder que caracterizam essas práticas' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C19",
+        "expected": "O trecho 'valorizando' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C20",
+        "expected": "O trecho 'respeitando as individualidades' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C21",
+        "expected": "O trecho 'pautando-se por valores democráticos –' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 493,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "991c055bdc5346e2c3f4f9ece7ab12865ba85a42228ebf7ec0c73de99a7bd9e8",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

@@ -1,26 +1,27 @@
-# frozen_string_literal: true
+﻿# frozen_string_literal: true
+# encoding: UTF-8
 
 # quiz_portugues_6ano_ef69lp01_separated_comprehensions.rb
 #
 # Arquitetura:
 #
 # 1. O agente RLM administra o quiz:
-#    - registra início;
-#    - registra geração do texto-base;
-#    - registra geração das perguntas;
+#    - registra inÃ­cio;
+#    - registra geraÃ§Ã£o do texto-base;
+#    - registra geraÃ§Ã£o das perguntas;
 #    - registra coleta de respostas;
 #    - registra encerramento.
 #
-# 2. A inferência textual comum do Glauco gera:
+# 2. A inferÃªncia textual comum do Glauco gera:
 #    - texto-base;
-#    - compreensão-base do texto-base;
+#    - compreensÃ£o-base do texto-base;
 #    - perguntas;
-#    - relatório de reescrita.
+#    - relatÃ³rio de reescrita.
 #
-# 3. As compreensões ficam separadas das instruções:
-#    - primeiro vêm os textos de compreensão;
-#    - depois vêm as instruções de saída/formato;
-#    - os prompts juntam compreensão + instrução apenas no momento da chamada.
+# 3. As compreensÃµes ficam separadas das instruÃ§Ãµes:
+#    - primeiro vÃªm os textos de compreensÃ£o;
+#    - depois vÃªm as instruÃ§Ãµes de saÃ­da/formato;
+#    - os prompts juntam compreensÃ£o + instruÃ§Ã£o apenas no momento da chamada.
 #
 # Uso:
 #   jruby .\quiz_portugues_6ano_ef69lp01_separated_comprehensions.rb
@@ -116,7 +117,7 @@ module SkillMarkdownConfig
   module_function
 
   def load(path)
-    raise "Arquivo de habilidade não encontrado: #{path}" unless File.exist?(path)
+    raise "Arquivo de habilidade nÃ£o encontrado: #{path}" unless File.exist?(path)
 
     sections = parse_sections(File.read(path, encoding: "UTF-8"))
     {
@@ -170,7 +171,7 @@ SKILL_CONFIG = SkillMarkdownConfig.load(SKILL_MARKDOWN_PATH).freeze
 BNCC_SKILL = SKILL_CONFIG.fetch(:bncc_skill).freeze
 
 # ============================================================
-# 2. PERFIL DO ALUNO — 6º ANO EFII
+# 2. PERFIL DO ALUNO â€” 6Âº ANO EFII
 # ============================================================
 
 # %%
@@ -178,39 +179,39 @@ STUDENT_PROFILE = {
   id: "aluno_demo_efii_6",
   nome: "Aluno demonstracional EFII",
   etapa: "Ensino Fundamental II",
-  serie: "6º ano do Ensino Fundamental",
+  serie: "6Âº ano do Ensino Fundamental",
   faixa_etaria: "11 a 12 anos",
-  fase: "transição dos anos iniciais para os anos finais",
+  fase: "transiÃ§Ã£o dos anos iniciais para os anos finais",
 
   funcionamento: [
-    "lê textos curtos e médios com autonomia parcial",
+    "lÃª textos curtos e mÃ©dios com autonomia parcial",
     "precisa aprender a justificar respostas com pistas do texto",
-    "consegue reconhecer opinião explícita, mas pode confundir crítica com ofensa",
-    "tende a responder por julgamento pessoal quando a pergunta exige evidência textual",
-    "compreende melhor quando a situação usa gêneros próximos da vida social e digital"
+    "consegue reconhecer opiniÃ£o explÃ­cita, mas pode confundir crÃ­tica com ofensa",
+    "tende a responder por julgamento pessoal quando a pergunta exige evidÃªncia textual",
+    "compreende melhor quando a situaÃ§Ã£o usa gÃªneros prÃ³ximos da vida social e digital"
   ],
 
   necessidades: [
-    "diferenciar crítica, discordância, xingamento, ameaça e discurso discriminatório",
-    "reconhecer marcas linguísticas de generalização, inferiorização ou ataque a grupo",
-    "identificar quando uma fala deixa de ser opinião e passa a ferir direitos",
-    "posicionar-se contra discurso de ódio com justificativa textual",
-    "indicar possibilidade de denúncia ou encaminhamento responsável"
+    "diferenciar crÃ­tica, discordÃ¢ncia, xingamento, ameaÃ§a e discurso discriminatÃ³rio",
+    "reconhecer marcas linguÃ­sticas de generalizaÃ§Ã£o, inferiorizaÃ§Ã£o ou ataque a grupo",
+    "identificar quando uma fala deixa de ser opiniÃ£o e passa a ferir direitos",
+    "posicionar-se contra discurso de Ã³dio com justificativa textual",
+    "indicar possibilidade de denÃºncia ou encaminhamento responsÃ¡vel"
   ],
 
   evidencias_desejadas: [
-    "aponta expressão do texto que caracteriza ataque discriminatório",
-    "explica a diferença entre discordar de uma ideia e atacar uma pessoa ou grupo",
-    "reconhece que liberdade de expressão não autoriza humilhação, ameaça ou discriminação",
-    "seleciona uma forma responsável de resposta ou denúncia",
+    "aponta expressÃ£o do texto que caracteriza ataque discriminatÃ³rio",
+    "explica a diferenÃ§a entre discordar de uma ideia e atacar uma pessoa ou grupo",
+    "reconhece que liberdade de expressÃ£o nÃ£o autoriza humilhaÃ§Ã£o, ameaÃ§a ou discriminaÃ§Ã£o",
+    "seleciona uma forma responsÃ¡vel de resposta ou denÃºncia",
     "justifica a resposta com base no texto-base"
   ]
 }.freeze
 
 # ============================================================
-# 3. COMPREENSÕES DO PROGRAMA
+# 3. COMPREENSÃ•ES DO PROGRAMA
 #    Estas camadas descrevem o sentido do trabalho.
-#    Não são instruções de formato.
+#    NÃ£o sÃ£o instruÃ§Ãµes de formato.
 # ============================================================
 
 # %%
@@ -221,18 +222,18 @@ QUESTION_TOPIC_COMPREHENSION = SKILL_CONFIG.fetch(:comprehensions).fetch(:questi
 REWRITE_REPORT_COMPREHENSION = SKILL_CONFIG.fetch(:comprehensions).fetch(:rewrite_report).freeze
 
 # ============================================================
-# 4. INSTRUÇÕES DE GERAÇÃO
-#    Estas camadas dizem como produzir a saída.
-#    Ficam depois das compreensões e são usadas só no prompt final.
+# 4. INSTRUÃ‡Ã•ES DE GERAÃ‡ÃƒO
+#    Estas camadas dizem como produzir a saÃ­da.
+#    Ficam depois das compreensÃµes e sÃ£o usadas sÃ³ no prompt final.
 # ============================================================
 
 # %%
 TEXT_BASE_GENERATION_INSTRUCTIONS = <<~TXT.freeze
-  Gere somente o texto-base e sua compreensão-base dedicada.
+  Gere somente o texto-base e sua compreensÃ£o-base dedicada.
 
-  Retorne somente JSON válido, sem markdown, sem comentário e sem bloco de código.
+  Retorne somente JSON vÃ¡lido, sem markdown, sem comentÃ¡rio e sem bloco de cÃ³digo.
 
-  Estrutura obrigatória:
+  Estrutura obrigatÃ³ria:
 
   {
     "bncc_codigo": "#{BNCC_SKILL[:codigo]}",
@@ -314,53 +315,53 @@ TEXT_BASE_GENERATION_INSTRUCTIONS = <<~TXT.freeze
   }
 
   Regras:
-  - não gerar perguntas nesta etapa;
-  - não gerar gabarito nesta etapa;
-  - gerar texto-base obrigatoriamente equivalente a uma lauda de página de texto;
-  - usar como referência uma extensão entre 550 e 750 palavras, com parágrafos
-    desenvolvidos e continuidade lógica suficiente para parecer uma página completa;
-  - não entregar texto curto, resumo, sinopse, cena apressada ou conjunto de falas
+  - nÃ£o gerar perguntas nesta etapa;
+  - nÃ£o gerar gabarito nesta etapa;
+  - gerar texto-base obrigatoriamente equivalente a uma lauda de pÃ¡gina de texto;
+  - usar como referÃªncia uma extensÃ£o entre 550 e 750 palavras, com parÃ¡grafos
+    desenvolvidos e continuidade lÃ³gica suficiente para parecer uma pÃ¡gina completa;
+  - nÃ£o entregar texto curto, resumo, sinopse, cena apressada ou conjunto de falas
     soltas;
   - antes de escrever o texto_base, gerar abstracoes_narrativas completas;
   - as abstracoes_narrativas devem conter fatos concretos, antecedentes,
-    participantes com interesses próprios, sequência causal e consequência;
+    participantes com interesses prÃ³prios, sequÃªncia causal e consequÃªncia;
   - as abstracoes_narrativas devem explicitar tese_de_abertura,
     problema_argumentativo e retomada_da_tese_no_fechamento;
-  - o texto-base deve ter caráter argumentativo como moldura: o início apresenta
+  - o texto-base deve ter carÃ¡ter argumentativo como moldura: o inÃ­cio apresenta
     uma tese, problema ou ponto de vista em disputa, e o fechamento retoma essa
-    tese com consequência, síntese, impasse ou posicionamento;
-  - o conteúdo central pode ser narrativo, expositivo, dialogal, investigativo,
-    instrucional ou outro formato necessário à habilidade; ele não precisa ser
-    composto por argumentos formais, mas deve sustentar a tese aberta no início
+    tese com consequÃªncia, sÃ­ntese, impasse ou posicionamento;
+  - o conteÃºdo central pode ser narrativo, expositivo, dialogal, investigativo,
+    instrucional ou outro formato necessÃ¡rio Ã  habilidade; ele nÃ£o precisa ser
+    composto por argumentos formais, mas deve sustentar a tese aberta no inÃ­cio
     e retomada no fechamento;
-  - não usar falas genéricas como "precisamos respeitar"; cada fala deve nascer
-    de um interesse, reação, dúvida ou conflito concreto da cena;
+  - nÃ£o usar falas genÃ©ricas como "precisamos respeitar"; cada fala deve nascer
+    de um interesse, reaÃ§Ã£o, dÃºvida ou conflito concreto da cena;
   - o texto_base.conteudo deve transformar as abstracoes_narrativas em narrativa
-    natural, sem parecer resumo esquemático;
-  - organizar o texto-base com início, conteúdo central e fechamento;
-  - manter o conteúdo central separado do início e do fechamento;
-  - o campo estrutura.conteudo_central.paragrafos deve conter apenas parágrafos
-    narrativos do conteúdo central;
+    natural, sem parecer resumo esquemÃ¡tico;
+  - organizar o texto-base com inÃ­cio, conteÃºdo central e fechamento;
+  - manter o conteÃºdo central separado do inÃ­cio e do fechamento;
+  - o campo estrutura.conteudo_central.paragrafos deve conter apenas parÃ¡grafos
+    narrativos do conteÃºdo central;
   - o campo estrutura.conteudo_central.falas deve conter apenas falas, cada uma
     com personagem e fala;
-  - o campo conteudo deve ser texto corrido em parágrafos, incluindo as falas em
-    linhas separadas, sem virar lista esquemática;
-  - simular situação social plausível para estudante de #{BNCC_SKILL[:serie_base]};
-  - evitar violência explícita pesada;
-  - preservar clareza entre crítica legítima e ataque discriminatório;
+  - o campo conteudo deve ser texto corrido em parÃ¡grafos, incluindo as falas em
+    linhas separadas, sem virar lista esquemÃ¡tica;
+  - simular situaÃ§Ã£o social plausÃ­vel para estudante de #{BNCC_SKILL[:serie_base]};
+  - evitar violÃªncia explÃ­cita pesada;
+  - preservar clareza entre crÃ­tica legÃ­tima e ataque discriminatÃ³rio;
   - deixar pistas textuais suficientes para perguntas posteriores;
-  - aplicar a análise detalhada do conteúdo central conforme
+  - aplicar a anÃ¡lise detalhada do conteÃºdo central conforme
     TEXT_BASE_INTERNAL_ANALYSIS_COMPREHENSION.
 TXT
 
 # %%
 QUESTION_GENERATION_INSTRUCTIONS = <<~TXT.freeze
-  Gere perguntas diagnósticas para #{BNCC_SKILL[:componente]}, #{BNCC_SKILL[:serie_base]},
+  Gere perguntas diagnÃ³sticas para #{BNCC_SKILL[:componente]}, #{BNCC_SKILL[:serie_base]},
   trabalhando exclusivamente a habilidade #{BNCC_SKILL[:codigo]}.
 
-  Retorne somente JSON válido, sem markdown, sem comentário e sem bloco de código.
+  Retorne somente JSON vÃ¡lido, sem markdown, sem comentÃ¡rio e sem bloco de cÃ³digo.
 
-  Estrutura obrigatória:
+  Estrutura obrigatÃ³ria:
 
   {
     "bncc_codigo": "#{BNCC_SKILL[:codigo]}",
@@ -404,49 +405,49 @@ QUESTION_GENERATION_INSTRUCTIONS = <<~TXT.freeze
 
   Regras:
   - usar obrigatoriamente o texto-base recebido;
-  - não gerar novo texto-base;
-  - não alterar gênero, título ou conteúdo do texto-base;
+  - nÃ£o gerar novo texto-base;
+  - nÃ£o alterar gÃªnero, tÃ­tulo ou conteÃºdo do texto-base;
   - gerar exatamente a quantidade solicitada de perguntas;
   - gerar somente perguntas de resposta aberta;
-  - não gerar alternativas;
-  - não gerar resposta correta como letra;
+  - nÃ£o gerar alternativas;
+  - nÃ£o gerar resposta correta como letra;
   - cada pergunta deve ter enunciado aberto para sondagem, sem conduzir a resposta;
-  - cada pergunta deve exigir justificativa com pistas explícitas do texto-base;
-  - cada pergunta deve permitir análise profunda do raciocínio do aluno;
-  - cobrir reconhecimento de opinião legítima;
-  - cobrir identificação de discurso de ódio;
-  - cobrir diferenciação entre crítica e ataque discriminatório;
-  - cobrir possibilidade de posicionamento ou denúncia;
+  - cada pergunta deve exigir justificativa com pistas explÃ­citas do texto-base;
+  - cada pergunta deve permitir anÃ¡lise profunda do raciocÃ­nio do aluno;
+  - cobrir reconhecimento de opiniÃ£o legÃ­tima;
+  - cobrir identificaÃ§Ã£o de discurso de Ã³dio;
+  - cobrir diferenciaÃ§Ã£o entre crÃ­tica e ataque discriminatÃ³rio;
+  - cobrir possibilidade de posicionamento ou denÃºncia;
   - cobrir justificativa textual;
-  - a resposta_referencia deve ser parâmetro de análise, não gabarito único;
-  - a rubrica_analise deve diferenciar domínio observado, domínio em formação,
-    resposta sem evidência textual, erro de compreensão e necessidade de mediação;
-  - não gerar perguntas de alfabetização, fonema, sílaba ou letra.
+  - a resposta_referencia deve ser parÃ¢metro de anÃ¡lise, nÃ£o gabarito Ãºnico;
+  - a rubrica_analise deve diferenciar domÃ­nio observado, domÃ­nio em formaÃ§Ã£o,
+    resposta sem evidÃªncia textual, erro de compreensÃ£o e necessidade de mediaÃ§Ã£o;
+  - nÃ£o gerar perguntas de alfabetizaÃ§Ã£o, fonema, sÃ­laba ou letra.
 TXT
 
 # %%
 REWRITE_REPORT_INSTRUCTIONS = <<~TXT.freeze
-  Produza o relatório com estas seções:
+  Produza o relatÃ³rio com estas seÃ§Ãµes:
 
-  1. Diagnóstico do texto de contexto BNCC
-  2. Diagnóstico da compreensão usada para gerar o texto-base
+  1. DiagnÃ³stico do texto de contexto BNCC
+  2. DiagnÃ³stico da compreensÃ£o usada para gerar o texto-base
   3. Qualidade do texto-base gerado
-  4. Qualidade da compreensão-base gerada junto ao texto-base
-  5. Diagnóstico da compreensão sobre o tópico das perguntas
+  4. Qualidade da compreensÃ£o-base gerada junto ao texto-base
+  5. DiagnÃ³stico da compreensÃ£o sobre o tÃ³pico das perguntas
   6. Qualidade das perguntas geradas
-  7. Evidências vindas das respostas do aluno
-  8. Separação entre dificuldade do aluno, falha da pergunta e falha do texto-base
-  9. Recomendações para reescrever os textos de compreensão do programa
-  10. Versão reescrita sugerida das compreensões centrais
+  7. EvidÃªncias vindas das respostas do aluno
+  8. SeparaÃ§Ã£o entre dificuldade do aluno, falha da pergunta e falha do texto-base
+  9. RecomendaÃ§Ãµes para reescrever os textos de compreensÃ£o do programa
+  10. VersÃ£o reescrita sugerida das compreensÃµes centrais
 
-  Não retornar JSON. Retornar texto estruturado em seções.
+  NÃ£o retornar JSON. Retornar texto estruturado em seÃ§Ãµes.
 TXT
 
 # ============================================================
-# 5. INFERÊNCIA TEXTUAL COMUM VIA LLM DO FRAMEWORK
+# 5. INFERÃŠNCIA TEXTUAL COMUM VIA LLM DO FRAMEWORK
 #    Usa o backend llama-server inicializado/configurado pelo Glauco.
-#    Não usa RubyLLM.configure diretamente na aplicação.
-#    Não chama admin_agent.run para gerar texto.
+#    NÃ£o usa RubyLLM.configure diretamente na aplicaÃ§Ã£o.
+#    NÃ£o chama admin_agent.run para gerar texto.
 # ============================================================
 
 # %%
@@ -501,9 +502,9 @@ class FrameworkLlamaTextInference
   end
 
   def build_framework_chat
-    # Caminho preferencial: usar a construção de chat do próprio framework.
+    # Caminho preferencial: usar a construÃ§Ã£o de chat do prÃ³prio framework.
     # No core atual, GlaucoBasicPlasticAgent#build_chat configura o RubyLLM
-    # com endpoint/model do framework e retorna o chat compatível.
+    # com endpoint/model do framework e retorna o chat compatÃ­vel.
     if @framework_agent.respond_to?(:build_chat, true)
       chat = @framework_agent.send(:build_chat)
 
@@ -518,7 +519,7 @@ class FrameworkLlamaTextInference
       return chat
     end
 
-    raise "GlaucoBasicPlasticAgent não expõe build_chat. Adicione um método público no framework para inferência textual comum, por exemplo Glauco::Framework.llm_chat."
+    raise "GlaucoBasicPlasticAgent nÃ£o expÃµe build_chat. Adicione um mÃ©todo pÃºblico no framework para inferÃªncia textual comum, por exemplo Glauco::Framework.llm_chat."
   end
 
   def extract_response_content(response)
@@ -647,7 +648,7 @@ class StudentProfileEntity
     by_operation = {}
 
     results.each do |result|
-      operation = value_for(result, :operacao_cognitiva) || "Sem operação"
+      operation = value_for(result, :operacao_cognitiva) || "Sem operaÃ§Ã£o"
       by_operation[operation] ||= { total: 0, with_evidence: 0, evidence_rate: 0.0 }
       by_operation[operation][:total] += 1
       by_operation[operation][:with_evidence] += 1 if value_for(result, :evidencia_textual_suficiente)
@@ -742,13 +743,13 @@ class StudentProfileEntity
   def state_for(evidence_rate)
     case evidence_rate.to_f
     when 0...40
-      "necessita reforço estruturado na habilidade #{BNCC_SKILL[:codigo]}"
+      "necessita reforÃ§o estruturado na habilidade #{BNCC_SKILL[:codigo]}"
     when 40...70
-      "domínio em formação, com necessidade de justificar por pistas textuais"
+      "domÃ­nio em formaÃ§Ã£o, com necessidade de justificar por pistas textuais"
     when 70...90
-      "domínio funcional observado, com reforço pontual de argumentação textual"
+      "domÃ­nio funcional observado, com reforÃ§o pontual de argumentaÃ§Ã£o textual"
     else
-      "domínio consistente observado na sondagem aplicada"
+      "domÃ­nio consistente observado na sondagem aplicada"
     end
   end
 end
@@ -834,12 +835,12 @@ admin_agent.build_agent(
     "papel" => "administrador_do_quiz",
     "recorte_bncc" => BNCC_SKILL,
     "perfil_aluno" => admin_runtime.progressed_profile_hash,
-    "regra" => "Não gerar texto-base, perguntas ou relatório textual. Apenas administrar etapas e registrar decisões."
+    "regra" => "NÃ£o gerar texto-base, perguntas ou relatÃ³rio textual. Apenas administrar etapas e registrar decisÃµes."
   }
 )
 
 # ============================================================
-# 7. FUNÇÕES AUXILIARES
+# 7. FUNÃ‡Ã•ES AUXILIARES
 # ============================================================
 
 # %%
@@ -882,7 +883,7 @@ def confirm_correct(auto_correct)
     input = ask("Detectado como correto. Confirmar? s/n", default: "s")
     input.downcase.start_with?("s")
   else
-    input = ask("Detectado como incorreto. Marcar como correto pela observação humana? s/n", default: "n")
+    input = ask("Detectado como incorreto. Marcar como correto pela observaÃ§Ã£o humana? s/n", default: "n")
     input.downcase.start_with?("s")
   end
 end
@@ -901,7 +902,7 @@ def summarize_results(results)
   by_operation = {}
 
   results.each do |result|
-    operation = normalize_result_key(result, :operacao_cognitiva) || "Sem operação"
+    operation = normalize_result_key(result, :operacao_cognitiva) || "Sem operaÃ§Ã£o"
     by_operation[operation] ||= { total: 0, with_evidence: 0 }
     by_operation[operation][:total] += 1
     by_operation[operation][:with_evidence] += 1 if normalize_result_key(result, :evidencia_textual_suficiente)
@@ -920,29 +921,29 @@ def report_text(results)
   summary = summarize_results(results)
   lines = []
 
-  lines << "=== RELATÓRIO DE AVALIAÇÃO — #{BNCC_SKILL[:serie_base]} / #{BNCC_SKILL[:codigo]} ==="
+  lines << "=== RELATÃ“RIO DE AVALIAÃ‡ÃƒO â€” #{BNCC_SKILL[:serie_base]} / #{BNCC_SKILL[:codigo]} ==="
   lines << "Habilidade BNCC: #{BNCC_SKILL[:codigo]}"
   lines << "Total de perguntas: #{summary[:total]}"
-  lines << "Respostas com evidência textual suficiente: #{summary[:with_evidence]}"
-  lines << "Taxa de sustentação textual: #{summary[:evidence_rate]}%"
+  lines << "Respostas com evidÃªncia textual suficiente: #{summary[:with_evidence]}"
+  lines << "Taxa de sustentaÃ§Ã£o textual: #{summary[:evidence_rate]}%"
 
-  lines << "\n=== POR OPERAÇÃO COGNITIVA ==="
+  lines << "\n=== POR OPERAÃ‡ÃƒO COGNITIVA ==="
   summary[:by_operation].each do |operation, data|
     rate = ((data[:with_evidence].to_f / data[:total]) * 100).round(1)
-    lines << "- #{operation}: #{data[:with_evidence]}/#{data[:total]} com evidência | #{rate}%"
+    lines << "- #{operation}: #{data[:with_evidence]}/#{data[:total]} com evidÃªncia | #{rate}%"
   end
 
-  lines << "\n=== EVIDÊNCIAS OBSERVADAS ==="
+  lines << "\n=== EVIDÃŠNCIAS OBSERVADAS ==="
   results.each do |r|
-    status = normalize_result_key(r, :evidencia_textual_suficiente) ? "DOMÍNIO COM EVIDÊNCIA" : "NECESSITA MEDIAÇÃO"
-    lines << "\n#{normalize_result_key(r, :id)} — #{status}"
+    status = normalize_result_key(r, :evidencia_textual_suficiente) ? "DOMÃNIO COM EVIDÃŠNCIA" : "NECESSITA MEDIAÃ‡ÃƒO"
+    lines << "\n#{normalize_result_key(r, :id)} â€” #{status}"
     lines << "Pergunta: #{normalize_result_key(r, :pergunta)}"
     lines << "Resposta do aluno: #{normalize_result_key(r, :resposta_aluno)}"
-    lines << "Resposta de referência: #{normalize_result_key(r, :resposta_referencia)}"
-    lines << "Rubrica de análise: #{JSON.pretty_generate(normalize_result_key(r, :rubrica_analise))}"
-    lines << "Observação humana: #{normalize_result_key(r, :observacao_humana)}"
-    lines << "Evidência esperada: #{normalize_result_key(r, :evidencia_dominio)}"
-    lines << "Atualização do perfil: #{normalize_result_key(r, :atualizacao_perfil)}"
+    lines << "Resposta de referÃªncia: #{normalize_result_key(r, :resposta_referencia)}"
+    lines << "Rubrica de anÃ¡lise: #{JSON.pretty_generate(normalize_result_key(r, :rubrica_analise))}"
+    lines << "ObservaÃ§Ã£o humana: #{normalize_result_key(r, :observacao_humana)}"
+    lines << "EvidÃªncia esperada: #{normalize_result_key(r, :evidencia_dominio)}"
+    lines << "AtualizaÃ§Ã£o do perfil: #{normalize_result_key(r, :atualizacao_perfil)}"
   end
 
   lines.join("\n")
@@ -958,25 +959,25 @@ end
 def print_text_base_payload(texto_base)
   return if texto_base.nil? || texto_base.empty?
 
-  puts "Gênero: #{texto_base["genero"]}" if texto_base["genero"]
-  puts "Título: #{texto_base["titulo"]}" if texto_base["titulo"]
+  puts "GÃªnero: #{texto_base["genero"]}" if texto_base["genero"]
+  puts "TÃ­tulo: #{texto_base["titulo"]}" if texto_base["titulo"]
 
   if texto_base["estrutura"]
     estrutura = texto_base["estrutura"]
     central = estrutura["conteudo_central"] || {}
 
-    puts "\n[INÍCIO]"
+    puts "\n[INÃCIO]"
     puts estrutura["inicio"] if estrutura["inicio"]
 
     if central["paragrafos"] && !central["paragrafos"].empty?
-      puts "\n[CONTEÚDO CENTRAL — PARÁGRAFOS]"
+      puts "\n[CONTEÃšDO CENTRAL â€” PARÃGRAFOS]"
       central["paragrafos"].each_with_index do |paragrafo, index|
         puts "\n#{index + 1}. #{paragrafo}"
       end
     end
 
     if central["falas"] && !central["falas"].empty?
-      puts "\n[CONTEÚDO CENTRAL — FALAS]"
+      puts "\n[CONTEÃšDO CENTRAL â€” FALAS]"
       central["falas"].each do |fala|
         personagem = fala["personagem"] || "Fala"
         texto = fala["fala"] || fala.to_s
@@ -1040,24 +1041,24 @@ end
 
 # ============================================================
 # 8. PROMPTS
-#    Cada prompt primeiro coloca compreensões; depois instruções.
+#    Cada prompt primeiro coloca compreensÃµes; depois instruÃ§Ãµes.
 # ============================================================
 
 # %%
 def text_base_generation_prompt_for(tema:, observacao_geral:)
   <<~PROMPT
-    Você é a inferência textual comum da aplicação Glauco.
+    VocÃª Ã© a inferÃªncia textual comum da aplicaÃ§Ã£o Glauco.
 
-    Gere apenas o texto-base e sua compreensão-base dedicada para uma sondagem
-    diagnóstica de #{BNCC_SKILL[:componente]}, #{BNCC_SKILL[:serie_base]},
+    Gere apenas o texto-base e sua compreensÃ£o-base dedicada para uma sondagem
+    diagnÃ³stica de #{BNCC_SKILL[:componente]}, #{BNCC_SKILL[:serie_base]},
     habilidade #{BNCC_SKILL[:codigo]}.
 
-    Não atue como agente RLM.
-    Não administre o quiz.
-    Não gere perguntas nesta etapa.
+    NÃ£o atue como agente RLM.
+    NÃ£o administre o quiz.
+    NÃ£o gere perguntas nesta etapa.
 
     Tema da sondagem: #{tema}
-    Observação humana inicial: #{observacao_geral}
+    ObservaÃ§Ã£o humana inicial: #{observacao_geral}
 
     RECORTE BNCC:
     #{JSON.pretty_generate(BNCC_SKILL)}
@@ -1065,16 +1066,16 @@ def text_base_generation_prompt_for(tema:, observacao_geral:)
     PERFIL DO ALUNO:
     #{JSON.pretty_generate(STUDENT_PROFILE)}
 
-    COMPREENSÃO 1 — CONTEXTO BNCC:
+    COMPREENSÃƒO 1 â€” CONTEXTO BNCC:
     #{BNCC_CONTEXT_COMPREHENSION}
 
-    COMPREENSÃO 2 — GERAÇÃO DO TEXTO-BASE:
+    COMPREENSÃƒO 2 â€” GERAÃ‡ÃƒO DO TEXTO-BASE:
     #{TEXT_BASE_COMPREHENSION}
 
-    COMPREENSÃO 3 — ANÁLISE INTERNA DO TEXTO-BASE:
+    COMPREENSÃƒO 3 â€” ANÃLISE INTERNA DO TEXTO-BASE:
     #{TEXT_BASE_INTERNAL_ANALYSIS_COMPREHENSION}
 
-    INSTRUÇÕES DE SAÍDA:
+    INSTRUÃ‡Ã•ES DE SAÃDA:
     #{TEXT_BASE_GENERATION_INSTRUCTIONS}
   PROMPT
 end
@@ -1082,20 +1083,20 @@ end
 # %%
 def question_generation_prompt_for(text_base_payload:, tema:, quantidade:, observacao_geral:)
   <<~PROMPT
-    Você é a inferência textual comum da aplicação Glauco.
+    VocÃª Ã© a inferÃªncia textual comum da aplicaÃ§Ã£o Glauco.
 
-    Gere perguntas diagnósticas de #{BNCC_SKILL[:componente]} para #{BNCC_SKILL[:serie_base]},
+    Gere perguntas diagnÃ³sticas de #{BNCC_SKILL[:componente]} para #{BNCC_SKILL[:serie_base]},
     habilidade #{BNCC_SKILL[:codigo]},
-    usando exclusivamente o texto-base e a compreensão-base já gerados.
+    usando exclusivamente o texto-base e a compreensÃ£o-base jÃ¡ gerados.
 
-    Não atue como agente RLM.
-    Não administre o quiz.
-    Não gere novo texto-base.
-    Não altere o texto-base.
+    NÃ£o atue como agente RLM.
+    NÃ£o administre o quiz.
+    NÃ£o gere novo texto-base.
+    NÃ£o altere o texto-base.
 
     Tema da sondagem: #{tema}
     Quantidade de perguntas: #{quantidade}
-    Observação humana inicial: #{observacao_geral}
+    ObservaÃ§Ã£o humana inicial: #{observacao_geral}
 
     RECORTE BNCC:
     #{JSON.pretty_generate(BNCC_SKILL)}
@@ -1103,27 +1104,27 @@ def question_generation_prompt_for(text_base_payload:, tema:, quantidade:, obser
     PERFIL DO ALUNO:
     #{JSON.pretty_generate(STUDENT_PROFILE)}
 
-    COMPREENSÃO 1 — CONTEXTO BNCC:
+    COMPREENSÃƒO 1 â€” CONTEXTO BNCC:
     #{BNCC_CONTEXT_COMPREHENSION}
 
-    COMPREENSÃO 2 — TÓPICO DAS PERGUNTAS:
+    COMPREENSÃƒO 2 â€” TÃ“PICO DAS PERGUNTAS:
     #{QUESTION_TOPIC_COMPREHENSION}
 
     TEXTO-BASE FIXADO:
     #{JSON.pretty_generate(text_base_payload.fetch("texto_base"))}
 
-    COMPREENSÃO-BASE DO TEXTO-BASE:
+    COMPREENSÃƒO-BASE DO TEXTO-BASE:
     #{JSON.pretty_generate(text_base_payload.fetch("compreensao_base"))}
 
-    INSTRUÇÕES DE SAÍDA:
+    INSTRUÃ‡Ã•ES DE SAÃDA:
     #{QUESTION_GENERATION_INSTRUCTIONS}
 
     Gere exatamente #{quantidade} perguntas abertas de sondagem.
-    Cada pergunta deve ter enunciado amplo, mas analisável, pedindo justificativa
-    com pistas do texto-base. Não gere alternativas, gabarito por letra nem item
-    de múltipla escolha.
-    A pergunta deve permitir análise profunda da compreensão do aluno, incluindo
-    rubrica, resposta de referência, evidências esperadas e erro provável.
+    Cada pergunta deve ter enunciado amplo, mas analisÃ¡vel, pedindo justificativa
+    com pistas do texto-base. NÃ£o gere alternativas, gabarito por letra nem item
+    de mÃºltipla escolha.
+    A pergunta deve permitir anÃ¡lise profunda da compreensÃ£o do aluno, incluindo
+    rubrica, resposta de referÃªncia, evidÃªncias esperadas e erro provÃ¡vel.
     O campo "texto_base" do JSON final deve repetir o mesmo texto_base recebido.
   PROMPT
 end
@@ -1131,12 +1132,12 @@ end
 # %%
 def rewrite_report_prompt_for(text_base_payload:, quiz:, results:)
   <<~PROMPT
-    Você é a inferência textual comum da aplicação Glauco.
+    VocÃª Ã© a inferÃªncia textual comum da aplicaÃ§Ã£o Glauco.
 
-    Gere um relatório textual para reescrever os textos do programa.
+    Gere um relatÃ³rio textual para reescrever os textos do programa.
 
-    Não atue como agente RLM.
-    Não administre o quiz.
+    NÃ£o atue como agente RLM.
+    NÃ£o administre o quiz.
 
     RECORTE BNCC:
     #{JSON.pretty_generate(BNCC_SKILL)}
@@ -1144,23 +1145,23 @@ def rewrite_report_prompt_for(text_base_payload:, quiz:, results:)
     PERFIL DO ALUNO:
     #{JSON.pretty_generate(STUDENT_PROFILE)}
 
-    COMPREENSÕES USADAS:
+    COMPREENSÃ•ES USADAS:
     - Contexto BNCC:
     #{BNCC_CONTEXT_COMPREHENSION}
 
-    - Geração do texto-base:
+    - GeraÃ§Ã£o do texto-base:
     #{TEXT_BASE_COMPREHENSION}
 
-    - Análise interna do texto-base:
+    - AnÃ¡lise interna do texto-base:
     #{TEXT_BASE_INTERNAL_ANALYSIS_COMPREHENSION}
 
-    - Tópico das perguntas:
+    - TÃ³pico das perguntas:
     #{QUESTION_TOPIC_COMPREHENSION}
 
-    - Relatório de reescrita:
+    - RelatÃ³rio de reescrita:
     #{REWRITE_REPORT_COMPREHENSION}
 
-    TEXTO-BASE E COMPREENSÃO-BASE GERADOS:
+    TEXTO-BASE E COMPREENSÃƒO-BASE GERADOS:
     #{JSON.pretty_generate(text_base_payload)}
 
     QUIZ GERADO:
@@ -1169,13 +1170,13 @@ def rewrite_report_prompt_for(text_base_payload:, quiz:, results:)
     RESULTADOS OBSERVADOS:
     #{JSON.pretty_generate(results)}
 
-    INSTRUÇÕES DE SAÍDA:
+    INSTRUÃ‡Ã•ES DE SAÃDA:
     #{REWRITE_REPORT_INSTRUCTIONS}
   PROMPT
 end
 
 # ============================================================
-# 9. OPERAÇÕES TEXTUAIS COMUNS
+# 9. OPERAÃ‡Ã•ES TEXTUAIS COMUNS
 # ============================================================
 
 # %%
@@ -1232,7 +1233,7 @@ def generate_rewrite_report!(text_llm, text_base_payload:, quiz:, results:)
 end
 
 # ============================================================
-# 10. APLICAÇÃO DO QUIZ
+# 10. APLICAÃ‡ÃƒO DO QUIZ
 # ============================================================
 
 # %%
@@ -1241,10 +1242,10 @@ def apply_quiz!(quiz)
   questions = quiz.fetch("questions")
   texto_base = quiz["texto_base"] || {}
 
-  puts "\n\n=== QUIZ GERADO — #{BNCC_SKILL[:serie_base]} / #{BNCC_SKILL[:codigo]} ==="
+  puts "\n\n=== QUIZ GERADO â€” #{BNCC_SKILL[:serie_base]} / #{BNCC_SKILL[:codigo]} ==="
   puts "Disciplina: #{quiz["disciplina"]}"
   puts "Etapa: #{quiz["etapa"]}"
-  puts "Série: #{quiz["serie"]}"
+  puts "SÃ©rie: #{quiz["serie"]}"
   puts "Campo: #{quiz["campo"]}"
   puts "Habilidade: #{quiz["bncc_codigo"]}"
   puts "Tema: #{quiz["tema"]}"
@@ -1258,13 +1259,13 @@ def apply_quiz!(quiz)
   questions.each_with_index do |q, index|
     puts "\n\n=== PERGUNTA #{index + 1} ==="
     puts "Habilidade observada: #{q["habilidade_observada"]}"
-    puts "Operação cognitiva: #{q["operacao_cognitiva"]}"
-    puts "Intervenção humana: #{q["intervencao_humana"]}"
+    puts "OperaÃ§Ã£o cognitiva: #{q["operacao_cognitiva"]}"
+    puts "IntervenÃ§Ã£o humana: #{q["intervencao_humana"]}"
     puts "\n#{q["enunciado_aberto"] || q["pergunta"]}"
     puts "\nComando: #{q["comando_para_o_aluno"]}" if q["comando_para_o_aluno"]
 
     if q["pistas_textuais_esperadas"].is_a?(Array) && !q["pistas_textuais_esperadas"].empty?
-      puts "\nPistas textuais esperadas para análise:"
+      puts "\nPistas textuais esperadas para anÃ¡lise:"
       q["pistas_textuais_esperadas"].each { |pista| puts "- #{pista}" }
     end
 
@@ -1275,8 +1276,8 @@ def apply_quiz!(quiz)
     ).downcase.start_with?("s")
 
     observacao = ask(
-      "Observação humana sobre a resposta",
-      default: evidencia_suficiente ? "justificou com pista do texto" : "respondeu sem evidência suficiente do texto"
+      "ObservaÃ§Ã£o humana sobre a resposta",
+      default: evidencia_suficiente ? "justificou com pista do texto" : "respondeu sem evidÃªncia suficiente do texto"
     )
 
     results << {
@@ -1302,20 +1303,20 @@ def apply_quiz!(quiz)
 end
 
 # ============================================================
-# 11. ADMINISTRAÇÃO RLM
+# 11. ADMINISTRAÃ‡ÃƒO RLM
 # ============================================================
 
 # %%
 def run_admin_step!(admin_agent, step_name, payload = {})
   safe_payload = clean_utf8(payload)
   prompt = <<~PROMPT
-    Você é apenas o administrador RLM do quiz.
+    VocÃª Ã© apenas o administrador RLM do quiz.
 
     Registre a etapa atual usando register_step(name, payload).
-    Não gere texto-base.
-    Não gere perguntas.
-    Não gere relatório textual.
-    Não substitua a inferência textual comum.
+    NÃ£o gere texto-base.
+    NÃ£o gere perguntas.
+    NÃ£o gere relatÃ³rio textual.
+    NÃ£o substitua a inferÃªncia textual comum.
 
     Etapa: #{step_name}
     Payload:
@@ -1332,11 +1333,11 @@ end
 
 # %%
 def run_terminal_quiz!(admin_agent:, text_llm:, admin_runtime:)
-  tema = ask("Tema da sondagem", default: "liberdade de expressão e discurso de ódio em comentários online")
+  tema = ask("Tema da sondagem", default: "liberdade de expressÃ£o e discurso de Ã³dio em comentÃ¡rios online")
   quantidade = ask("Quantidade de perguntas", default: "5").to_i
   observacao_geral = ask(
-    "Observação humana inicial sobre o aluno",
-    default: "lê o texto, mas precisa justificar respostas com pistas explícitas"
+    "ObservaÃ§Ã£o humana inicial sobre o aluno",
+    default: "lÃª o texto, mas precisa justificar respostas com pistas explÃ­citas"
   )
 
   run_admin_step!(
@@ -1349,7 +1350,7 @@ def run_terminal_quiz!(admin_agent:, text_llm:, admin_runtime:)
     }
   )
 
-  puts "\n=== ETAPA 1: GERANDO TEXTO-BASE COM INFERÊNCIA COMUM ==="
+  puts "\n=== ETAPA 1: GERANDO TEXTO-BASE COM INFERÃŠNCIA COMUM ==="
   text_base_payload = generate_text_base!(
     text_llm,
     tema: tema,
@@ -1372,13 +1373,13 @@ def run_terminal_quiz!(admin_agent:, text_llm:, admin_runtime:)
 === TEXTO-BASE GERADO ==="
   print_text_base_payload(texto_base)
 
-  puts "\n=== ABSTRAÇÕES NARRATIVAS GERADAS PARA DEBUG ==="
+  puts "\n=== ABSTRAÃ‡Ã•ES NARRATIVAS GERADAS PARA DEBUG ==="
   puts JSON.pretty_generate(text_base_payload.fetch("abstracoes_narrativas"))
 
-  puts "\n=== COMPREENSÃO-BASE GERADA PARA DEBUG ==="
+  puts "\n=== COMPREENSÃƒO-BASE GERADA PARA DEBUG ==="
   puts JSON.pretty_generate(compreensao_base)
 
-  puts "\n=== ETAPA 2: GERANDO PERGUNTAS COM INFERÊNCIA COMUM ==="
+  puts "\n=== ETAPA 2: GERANDO PERGUNTAS COM INFERÃŠNCIA COMUM ==="
   quiz = generate_questions!(
     text_llm,
     text_base_payload: text_base_payload,
@@ -1417,10 +1418,10 @@ def run_terminal_quiz!(admin_agent:, text_llm:, admin_runtime:)
   puts "\n=== PERFIL PROGREDIDO ==="
   puts JSON.pretty_generate(admin_runtime.progressed_profile_hash)
 
-  puts "\n=== ETAPA 4: RELATÓRIO LOCAL ==="
+  puts "\n=== ETAPA 4: RELATÃ“RIO LOCAL ==="
   print_report(results)
 
-  puts "\n=== ETAPA 5: RELATÓRIO DE REESCRITA COM INFERÊNCIA COMUM ==="
+  puts "\n=== ETAPA 5: RELATÃ“RIO DE REESCRITA COM INFERÃŠNCIA COMUM ==="
   rewrite_report = generate_rewrite_report!(
     text_llm,
     text_base_payload: text_base_payload,
@@ -1428,7 +1429,7 @@ def run_terminal_quiz!(admin_agent:, text_llm:, admin_runtime:)
     results: results
   )
 
-  puts "\n\n=== RELATÓRIO PARA REESCRITA — COMPREENSÕES E INSTRUÇÕES ==="
+  puts "\n\n=== RELATÃ“RIO PARA REESCRITA â€” COMPREENSÃ•ES E INSTRUÃ‡Ã•ES ==="
   puts rewrite_report
 
   run_admin_step!(
@@ -1452,3 +1453,4 @@ end
 if __FILE__ == $PROGRAM_NAME
   run_terminal_quiz!(admin_agent: admin_agent, text_llm: text_llm, admin_runtime: admin_runtime)
 end
+

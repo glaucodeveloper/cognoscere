@@ -1,0 +1,407 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EM13LGG305 - Criar: por meio de práticas de linguagem, possibilidades de atuação social",
+  "recorte_bncc": {
+    "codigo": "EM13LGG305",
+    "etapa": "Ensino Médio",
+    "segmento": "Ensino Médio",
+    "ano_ou_bloco": "1ª à 3ª série do Ensino Médio",
+    "area": "Linguagens e suas Tecnologias",
+    "componente": "Linguagens e suas Tecnologias",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": "3",
+    "pagina_pdf": 495,
+    "habilidade": "Mapear e criar, por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética. Compreender as línguas como fenômeno (geo)político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas varieda- des e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza. Essa competência específica indica a necessidade de, ao final do Ensino Médio, os estudantes compreenderem as línguas e seu funcionamento como fenômeno marcado pela heterogeneidade e variedade de registros, dialetos, idioletos, estilizações e usos, respeitando os fenômenos da variação e diversidade linguística, sem preconceitos. Ela também diz respeito à utilização das línguas de maneira adequada à situação de produção dos discursos, considerando a variedade e o registro, os campos de atuação social, e os contextos e interlocutores específicos, por meio de processos de estiliza- ção, seleção e organização dos recursos linguísticos"
+  },
+  "semantic_model": {
+    "normalized_statement": "Mapear e criar, por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética. Compreender as línguas como fenômeno (geo)político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas varieda- des e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza. Essa competência específica indica a necessidade de, ao final do Ensino Médio, os estudantes compreenderem as línguas e seu funcionamento como fenômeno marcado pela heterogeneidade e variedade de registros, dialetos, idioletos, estilizações e usos, respeitando os fenômenos da variação e diversidade linguística, sem preconceitos. Ela também diz respeito à utilização das línguas de maneira adequada à situação de produção dos discursos, considerando a variedade e o registro, os campos de atuação social, e os contextos e interlocutores específicos, por meio de processos de estiliza- ção, seleção e organização dos recursos linguísticos",
+    "dominant_verbs": [
+      "criar"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "criar",
+        "semantic_operation": "produção autoral situada",
+        "answer_evidence": "inventar solução/obra/forma coerente com restrições"
+      }
+    ],
+    "object_core": "por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética",
+    "raw_object_core": "por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [
+      {
+        "action": "discutindo",
+        "clause": "discutindo princípios e objetivos dessa atuação de maneira crítica",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "reconhecendo",
+        "clause": "reconhecendo suas varieda- des",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "vivenciando",
+        "clause": "vivenciando-as como formas de expressões identitárias",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "agindo",
+        "clause": "agindo no enfrentamento de preconceitos de qualquer natureza",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      },
+      {
+        "action": "respeitando",
+        "clause": "respeitando os fenômenos da variação e diversidade linguística",
+        "semantic_role": "restrição de modo/critério"
+      },
+      {
+        "action": "considerando",
+        "clause": "considerando a variedade e o registro",
+        "semantic_role": "restrição de modo/critério"
+      }
+    ],
+    "semantic_clauses": [
+      "Mapear e criar",
+      "por meio de práticas de linguagem",
+      "possibilidades de atuação social",
+      "política",
+      "artística e cultural para enfrentar desafios contemporâneos",
+      "discutindo princípios e objetivos dessa atuação de maneira crítica",
+      "criativa",
+      "solidária e ética",
+      "Compreender as línguas como fenômeno (geo)político",
+      "histórico",
+      "cultural",
+      "social"
+    ],
+    "connector_constraints": {
+      "finalidade": [
+        "para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética"
+      ],
+      "meio_procedimento": [
+        "por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural",
+        "por meio de processos de estiliza- ção, seleção e organização dos recursos linguísticos"
+      ],
+      "condicao_contexto": [
+        "considerando a variedade e o registro, os campos de atuação social, e os contextos e interlocutores específicos"
+      ],
+      "criterio_limite": [
+        "respeitando os fenômenos da variação e diversidade linguística",
+        "sem preconceitos",
+        "adequada à situação de produção dos discursos"
+      ]
+    },
+    "key_terms_from_statement": [
+      "Mapear e criar",
+      "práticas de linguagem",
+      "possibilidades de atuação social",
+      "artística e cultural",
+      "enfrentar desafios contemporâneos",
+      "discutindo princípios e objetivos dessa atuação de maneira crítica",
+      "solidária e ética",
+      "as línguas como fenômeno",
+      "heterogêneo e sensível aos contextos de uso",
+      "reconhecendo suas varieda- des e vivenciando-as como formas de expressões identitárias",
+      "pessoais e coletivas",
+      "bem como agindo no enfrentamento de preconceitos de qualquer natureza"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"criar\"",
+        "semantic_commitment": "A resposta deve realizar produção autoral situada, não apenas mencionar o tema.",
+        "evidence_required": "inventar solução/obra/forma coerente com restrições"
+      },
+      {
+        "id": "C02",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "source": "finalidade",
+        "semantic_commitment": "O trecho \"para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C04",
+        "source": "meio_procedimento",
+        "semantic_commitment": "O trecho \"por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C05",
+        "source": "meio_procedimento",
+        "semantic_commitment": "O trecho \"por meio de processos de estiliza- ção, seleção e organização dos recursos linguísticos\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "source": "condicao_contexto",
+        "semantic_commitment": "O trecho \"considerando a variedade e o registro, os campos de atuação social, e os contextos e interlocutores específicos\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C07",
+        "source": "criterio_limite",
+        "semantic_commitment": "O trecho \"respeitando os fenômenos da variação e diversidade linguística\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C08",
+        "source": "criterio_limite",
+        "semantic_commitment": "O trecho \"sem preconceitos\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C09",
+        "source": "criterio_limite",
+        "semantic_commitment": "O trecho \"adequada à situação de produção dos discursos\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C10",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"Mapear e criar\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C11",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"práticas de linguagem\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C12",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"possibilidades de atuação social\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C13",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"artística e cultural\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C14",
+        "source": "gerúndio/ação decorrente: discutindo",
+        "semantic_commitment": "O trecho 'discutindo princípios e objetivos dessa atuação de maneira crítica' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C15",
+        "source": "gerúndio/ação decorrente: reconhecendo",
+        "semantic_commitment": "O trecho 'reconhecendo suas varieda- des' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C16",
+        "source": "gerúndio/ação decorrente: vivenciando",
+        "semantic_commitment": "O trecho 'vivenciando-as como formas de expressões identitárias' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C17",
+        "source": "gerúndio/ação decorrente: agindo",
+        "semantic_commitment": "O trecho 'agindo no enfrentamento de preconceitos de qualquer natureza' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C18",
+        "source": "gerúndio/ação decorrente: respeitando",
+        "semantic_commitment": "O trecho 'respeitando os fenômenos da variação e diversidade linguística' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C19",
+        "source": "gerúndio/ação decorrente: considerando",
+        "semantic_commitment": "O trecho 'considerando a variedade e o registro' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "operation_family": "produção autoral situada"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EM13LGG305 como uma frase de ação em Linguagens e suas Tecnologias: “Mapear e criar, por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética. Compreender as línguas como fenômeno (geo)político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas varieda- des e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza. Essa competência específica indica a necessidade de, ao final do Ensino Médio, os estudantes compreenderem as línguas e seu funcionamento como fenômeno marcado pela heterogeneidade e variedade de registros, dialetos, idioletos, estilizações e usos, respeitando os fenômenos da variação e diversidade linguística, sem preconceitos. Ela também diz respeito à utilização das línguas de maneira adequada à situação de produção dos discursos, considerando a variedade e o registro, os campos de atuação social, e os contextos e interlocutores específicos, por meio de processos de estiliza- ção, seleção e organização dos recursos linguísticos”. A cadeia verbal \"criar\" organiza a aprendizagem como produção autoral situada. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com construir uma ferramenta para um fim: o estudante organiza por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética com escolhas coerentes, ajustadas à situação, ao destinatário e ao objetivo.\n\nNa teoria escolar de Linguagens, por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética funciona como prática de produção de sentido: forma, interlocutor, contexto, suporte, circulação e efeito precisam orientar a leitura ou a produção.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Mapear e criar”; “por meio de práticas de linguagem”; “possibilidades de atuação social”; “política”; “artística e cultural para enfrentar desafios contemporâneos”; “discutindo princípios e objetivos dessa atuação de maneira crítica”; “criativa”; “solidária e ética”; “Compreender as línguas como fenômeno (geo)político”; “histórico”; “cultural”; “social”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: criar: produção autoral situada — evidência esperada: inventar solução/obra/forma coerente com restrições.\n\nRestrições e ações decorrentes do enunciado: finalidade: \"para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética\"; meio_procedimento: \"por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural\", \"por meio de processos de estiliza- ção, seleção e organização dos recursos linguísticos\"; condicao_contexto: \"considerando a variedade e o registro, os campos de atuação social, e os contextos e interlocutores específicos\"; criterio_limite: \"respeitando os fenômenos da variação e diversidade linguística\", \"sem preconceitos\", \"adequada à situação de produção dos discursos\"; ações decorrentes: discutindo: ação decorrente ou procedimento interno; reconhecendo: ação decorrente ou procedimento interno; vivenciando: ação decorrente ou procedimento interno; agindo: ação decorrente ou procedimento interno; respeitando: restrição de modo/critério; considerando: restrição de modo/critério. Esses elementos definem limites, meios ou consequências que precisam aparecer quando forem relevantes à resposta.\n\nTermos que precisam ganhar função na situação de aprendizagem: “Mapear e criar”; “práticas de linguagem”; “possibilidades de atuação social”; “artística e cultural”; “enfrentar desafios contemporâneos”; “discutindo princípios e objetivos dessa atuação de maneira crítica”; “solidária e ética”; “as línguas como fenômeno”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EM13LGG305 aparece quando a resposta liga o caso apresentado a “por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética” e executa produção autoral situada de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Médio, 1ª à 3ª série do Ensino Médio, a compreensão pode articular teoria, método, comparação entre fontes, escolhas de procedimento e justificativa conceitual, sem abandonar o vínculo com o caso ou material da atividade.",
+    "text_base_comprehension": "Para EM13LGG305, o texto-base deve colocar “por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética” em uma situação concreta de Linguagens e suas Tecnologias, com fatos suficientes para que o estudante realize produção autoral situada. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"criar\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EM13LGG305 deve verificar se o texto-base criou condições reais para operar sobre “por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"criar\", à operação produção autoral situada, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05, C06, C07, C08, C09, C10.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EM13LGG305 devem acionar produção autoral situada sobre “por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"criar\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EM13LGG305 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar produção autoral situada sobre “por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar produção autoral situada, não apenas mencionar o tema.",
+        "evidence": "inventar solução/obra/forma coerente com restrições"
+      },
+      {
+        "id": "C02",
+        "expected": "O objeto de operação é \"por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "expected": "O trecho \"para enfrentar desafios contemporâneos, discutindo princípios e objetivos dessa atuação de maneira crítica, criativa, solidária e ética\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C04",
+        "expected": "O trecho \"por meio de práticas de linguagem, possibilidades de atuação social, política, artística e cultural\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C05",
+        "expected": "O trecho \"por meio de processos de estiliza- ção, seleção e organização dos recursos linguísticos\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "expected": "O trecho \"considerando a variedade e o registro, os campos de atuação social, e os contextos e interlocutores específicos\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C07",
+        "expected": "O trecho \"respeitando os fenômenos da variação e diversidade linguística\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C08",
+        "expected": "O trecho \"sem preconceitos\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C09",
+        "expected": "O trecho \"adequada à situação de produção dos discursos\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C10",
+        "expected": "O termo \"Mapear e criar\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C11",
+        "expected": "O termo \"práticas de linguagem\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C12",
+        "expected": "O termo \"possibilidades de atuação social\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C13",
+        "expected": "O termo \"artística e cultural\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C14",
+        "expected": "O trecho 'discutindo princípios e objetivos dessa atuação de maneira crítica' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C15",
+        "expected": "O trecho 'reconhecendo suas varieda- des' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C16",
+        "expected": "O trecho 'vivenciando-as como formas de expressões identitárias' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C17",
+        "expected": "O trecho 'agindo no enfrentamento de preconceitos de qualquer natureza' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C18",
+        "expected": "O trecho 'respeitando os fenômenos da variação e diversidade linguística' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      },
+      {
+        "id": "C19",
+        "expected": "O trecho 'considerando a variedade e o registro' indica restrição de modo/critério e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 495,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "280a299de44bc0a1f22fbfbef2d54a7eb40f9d866a0297eee297f359e1e20715",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

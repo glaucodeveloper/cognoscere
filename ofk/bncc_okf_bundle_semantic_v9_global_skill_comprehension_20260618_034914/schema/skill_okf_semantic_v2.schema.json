@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BNCC Skill OKF Semantic Intrinsic V2",
+  "type": "object",
+  "required": [
+    "okf_version",
+    "type",
+    "title",
+    "recorte_bncc",
+    "semantic_model",
+    "comprehensions",
+    "response_assessment_model",
+    "source"
+  ],
+  "properties": {
+    "okf_version": {
+      "const": "bncc-okf-bundle/semantic-intrinsic-v2"
+    },
+    "type": {
+      "const": "bncc_skill_okf_semantic_intrinsic"
+    },
+    "title": {
+      "type": "string"
+    },
+    "recorte_bncc": {
+      "type": "object"
+    },
+    "semantic_model": {
+      "type": "object",
+      "required": [
+        "dominant_verbs",
+        "object_core",
+        "intrinsic_commitments"
+      ]
+    },
+    "comprehensions": {
+      "type": "object",
+      "required": [
+        "bncc_context_comprehension",
+        "text_base_comprehension",
+        "text_base_internal_analysis_comprehension",
+        "question_topic_comprehension",
+        "rewrite_report_comprehension"
+      ]
+    },
+    "response_assessment_model": {
+      "type": "object"
+    },
+    "source": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "okf_bundle_runtime_parameters_index_v1",
+  "parameters": {
+    "respondent_age": {
+      "markdown": "parameters/respondent_age_contract_v1.md",
+      "json": "parameters/respondent_age_contract_v1.json",
+      "required": true,
+      "scope": "all_okfs_all_stages_all_components"
+    }
+  }
+}

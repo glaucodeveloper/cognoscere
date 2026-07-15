@@ -1,0 +1,280 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EM13MAT511 - Reconhecer: a existência de diferentes tipos de espaços amostrais, discretos ou nã...",
+  "recorte_bncc": {
+    "codigo": "EM13MAT511",
+    "etapa": "Ensino Médio",
+    "segmento": "Ensino Médio",
+    "ano_ou_bloco": "1ª à 3ª série do Ensino Médio",
+    "area": "Matemática e suas Tecnologias",
+    "componente": "Matemática",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": "5",
+    "pagina_pdf": 548,
+    "habilidade": "Reconhecer a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades. Nas sociedades contemporâneas, muitos são os exemplos da pre- sença da Ciência e da Tecnologia, e de sua influência no modo como vivemos, pensamos e agimos: do transporte aos eletrodomésticos; da telefonia celular à internet; dos sensores óticos aos equipa- mentos médicos; da biotecnologia aos programas de conservação ambiental; dos modelos submicroscópicos aos cosmológicos; do movimento das estrelas e galáxias às propriedades e transforma- ções dos materiais. Além disso, questões globais e locais com as quais a Ciência e a Tecnologia estão envolvidas – como desmata- mento, mudanças climáticas, energia nuclear e uso de transgênicos na agricultura – já passaram a incorporar as preocupações de muitos brasileiros. Nesse contexto, a Ciência e a Tecnologia tendem a ser encaradas não somente como ferramentas capazes de solu- cionar problemas, tanto os dos indivíduos como os da sociedade, mas também como uma abertura para novas visões de mundo. Todavia, poucas pessoas aplicam os conhecimentos e procedimen- tos científicos na resolução de seus problemas cotidianos (como estimar o consumo de energia de aparelhos elétricos a partir de suas especificações técnicas, ler e interpretar rótulos de alimen- tos etc.). Tal constatação corrobora a necessidade de a Educação Básica – em especial"
+  },
+  "semantic_model": {
+    "normalized_statement": "Reconhecer a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades. Nas sociedades contemporâneas, muitos são os exemplos da pre- sença da Ciência e da Tecnologia, e de sua influência no modo como vivemos, pensamos e agimos: do transporte aos eletrodomésticos; da telefonia celular à internet; dos sensores óticos aos equipa- mentos médicos; da biotecnologia aos programas de conservação ambiental; dos modelos submicroscópicos aos cosmológicos; do movimento das estrelas e galáxias às propriedades e transforma- ções dos materiais. Além disso, questões globais e locais com as quais a Ciência e a Tecnologia estão envolvidas – como desmata- mento, mudanças climáticas, energia nuclear e uso de transgênicos na agricultura – já passaram a incorporar as preocupações de muitos brasileiros. Nesse contexto, a Ciência e a Tecnologia tendem a ser encaradas não somente como ferramentas capazes de solu- cionar problemas, tanto os dos indivíduos como os da sociedade, mas também como uma abertura para novas visões de mundo. Todavia, poucas pessoas aplicam os conhecimentos e procedimen- tos científicos na resolução de seus problemas cotidianos (como estimar o consumo de energia de aparelhos elétricos a partir de suas especificações técnicas, ler e interpretar rótulos de alimen- tos etc.). Tal constatação corrobora a necessidade de a Educação Básica – em especial",
+    "dominant_verbs": [
+      "reconhecer",
+      "investigar"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "reconhecer",
+        "semantic_operation": "reconhecimento situado",
+        "answer_evidence": "mostrar que percebe a presença, função ou valor do elemento no material"
+      },
+      {
+        "verb": "investigar",
+        "semantic_operation": "investigação orientada",
+        "answer_evidence": "formular percurso de busca, observar dados e justificar conclusão"
+      }
+    ],
+    "object_core": "a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades",
+    "raw_object_core": "a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [
+      {
+        "action": "mundo",
+        "clause": "mundo",
+        "semantic_role": "ação decorrente ou procedimento interno"
+      }
+    ],
+    "semantic_clauses": [
+      "Reconhecer a existência de diferentes tipos de espaços amostrais",
+      "discretos ou não",
+      "e de eventos",
+      "equiprováveis ou não",
+      "e investigar implicações no cálculo de probabilidades",
+      "Nas sociedades contemporâneas",
+      "muitos são os exemplos da pre- sença da Ciência e da Tecnologia",
+      "e de sua influência no modo como vivemos",
+      "pensamos e agimos: do transporte aos eletrodomésticos",
+      "da telefonia celular à internet",
+      "dos sensores óticos aos equipa- mentos médicos",
+      "da biotecnologia aos programas de conservação ambiental"
+    ],
+    "connector_constraints": {
+      "finalidade": [
+        "para novas visões de mundo"
+      ],
+      "meio_procedimento": [
+        "a partir de suas especificações técnicas, ler e interpretar rótulos de alimen- tos etc"
+      ]
+    },
+    "key_terms_from_statement": [
+      "a existência de diferentes tipos de espaços amostrais",
+      "discretos ou não",
+      "e de eventos",
+      "equiprováveis ou não",
+      "e investigar implicações no cálculo de probabilidades",
+      "Nas sociedades contemporâneas",
+      "muitos são os exemplos da pre- sença da Ciência e da Tecnologia",
+      "e de sua influência no modo como vivemos",
+      "pensamos e agimos: do transporte aos eletrodomésticos",
+      "da telefonia celular à internet",
+      "dos sensores óticos aos equipa- mentos médicos",
+      "da biotecnologia aos programas de conservação ambiental"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"reconhecer\"",
+        "semantic_commitment": "A resposta deve realizar reconhecimento situado, não apenas mencionar o tema.",
+        "evidence_required": "mostrar que percebe a presença, função ou valor do elemento no material"
+      },
+      {
+        "id": "C02",
+        "source": "verbo \"investigar\"",
+        "semantic_commitment": "A resposta deve realizar investigação orientada, não apenas mencionar o tema.",
+        "evidence_required": "formular percurso de busca, observar dados e justificar conclusão"
+      },
+      {
+        "id": "C03",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C04",
+        "source": "finalidade",
+        "semantic_commitment": "O trecho \"para novas visões de mundo\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C05",
+        "source": "meio_procedimento",
+        "semantic_commitment": "O trecho \"a partir de suas especificações técnicas, ler e interpretar rótulos de alimen- tos etc\" restringe o modo de cumprimento da habilidade.",
+        "evidence_required": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"a existência de diferentes tipos de espaços amostrais\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C07",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"discretos ou não\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C08",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"e de eventos\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C09",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"equiprováveis ou não\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C10",
+        "source": "gerúndio/ação decorrente: mundo",
+        "semantic_commitment": "O trecho 'mundo' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence_required": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "operation_family": "reconhecimento situado"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EM13MAT511 como uma frase de ação em Matemática: “Reconhecer a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades. Nas sociedades contemporâneas, muitos são os exemplos da pre- sença da Ciência e da Tecnologia, e de sua influência no modo como vivemos, pensamos e agimos: do transporte aos eletrodomésticos; da telefonia celular à internet; dos sensores óticos aos equipa- mentos médicos; da biotecnologia aos programas de conservação ambiental; dos modelos submicroscópicos aos cosmológicos; do movimento das estrelas e galáxias às propriedades e transforma- ções dos materiais. Além disso, questões globais e locais com as quais a Ciência e a Tecnologia estão envolvidas – como desmata- mento, mudanças climáticas, energia nuclear e uso de transgênicos na agricultura – já passaram a incorporar as preocupações de muitos brasileiros. Nesse contexto, a Ciência e a Tecnologia tendem a ser encaradas não somente como ferramentas capazes de solu- cionar problemas, tanto os dos indivíduos como os da sociedade, mas também como uma abertura para novas visões de mundo. Todavia, poucas pessoas aplicam os conhecimentos e procedimen- tos científicos na resolução de seus problemas cotidianos (como estimar o consumo de energia de aparelhos elétricos a partir de suas especificações técnicas, ler e interpretar rótulos de alimen- tos etc.). Tal constatação corrobora a necessidade de a Educação Básica – em especial”. A cadeia verbal \"reconhecer\" e \"investigar\" organiza a aprendizagem como reconhecimento situado. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com encontrar uma peça decisiva em uma cena: o estudante aponta a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades, mas também mostra por que aquilo conta como o elemento pedido, e não como outro elemento parecido.\n\nNa teoria escolar da Matemática, essa habilidade trabalha a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades como relação entre representação, procedimento e verificação: o estudante precisa mostrar como sabe, não apenas apresentar um resultado.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Reconhecer a existência de diferentes tipos de espaços amostrais”; “discretos ou não”; “e de eventos”; “equiprováveis ou não”; “e investigar implicações no cálculo de probabilidades”; “Nas sociedades contemporâneas”; “muitos são os exemplos da pre- sença da Ciência e da Tecnologia”; “e de sua influência no modo como vivemos”; “pensamos e agimos: do transporte aos eletrodomésticos”; “da telefonia celular à internet”; “dos sensores óticos aos equipa- mentos médicos”; “da biotecnologia aos programas de conservação ambiental”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: reconhecer: reconhecimento situado — evidência esperada: mostrar que percebe a presença, função ou valor do elemento no material; investigar: investigação orientada — evidência esperada: formular percurso de busca, observar dados e justificar conclusão.\n\nRestrições e ações decorrentes do enunciado: finalidade: \"para novas visões de mundo\"; meio_procedimento: \"a partir de suas especificações técnicas, ler e interpretar rótulos de alimen- tos etc\"; ações decorrentes: mundo: ação decorrente ou procedimento interno. Esses elementos definem limites, meios ou consequências que precisam aparecer quando forem relevantes à resposta.\n\nTermos que precisam ganhar função na situação de aprendizagem: “a existência de diferentes tipos de espaços amostrais”; “discretos ou não”; “e de eventos”; “equiprováveis ou não”; “e investigar implicações no cálculo de probabilidades”; “Nas sociedades contemporâneas”; “muitos são os exemplos da pre- sença da Ciência e da Tecnologia”; “e de sua influência no modo como vivemos”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EM13MAT511 aparece quando a resposta liga o caso apresentado a “a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades” e executa reconhecimento situado de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Médio, 1ª à 3ª série do Ensino Médio, a compreensão pode articular teoria, método, comparação entre fontes, escolhas de procedimento e justificativa conceitual, sem abandonar o vínculo com o caso ou material da atividade.",
+    "text_base_comprehension": "Para EM13MAT511, o texto-base deve colocar “a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades” em uma situação concreta de Matemática, com fatos suficientes para que o estudante realize reconhecimento situado. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"reconhecer\" e \"investigar\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EM13MAT511 deve verificar se o texto-base criou condições reais para operar sobre “a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"reconhecer\" e \"investigar\", à operação reconhecimento situado, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05, C06, C07, C08, C09, C10.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EM13MAT511 devem acionar reconhecimento situado sobre “a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"reconhecer\" e \"investigar\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EM13MAT511 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar reconhecimento situado sobre “a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar reconhecimento situado, não apenas mencionar o tema.",
+        "evidence": "mostrar que percebe a presença, função ou valor do elemento no material"
+      },
+      {
+        "id": "C02",
+        "expected": "A resposta deve realizar investigação orientada, não apenas mencionar o tema.",
+        "evidence": "formular percurso de busca, observar dados e justificar conclusão"
+      },
+      {
+        "id": "C03",
+        "expected": "O objeto de operação é \"a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C04",
+        "expected": "O trecho \"para novas visões de mundo\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C05",
+        "expected": "O trecho \"a partir de suas especificações técnicas, ler e interpretar rótulos de alimen- tos etc\" restringe o modo de cumprimento da habilidade.",
+        "evidence": "a resposta deve respeitar essa restrição como finalidade, meio, critério, contexto ou limite de interpretação"
+      },
+      {
+        "id": "C06",
+        "expected": "O termo \"a existência de diferentes tipos de espaços amostrais\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C07",
+        "expected": "O termo \"discretos ou não\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C08",
+        "expected": "O termo \"e de eventos\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C09",
+        "expected": "O termo \"equiprováveis ou não\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C10",
+        "expected": "O trecho 'mundo' indica ação decorrente ou procedimento interno e deve aparecer como consequência avaliável da compreensão.",
+        "evidence": "a resposta deve mostrar essa ação decorrente quando ela for parte do enunciado, não apenas reconhecer o objeto inicial"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 548,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "368fbc71d761db4c7c07195d91094db4f53e363c1b48ade977b305347a0941a6",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

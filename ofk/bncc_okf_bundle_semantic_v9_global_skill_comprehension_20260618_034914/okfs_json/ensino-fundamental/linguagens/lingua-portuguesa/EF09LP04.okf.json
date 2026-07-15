@@ -1,0 +1,206 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EF09LP04 - Escrever: textos corretamente, de conhecimentos linguísticos e gramaticais: acor...",
+  "recorte_bncc": {
+    "codigo": "EF09LP04",
+    "etapa": "Ensino Fundamental",
+    "segmento": "Anos Finais",
+    "ano_ou_bloco": "9º ano",
+    "area": "Linguagens",
+    "componente": "Língua Portuguesa",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": null,
+    "pagina_pdf": 189,
+    "habilidade": "Escrever textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período. pontuação etc"
+  },
+  "semantic_model": {
+    "normalized_statement": "Escrever textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período. pontuação etc",
+    "dominant_verbs": [
+      "escrever"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "escrever",
+        "semantic_operation": "produção escrita situada",
+        "answer_evidence": "redigir texto adequado a finalidade, gênero, leitor e organização"
+      }
+    ],
+    "object_core": "textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período",
+    "raw_object_core": "textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [],
+    "semantic_clauses": [
+      "Escrever textos corretamente",
+      "de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão",
+      "com estruturas ortografia",
+      "regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal",
+      "modos e tempos verbais",
+      "período",
+      "pontuação etc"
+    ],
+    "connector_constraints": {},
+    "key_terms_from_statement": [
+      "textos corretamente",
+      "de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão",
+      "com estruturas ortografia",
+      "regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal",
+      "modos e tempos verbais",
+      "pontuação etc"
+    ],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"escrever\"",
+        "semantic_commitment": "A resposta deve realizar produção escrita situada, não apenas mencionar o tema.",
+        "evidence_required": "redigir texto adequado a finalidade, gênero, leitor e organização"
+      },
+      {
+        "id": "C02",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"textos corretamente\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C04",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C05",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"com estruturas ortografia\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C06",
+        "source": "termo semântico relevante",
+        "semantic_commitment": "O termo \"regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence_required": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      }
+    ],
+    "operation_family": "produção escrita situada"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EF09LP04 como uma frase de ação em Língua Portuguesa: “Escrever textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período. pontuação etc”. A cadeia verbal \"escrever\" organiza a aprendizagem como produção escrita situada. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com construir uma ferramenta para um fim: o estudante organiza textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período com escolhas coerentes, ajustadas à situação, ao destinatário e ao objetivo.\n\nNa teoria escolar de Linguagens, textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período funciona como prática de produção de sentido: forma, interlocutor, contexto, suporte, circulação e efeito precisam orientar a leitura ou a produção.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Escrever textos corretamente”; “de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão”; “com estruturas ortografia”; “regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal”; “modos e tempos verbais”; “período”; “pontuação etc”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: escrever: produção escrita situada — evidência esperada: redigir texto adequado a finalidade, gênero, leitor e organização.\n\nTermos que precisam ganhar função na situação de aprendizagem: “textos corretamente”; “de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão”; “com estruturas ortografia”; “regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal”; “modos e tempos verbais”; “pontuação etc”. Eles não entram como glossário isolado; entram como peças da cena, do problema, da fonte, do procedimento ou da justificativa.\n\nO desempenho esperado em EF09LP04 aparece quando a resposta liga o caso apresentado a “textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período” e executa produção escrita situada de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Fundamental, 9º ano, a compreensão pode trabalhar conflito, critério e inferência controlada; a resposta deve mostrar raciocínio, mas ainda precisa de pistas textuais ou situacionais bem estabelecidas.",
+    "text_base_comprehension": "Para EF09LP04, o texto-base deve colocar “textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período” em uma situação concreta de Língua Portuguesa, com fatos suficientes para que o estudante realize produção escrita situada. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"escrever\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EF09LP04 deve verificar se o texto-base criou condições reais para operar sobre “textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"escrever\", à operação produção escrita situada, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03, C04, C05, C06.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EF09LP04 devem acionar produção escrita situada sobre “textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"escrever\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EF09LP04 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar produção escrita situada sobre “textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar produção escrita situada, não apenas mencionar o tema.",
+        "evidence": "redigir texto adequado a finalidade, gênero, leitor e organização"
+      },
+      {
+        "id": "C02",
+        "expected": "O objeto de operação é \"textos corretamente, de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão, com estruturas ortografia, regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal, modos e tempos verbais, período\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      },
+      {
+        "id": "C03",
+        "expected": "O termo \"textos corretamente\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C04",
+        "expected": "O termo \"de conhecimentos linguísticos e gramaticais: acordo com a norma-padrão\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C05",
+        "expected": "O termo \"com estruturas ortografia\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      },
+      {
+        "id": "C06",
+        "expected": "O termo \"regências e concordâncias sintáticas complexas no nível da oração e do nominal e verbal\" deve ser instanciado na situação-base ou retomado na avaliação da resposta.",
+        "evidence": "a resposta precisa demonstrar que compreendeu a função desse termo dentro da habilidade, não apenas repetir a palavra"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 189,
+    "statement_source": "user_lingua_portuguesa_json",
+    "statement_sha256": "15c6ffee41de700af3fa1721ed9ef3c962e0084142cea1e3e5b73bb71b273ee8",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

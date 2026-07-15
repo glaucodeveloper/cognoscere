@@ -1,0 +1,35 @@
+{
+  "principle": "A pergunta de sondagem deve criar uma hipótese local nova conectada ao texto-base, não apenas pedir definição ou diferença conceitual direta.",
+  "definition": "Hipótese local nova é uma pequena situação de decisão, continuação, variação, escolha, conselho, intervenção, teste, comparação, troca de elemento, consequência imaginada ou problema prático que nasce do fechamento da narrativa e precisa das pistas do texto-base para ser respondida.",
+  "must_do": [
+    "retomar tensão, pista, regra, objeto, fala, dado, imagem, caminho ou conflito construído no texto-base",
+    "propor uma variação local ainda não respondida literalmente",
+    "exigir conexão entre essa variação e fatos/pistas do texto-base",
+    "pedir decisão, hipótese, explicação, conselho, escolha, classificação, justificativa ou previsão",
+    "permitir que a resposta revele critério de compreensão sem exigir a palavra critério"
+  ],
+  "avoid": [
+    "perguntar apenas qual é a diferença entre X e Y quando isso só repete a habilidade",
+    "pedir explicação de conceito sem situação nova",
+    "perguntar de acordo com o texto quando a resposta pode ser copiada",
+    "entregar o caminho da resposta no próprio enunciado",
+    "pedir opinião pessoal sem conexão obrigatória com pistas do texto-base",
+    "fechar a narrativa sem abertura de ação para a pergunta"
+  ],
+  "prefer_patterns": [
+    "Se um novo fato local acontecesse na cena, como o personagem deveria decidir? Use pistas do texto.",
+    "Qual escolha mudaria o sentido da situação e por quê?",
+    "Que pista do texto ajuda a resolver esse novo caso?",
+    "Como você continuaria a missão mantendo a regra descoberta pelos personagens?",
+    "Entre duas ações possíveis, qual preserva melhor a relação construída no texto-base?",
+    "O que aconteceria se um elemento da cena fosse trocado, e que parte do texto justifica sua hipótese?"
+  ],
+  "quality_metric": "criatividade por transferência local: a pergunta faz a habilidade funcionar em um pequeno problema novo sem se desprender do texto-base",
+  "example": {
+    "weak_question": "Considerando que os hiperlinks não são apenas referências, mas elementos ativos que moldam a leitura, qual é a diferença fundamental entre um link que apenas complementa a informação de uma notícia e um link que transforma a maneira como essa notícia é entendida?",
+    "better_question": "No mapa que Gabriel começou a desenhar, Lia quer marcar com um símbolo especial apenas os links que mudam o caminho de leitura da notícia. Se ela encontra um link chamado ‘Leia também: moradores contestam os dados oficiais’, mas outro link apenas abre a ficha técnica da lei citada, qual dos dois deveria receber o símbolo especial? Explique sua escolha usando o que aconteceu quando os personagens perceberam que alguns links mudavam o ponto de vista da reportagem."
+  },
+  "id": "global_question_hypothesis_contract_v1",
+  "type": "okf_bundle_global_question_generation_contract",
+  "scope": "all_okfs_all_stages_all_components"
+}

@@ -1,0 +1,19 @@
+{
+  "bundle": "bncc_okf_bundle_semantic_v8_global_question_hypothesis_20260617_194905",
+  "based_on": "bncc_okf_bundle_semantic_v7_global_text_establishment_20260617_184645",
+  "added_files": [
+    "methodology/global_question_hypothesis_contract_v1.md",
+    "methodology/global_question_hypothesis_contract_v1.json"
+  ],
+  "updated_files": [
+    "METHODOLOGY.md",
+    "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "methodology/global_contextualizacao_sondagem_ludica_v1.json",
+    "index/methodology.json",
+    "manifest.okf.json",
+    "README.md"
+  ],
+  "global_question_contract": "pergunta por hipótese local nova conectada ao texto-base",
+  "okf_individual_files_changed": false,
+  "status": "ok"
+}

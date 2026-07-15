@@ -1,0 +1,116 @@
+{
+  "bundle_name": "bncc_okf_bundle_semantic_v9_global_skill_comprehension_20260618_034914",
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "generated_at": "2026-06-18T03:49:19",
+  "description": "OKF bundle v9 com contrato global de compreensão de habilidades, remoção de guard phrases dos OKFs individuais e bncc_context_comprehension reescrita como explicação específica da habilidade com analogias de uso e âncora teórica.",
+  "source_files": {
+    "bncc_pdf": "BNCC_EI_EF_110518_versaofinal_site.pdf",
+    "lingua_portuguesa_json": "bncc_linguagens_lingua_portuguesa.json",
+    "ef69lp01_template": "ef69lp01.md",
+    "prior_extracted_index": "habilidades_bncc_all.json"
+  },
+  "counts": {
+    "total_okfs": 1580,
+    "by_stage": {
+      "Educação Infantil": 93,
+      "Ensino Fundamental": 1304,
+      "Ensino Médio": 183
+    },
+    "by_area": {
+      "Ciências Humanas": 274,
+      "Ciências Humanas e Sociais Aplicadas": 32,
+      "Ciências da Natureza": 111,
+      "Ciências da Natureza e suas Tecnologias": 26,
+      "Educação Infantil": 93,
+      "Ensino Religioso": 63,
+      "Linguagens": 609,
+      "Linguagens e suas Tecnologias": 82,
+      "Matemática": 247,
+      "Matemática e suas Tecnologias": 43
+    },
+    "by_component": {
+      "Ciências Humanas / Geografia": 123,
+      "Ciências Humanas / História": 151,
+      "Ciências Humanas e Sociais Aplicadas / Ciências Humanas e Sociais Aplicadas": 32,
+      "Ciências da Natureza / Ciências": 111,
+      "Ciências da Natureza e suas Tecnologias / Ciências da Natureza e suas Tecnologias": 26,
+      "Educação Infantil / Educação Infantil": 93,
+      "Ensino Religioso / Ensino Religioso": 63,
+      "Linguagens / Arte": 61,
+      "Linguagens / Educação Física": 69,
+      "Linguagens / Língua Inglesa": 88,
+      "Linguagens / Língua Portuguesa": 391,
+      "Linguagens e suas Tecnologias / Linguagens e suas Tecnologias": 28,
+      "Linguagens e suas Tecnologias / Língua Portuguesa": 54,
+      "Matemática / Matemática": 247,
+      "Matemática e suas Tecnologias / Matemática": 43
+    },
+    "statement_sources": {
+      "bncc_pdf_auto_extract": 1189,
+      "user_lingua_portuguesa_json": 391
+    }
+  },
+  "semantic_contract": {
+    "principle": "Regras comuns de leitura e avaliação ficam na metodologia global; cada OKF individual explica a habilidade específica pela construção textual da BNCC, operação verbal, objeto, analogia de uso e teoria da área.",
+    "core_sections": [
+      "semantic_model",
+      "bncc_context_comprehension",
+      "text_base_comprehension",
+      "text_base_internal_analysis_comprehension",
+      "response_assessment_model"
+    ],
+    "assessment": "O LLM avalia resposta por alinhamento aos compromissos semânticos, não por gabarito rígido ou conhecimento externo.",
+    "global_vs_okf_split": {
+      "global_methodology": "ludicidade, narrativa, lauda, desenvolvimento frasal, personagens, compatibilidade etária, respondent_age, estabelecimento textual da cena, discorrimento de fatos, pergunta por hipótese local conectada ao texto-base e avaliação formativa/abstrativa de critérios",
+      "individual_okf": "verbo, objeto nuclear, conectores, termos semânticos, compromissos intrínsecos e rubrica específica da habilidade"
+    },
+    "text_base_quality_additions_v7": [
+      "fatores de apresentação antes do conflito",
+      "discorrimento causal de fatos como métrica de qualidade",
+      "estrutura interna de introdução/conteúdo/fechamento sem rótulos visíveis na atividade final"
+    ],
+    "question_quality_additions_v8": [
+      "pergunta deve criar hipótese local nova conectada ao texto-base",
+      "pergunta deve exigir transferência da relação construída na narrativa para uma decisão, variação, continuação, comparação ou caso local",
+      "evitar pergunta apenas definicional como qual é a diferença entre X e Y quando isso repete a habilidade sem criatividade",
+      "fechamento do texto-base deve abrir ação lúdica para a pergunta"
+    ],
+    "global_skill_comprehension_contract": "methodology/global_skill_comprehension_contract_v1.md"
+  },
+  "layout": {
+    "markdown_okfs": "okfs_md/<etapa>/<area>/<componente>/<codigo>.okf.md",
+    "json_okfs": "okfs_json/<etapa>/<area>/<componente>/<codigo>.okf.json",
+    "indexes": "index/",
+    "samples": "samples/",
+    "schema": "schema/skill_okf_semantic_clean_with_global_methodology.schema.json",
+    "global_methodology": "methodology/global_contextualizacao_sondagem_ludica_v1.{md,json}",
+    "root_methodology_alias": "METHODOLOGY.md",
+    "methodology_index": "index/methodology.json"
+  },
+  "quality_note": "OKFs individuais não carregam adendo lúdico embutido; a metodologia global deve ser aplicada externamente pelo gerador/avaliador. A lauda deve ser gerada por densidade narrativa/semântica, não por acúmulo de frases curtas.",
+  "okf_bundle_version": "bncc-okf-bundle/semantic-intrinsic-v5-global-ludic-sentence-development",
+  "type": "bncc_okf_bundle_manifest_v5_global_ludic_sentence_development",
+  "derived_from": "bncc_okf_bundle_semantic_v2_20260617_165341 + global methodology extracted from v3 ludic requirements",
+  "global_methodology": {
+    "id": "global_contextualizacao_sondagem_ludica_v1",
+    "scope": "all OKFs, all disciplines, all stages",
+    "markdown": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "json": "methodology/global_contextualizacao_sondagem_ludica_v1.json",
+    "root_markdown_alias": "METHODOLOGY.md",
+    "index": "index/methodology.json",
+    "application_order": [
+      "global methodology",
+      "individual OKF semantic model",
+      "text-base generation",
+      "student-response assessment"
+    ]
+  },
+  "runtime_parameters": {
+    "respondent_age": {
+      "required": true,
+      "contract_md": "parameters/respondent_age_contract_v1.md",
+      "contract_json": "parameters/respondent_age_contract_v1.json",
+      "purpose": "ajustar nível de palavras, frase, concretude, abstração e interpretação da resposta pela idade real do respondente"
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "id": "global_contextualizacao_sondagem_ludica_v1_4",
+  "type": "okf_bundle_global_methodology",
+  "scope": "all_okfs_all_stages_all_components",
+  "hierarchy_position": "bundle_root/methodology",
+  "applies_before": [
+    "okfs_json/<etapa>/<area>/<componente>/<codigo>.okf.json",
+    "okfs_md/<etapa>/<area>/<componente>/<codigo>.okf.md"
+  ],
+  "principle": "A metodologia lúdica, a compatibilidade etária e a forma narrativa do texto-base são padrões globais de contextualização e sondagem. Elas não pertencem a uma habilidade específica e não devem ser duplicadas dentro dos OKFs.",
+  "central_adjective": "lúdico",
+  "methodological_defaults": {
+    "activity_nature": "sondagem lúdica",
+    "context_generation": "toda situação de atividade deve nascer como cena viva, missão, investigação, jogo, dilema, conversa, descoberta, simulação ou teatro de papéis, preservando a operação semântica da habilidade",
+    "response_nature": "a resposta do estudante pode usar linguagem própria da idade, com informalidade aceitável quando houver evidência semântica suficiente",
+    "assessment_nature": "a avaliação deve ser lúdica, investigativa, formativa e sem punição seca; erro é pista de compreensão, não apenas falha"
+  },
+  "text_base_generation_contract": {
+    "volume": {
+      "target": "uma lauda de conteúdo",
+      "word_reference": "aproximadamente 550 a 750 palavras para texto-base completo",
+      "adaptation_note": "na Educação Infantil e nos anos iniciais, a lauda pode ser roteiro narrativo mediado pelo professor, com falas curtas e ações observáveis, sem perder completude de cena"
+    },
+    "required_structure": [
+      {
+        "part": "introdução de cenário",
+        "function": "situar espaço, tempo, motivo do desafio, personagens, clima lúdico e problema inicial",
+        "visibility": "internal_composition_not_student_label"
+      },
+      {
+        "part": "conteúdo central",
+        "function": "desenvolver ação, conflito, dados, falas, pistas, escolhas, materiais e operação semântica exigida pela habilidade",
+        "visibility": "internal_composition_not_student_label"
+      },
+      {
+        "part": "fechamento",
+        "function": "retomar o problema inicial e abrir a sondagem por missão, pergunta, decisão, conselho, continuidade, comparação, criação ou justificativa",
+        "visibility": "internal_composition_not_student_label"
+      }
+    ],
+    "narrative_requirement": [
+      "a atividade deve apresentar-se como narrativa, não como enunciado seco",
+      "a narrativa deve transformar verbo, objeto, conectores, critérios e finalidade da habilidade em uma situação concreta",
+      "a cena não deve explicar a habilidade ao estudante; deve criar condições para que ele a exerça",
+      "a ludicidade não pode ser decoração: o jogo, missão, dilema ou investigação precisa carregar a operação semântica"
+    ],
+    "character_contract": {
+      "required_when_applicable": true,
+      "rules": [
+        "dar nome próprio aos personagens",
+        "atribuir traço de personalidade reconhecível",
+        "fazer a personalidade influenciar fala, hipótese, erro, pista, decisão, dúvida ou atitude",
+        "evitar personagem decorativo que não altera a operação semântica"
+      ],
+      "semantic_roles_examples": [
+        "personagem curioso levanta hipótese",
+        "personagem apressado comete erro plausível",
+        "personagem cuidadoso pede evidência",
+        "personagem brincalhão transforma problema em jogo",
+        "personagem tímido revela pista",
+        "personagem crítico exige razão, prova ou limite"
+      ]
+    },
+    "sentence_development_contract": {
+      "principle": "A lauda deve ser preenchida por densidade narrativa e semântica, não por acúmulo artificial de frases curtas.",
+      "core_rule": "Preferir frases mais desenvolvidas, com progressão interna clara, reunindo ação, circunstância, motivo, consequência, pista textual, reação de personagem e relação com o problema da sondagem quando couber.",
+      "sentence_must_often_combine": [
+        "ação e ambiente",
+        "intenção ou dúvida de personagem",
+        "pista útil para a resposta",
+        "causa e consequência",
+        "contraste entre possibilidades",
+        "informação e relevância semântica",
+        "dado da habilidade convertido em acontecimento de cena"
+      ],
+      "avoid": [
+        "sequência de frases muito curtas usadas apenas para atingir tamanho",
+        "repetição do mesmo dado com palavras diferentes",
+        "enumeração seca de acontecimentos sem consequência",
+        "explicação moral ou conceitual sem encenação",
+        "parágrafos formados por frases soltas que não desenvolvem tensão, pista, escolha ou operação semântica"
+      ],
+      "prefer": [
+        "parágrafos com progressão interna",
+        "conectores causais, temporais, comparativos e concessivos adequados à idade",
+        "apostos e complementos que aprofundem personagem, cena e pista",
+        "falas que revelem personalidade e função semântica",
+        "descrições que preparem a pergunta final sem entregar a resposta"
+      ],
+      "age_compatibility_note": "Frase desenvolvida não significa frase obscura ou acadêmica demais. O desenvolvimento deve respeitar idade, série e bloco da habilidade."
+    },
+    "structure_visibility": {
+      "internal_required_architecture": [
+        "introdução de cenário",
+        "conteúdo central",
+        "fechamento"
+      ],
+      "student_visible_output": "texto-base contínuo em parágrafos, sem subtítulos formais para introdução, conteúdo central e fechamento, salvo pedido explícito",
+      "rule": "planejar as três partes internamente, mas imprimir a narrativa sem rótulos de estrutura composicional"
+    },
+    "scene_establishment_contract": {
+      "principle": "A abertura deve estabelecer a cena para o leitor, não apenas relatar abstratamente que existe um grupo, tema e conflito.",
+      "must_present": [
+        "espaço, ambiente, suporte ou material concreto",
+        "momento da rotina, projeto, missão, aula, jogo, investigação ou conversa",
+        "personagens com nomes, traços e relação com a cena",
+        "objetivo comum ou problema compartilhado",
+        "antecedente concreto antes da fala principal ou tensão",
+        "intenção, hipótese, medo, defesa ou desejo de cada personagem relevante",
+        "objetos, registros, mensagens, mapas, tabelas, imagens, pistas, regras ou acontecimentos observáveis",
+        "razão pela qual o conflito importa para a atividade lúdica e para a habilidade"
+      ],
+      "avoid": [
+        "abertura em tom de relato resumido",
+        "afirmações vagas como grupo agitado sem fatos que expliquem a agitação",
+        "tema complexo sem motivo concreto de disputa",
+        "conflito que surge sem ação, fala ou pista que o produza",
+        "personagem com percepção mental não sustentada por marcas observáveis",
+        "compressão de cenário, personagem e conflito em poucas frases abstratas"
+      ]
+    },
+    "factual_discourse_quality_metric": {
+      "name": "discorrimento_de_fatos",
+      "definition": "Qualidade de escrita medida pelo encadeamento de acontecimentos com causalidade, progressão, consequência e relevância semântica.",
+      "high_quality_signals": [
+        "cada fato prepara outro fato",
+        "ações revelam intenções ou dúvidas",
+        "pistas aparecem antes da pergunta e têm função avaliativa",
+        "mudanças de clima são causadas por falas ou eventos concretos",
+        "o fechamento nasce como consequência do desenvolvimento",
+        "a habilidade se torna necessária por causa da situação, não por explicação externa"
+      ],
+      "low_quality_signals": [
+        "sequência de declarações genéricas",
+        "conflito anunciado em vez de construído",
+        "muitas abstrações antes de objetos ou ações observáveis",
+        "personagens decorativos",
+        "lacunas que obrigam o leitor a imaginar o contexto essencial",
+        "frases longas que apenas alongam ideias vagas sem acrescentar fato, pista ou consequência"
+      ]
+    },
+    "question_generation_contract": {
+      "principle": "A pergunta de sondagem deve criar uma hipótese local nova conectada ao texto-base, não apenas pedir definição ou diferença conceitual direta.",
+      "definition": "Hipótese local nova é uma pequena situação de decisão, continuação, variação, escolha, conselho, intervenção, teste, comparação, troca de elemento, consequência imaginada ou problema prático que nasce do fechamento da narrativa e precisa das pistas do texto-base para ser respondida.",
+      "must_do": [
+        "retomar tensão, pista, regra, objeto, fala, dado, imagem, caminho ou conflito construído no texto-base",
+        "propor uma variação local ainda não respondida literalmente",
+        "exigir conexão entre essa variação e fatos/pistas do texto-base",
+        "pedir decisão, hipótese, explicação, conselho, escolha, classificação, justificativa ou previsão",
+        "permitir que a resposta revele critério de compreensão sem exigir a palavra critério"
+      ],
+      "avoid": [
+        "perguntar apenas qual é a diferença entre X e Y quando isso só repete a habilidade",
+        "pedir explicação de conceito sem situação nova",
+        "perguntar de acordo com o texto quando a resposta pode ser copiada",
+        "entregar o caminho da resposta no próprio enunciado",
+        "pedir opinião pessoal sem conexão obrigatória com pistas do texto-base",
+        "fechar a narrativa sem abertura de ação para a pergunta"
+      ],
+      "prefer_patterns": [
+        "Se um novo fato local acontecesse na cena, como o personagem deveria decidir? Use pistas do texto.",
+        "Qual escolha mudaria o sentido da situação e por quê?",
+        "Que pista do texto ajuda a resolver esse novo caso?",
+        "Como você continuaria a missão mantendo a regra descoberta pelos personagens?",
+        "Entre duas ações possíveis, qual preserva melhor a relação construída no texto-base?",
+        "O que aconteceria se um elemento da cena fosse trocado, e que parte do texto justifica sua hipótese?"
+      ],
+      "quality_metric": "criatividade por transferência local: a pergunta faz a habilidade funcionar em um pequeno problema novo sem se desprender do texto-base",
+      "example": {
+        "weak_question": "Considerando que os hiperlinks não são apenas referências, mas elementos ativos que moldam a leitura, qual é a diferença fundamental entre um link que apenas complementa a informação de uma notícia e um link que transforma a maneira como essa notícia é entendida?",
+        "better_question": "No mapa que Gabriel começou a desenhar, Lia quer marcar com um símbolo especial apenas os links que mudam o caminho de leitura da notícia. Se ela encontra um link chamado ‘Leia também: moradores contestam os dados oficiais’, mas outro link apenas abre a ficha técnica da lei citada, qual dos dois deveria receber o símbolo especial? Explique sua escolha usando o que aconteceu quando os personagens perceberam que alguns links mudavam o ponto de vista da reportagem."
+      }
+    }
+  },
+  "age_word_level_contract": {
+    "principle": "O vocabulário, o tamanho das frases, a quantidade de termos abstratos, a densidade informacional e o grau de inferência devem acompanhar primeiro respondent_age quando informado; série/bloco da habilidade funciona como referência curricular secundária.",
+    "rules": [
+      "usar palavras alcançáveis para a faixa etária antes de nomear conceitos difíceis",
+      "quando o conceito for abstrato, primeiro mostrar a situação e depois nomear o conceito",
+      "manter riqueza narrativa sem excesso lexical incompatível com a idade",
+      "para adolescentes, permitir conflito, nuance, tomada de posição e linguagem social reconhecível",
+      "para crianças menores, reduzir abstração verbal e aumentar ação, imagem, fala curta, repetição significativa e mediação"
+    ],
+    "stage_profiles": {
+      "Educação Infantil": "linguagem oral mediada, frases curtas, ação corporal, imaginação, nomeação concreta, repetição e observação de gestos",
+      "Ensino Fundamental - anos iniciais": "linguagem simples, narrativa concreta, personagens claros, pistas explícitas, desafio resolvível com apoio do texto/cena",
+      "Ensino Fundamental - anos finais": "linguagem adolescente acessível, conflito narrativo, investigação, comparação, justificativa, pistas explícitas e inferenciais controladas",
+      "Ensino Médio": "linguagem mais abstrata e argumentativa, sem perder cena; exigir relação entre conceitos, dados, fontes, critérios e posicionamento"
+    },
+    "respondent_age_priority": {
+      "rule": "A idade real do respondente calibra a linguagem. O OKF conserva a habilidade e a série/bloco conserva a referência curricular.",
+      "if_age_differs_from_grade": "manter habilidade; ajustar linguagem, concretude e abstração pela idade; registrar tensão quando relevante"
+    }
+  },
+  "assessment_contract": {
+    "criterion_abstraction": {
+      "principle": "O LLM avaliador deve abstrair 'critério' da resposta do aluno, sem exigir a palavra literal.",
+      "criterion_can_appear_as": [
+        "razão apresentada",
+        "pista usada",
+        "regra aplicada",
+        "comparação feita",
+        "prova ou evidência selecionada",
+        "limite percebido",
+        "diferença reconhecida",
+        "relação entre informação e conclusão",
+        "procedimento usado para decidir",
+        "exemplo que mostra a operação semântica"
+      ],
+      "do_not_require_literal_terms": [
+        "critério",
+        "evidência",
+        "justificativa",
+        "inferência"
+      ]
+    },
+    "ludic_evaluation": [
+      "preservar o vínculo com a narrativa da atividade",
+      "avaliar como investigador da compreensão, não como corretor punitivo",
+      "separar falha da resposta, falha da pergunta, falha do texto-base e falha do OKF",
+      "registrar próximo passo formativo em linguagem compatível com a idade",
+      "não penalizar informalidade se a resposta cumprir compromissos semânticos internos da habilidade"
+    ],
+    "semantic_alignment": "A avaliação continua sendo feita pelos compromissos semânticos do OKF individual: verbo dominante, objeto nuclear, conectores, finalidade, termos nucleares, evidências e limites da habilidade. A metodologia global só padroniza a forma lúdica, narrativa e etária da sondagem."
+  },
+  "revision": "v8_global_question_hypothesis",
+  "runtime_parameters": {
+    "respondent_age": {
+      "contract": "parameters/respondent_age_contract_v1.json",
+      "required": true,
+      "purpose": "calibrar nível de palavras, extensão frasal, concretude, abstração e interpretação da resposta pela idade real do respondente"
+    }
+  },
+  "revision_note": "Inclui contrato global da pergunta de sondagem: hipótese local nova conectada ao texto-base, evitando pergunta conceitual direta sem transferência."
+}

@@ -1,0 +1,166 @@
+{
+  "okf_version": "bncc-okf-bundle/semantic-intrinsic-v3",
+  "type": "bncc_skill_okf_semantic_intrinsic",
+  "title": "EF09HI19 - Identificar: o processo que resultou na ditadura civil-militar no Brasil e discutir...",
+  "recorte_bncc": {
+    "codigo": "EF09HI19",
+    "etapa": "Ensino Fundamental",
+    "segmento": "Anos Finais",
+    "ano_ou_bloco": "9º ano",
+    "area": "Ciências Humanas",
+    "componente": "História",
+    "campo_ou_unidade": null,
+    "competencia_relacionada": null,
+    "pagina_pdf": 433,
+    "habilidade": "Identificar e compreender o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos"
+  },
+  "semantic_model": {
+    "normalized_statement": "Identificar e compreender o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos",
+    "dominant_verbs": [
+      "identificar",
+      "compreender"
+    ],
+    "verb_semantics": [
+      {
+        "verb": "identificar",
+        "semantic_operation": "reconhecimento situado",
+        "answer_evidence": "apontar o elemento pedido e distingui-lo de elementos próximos"
+      },
+      {
+        "verb": "compreender",
+        "semantic_operation": "compreensão relacional",
+        "answer_evidence": "reconstruir o sentido do objeto e suas relações internas"
+      }
+    ],
+    "object_core": "o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos",
+    "raw_object_core": "o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos",
+    "relational_terms": {
+      "relation_type": null,
+      "terms": [],
+      "relation_expression": null
+    },
+    "gerund_actions": [],
+    "semantic_clauses": [
+      "Identificar e compreender o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos"
+    ],
+    "connector_constraints": {},
+    "key_terms_from_statement": [],
+    "intrinsic_commitments": [
+      {
+        "id": "C01",
+        "source": "verbo \"identificar\"",
+        "semantic_commitment": "A resposta deve realizar reconhecimento situado, não apenas mencionar o tema.",
+        "evidence_required": "apontar o elemento pedido e distingui-lo de elementos próximos"
+      },
+      {
+        "id": "C02",
+        "source": "verbo \"compreender\"",
+        "semantic_commitment": "A resposta deve realizar compreensão relacional, não apenas mencionar o tema.",
+        "evidence_required": "reconstruir o sentido do objeto e suas relações internas"
+      },
+      {
+        "id": "C03",
+        "source": "objeto nuclear do enunciado",
+        "semantic_commitment": "O objeto de operação é \"o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence_required": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      }
+    ],
+    "operation_family": "reconhecimento situado"
+  },
+  "comprehensions": {
+    "bncc_context_comprehension": "A BNCC constrói EF09HI19 como uma frase de ação em História: “Identificar e compreender o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos”. A cadeia verbal \"identificar\" e \"compreender\" organiza a aprendizagem como reconhecimento situado. Isso significa que a habilidade se realiza quando o estudante faz algo observável com “o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos”: selecionar, perceber, comparar, transformar, justificar ou usar esse material conforme a ação verbal indicada pelo próprio enunciado.\n\nEm uso, isso se parece com encontrar uma peça decisiva em uma cena: o estudante aponta o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos, mas também mostra por que aquilo conta como o elemento pedido, e não como outro elemento parecido.\n\nNa teoria escolar da História, o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos ganha sentido por fontes, temporalidades, sujeitos, permanências, rupturas e interpretações; a habilidade pede leitura de relações, não lembrança isolada.\n\nA construção textual da habilidade pode ser lida em blocos de sentido: “Identificar e compreender o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos”. Esses blocos indicam a progressão interna entre ação, objeto e finalidade da aprendizagem.\n\nOperações avaliáveis nesta habilidade: identificar: reconhecimento situado — evidência esperada: apontar o elemento pedido e distingui-lo de elementos próximos; compreender: compreensão relacional — evidência esperada: reconstruir o sentido do objeto e suas relações internas.\n\nO desempenho esperado em EF09HI19 aparece quando a resposta liga o caso apresentado a “o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos” e executa reconhecimento situado de modo rastreável. Uma resposta forte mostra que dado foi usado, que ação foi feita sobre ele, que relação foi percebida e que conclusão ou produto decorre disso.\n\nPara Ensino Fundamental, 9º ano, a compreensão pode trabalhar conflito, critério e inferência controlada; a resposta deve mostrar raciocínio, mas ainda precisa de pistas textuais ou situacionais bem estabelecidas.",
+    "text_base_comprehension": "Para EF09HI19, o texto-base deve colocar “o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos” em uma situação concreta de História, com fatos suficientes para que o estudante realize reconhecimento situado. A cena precisa oferecer material manipulável pela resposta: dados, falas, imagens, ações, fontes, medidas, regras, escolhas ou conflitos, conforme a natureza da habilidade.\n\nComo os verbos da habilidade são \"identificar\" e \"compreender\", a narrativa ou situação não deve apenas mencionar o tema; deve criar oportunidades para que essas ações aconteçam. O texto-base precisa deixar pistas explícitas e inferenciais, criar uma tensão que impeça resposta automática e preservar o vínculo entre problema, evidência e conclusão.\n\nNa geração lúdica, a arquitetura interna de introdução, desenvolvimento e fechamento é usada apenas pelo gerador. Para o estudante, o texto deve aparecer como narrativa contínua, bem estabelecida por fatos, personagens, espaço, objetivo, obstáculo e consequência. A pergunta final deve nascer de uma hipótese local conectada à cena, não de uma definição escolar direta.",
+    "text_base_internal_analysis_comprehension": "A análise interna de EF09HI19 deve verificar se o texto-base criou condições reais para operar sobre “o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos”. O avaliador deve localizar no texto os elementos que correspondem aos verbos \"identificar\" e \"compreender\", à operação reconhecimento situado, aos termos nucleares e às restrições do enunciado.\n\nNa resposta do estudante, a leitura deve procurar proposições que mostrem: qual dado da cena foi selecionado, qual operação foi feita, qual critério ou relação orientou a decisão e qual conclusão, produto ou intervenção foi construída. Os compromissos específicos desta habilidade aparecem no semantic_model, especialmente C01, C02, C03.\n\nA avaliação textual deve indicar acertos, lacunas e reescrita mínima para avanço. Quando houver erro, ele deve ser classificado pelo desalinhamento preciso: verbo não executado, objeto trocado, evidência ausente, critério frágil, extrapolação externa ou resposta que fica no impacto do tema sem cumprir a ação da habilidade.",
+    "question_topic_comprehension": "As perguntas de EF09HI19 devem acionar reconhecimento situado sobre “o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos” por meio de uma hipótese local nova. Em vez de perguntar diretamente “o que é” ou “qual é a diferença”, a pergunta deve propor uma decisão, continuação, variação, escolha, intervenção, teste ou pequeno caso dentro da cena.\n\nA resposta só deve ser possível quando o estudante conecta a hipótese nova ao texto-base. Para esta habilidade, a pergunta precisa tornar necessário executar \"identificar\" e \"compreender\" e justificar o caminho de compreensão com pistas da situação. A criatividade da pergunta não está em ornamentação verbal, mas em criar um contexto local que exige transferência do que foi compreendido.",
+    "rewrite_report_comprehension": "O relatório de reescrita de EF09HI19 deve revisar se o OKF permitiu gerar uma cena, uma hipótese local e uma avaliação capazes de observar reconhecimento situado sobre “o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos”.\n\nSe a resposta do estudante falhar, o relatório deve distinguir falha do aluno, falha da pergunta, falha do texto-base e falha da própria compreensão OKF. A intervenção recomendada deve ser a menor possível: tornar uma pista mais observável, ajustar vocabulário à idade, explicitar melhor o objeto, reduzir indução da pergunta ou reforçar a relação entre dado, operação e conclusão."
+  },
+  "response_assessment_model": {
+    "assessment_principle": "Avaliar compreensão como cumprimento dos compromissos semânticos internos da habilidade, não como semelhança superficial com gabarito.",
+    "llm_procedure": [
+      "Normalizar a resposta do estudante em proposições curtas.",
+      "Associar cada proposição aos compromissos C01...Cn do semantic_model.intrinsic_commitments.",
+      "Verificar se a resposta executa o verbo dominante e trata o objeto nuclear.",
+      "Exigir evidência da situação-base sempre que a habilidade pede identificar, analisar, comparar, inferir, justificar, resolver ou produzir em contexto.",
+      "Penalizar resposta que use apenas opinião, repetição lexical, extrapolação externa ou troca de objeto.",
+      "Atribuir nível 0-4 e explicar qual compromisso falta para subir de nível."
+    ],
+    "dimensions": [
+      {
+        "name": "operacao_verbal",
+        "question": "A resposta realiza a ação exigida pelo verbo da habilidade?",
+        "weight": 2
+      },
+      {
+        "name": "objeto_nuclear",
+        "question": "A resposta opera sobre o objeto correto do enunciado?",
+        "weight": 2
+      },
+      {
+        "name": "evidencia_situada",
+        "question": "A resposta usa dado, pista, fonte, cálculo, forma ou experiência da situação-base?",
+        "weight": 2
+      },
+      {
+        "name": "criterio_condicao_finalidade",
+        "question": "A resposta respeita conectores de finalidade, meio, condição e critério?",
+        "weight": 2
+      },
+      {
+        "name": "justificativa_metacognitiva",
+        "question": "A resposta mostra por que chegou à conclusão/produto, em vez de só afirmar?",
+        "weight": 1
+      },
+      {
+        "name": "limite_de_extrapolacao",
+        "question": "A resposta evita inventar conteúdo externo não sustentado?",
+        "weight": 1
+      }
+    ],
+    "levels": {
+      "0": "Desalinhado: não trata o objeto ou responde outro tema.",
+      "1": "Lexical: repete palavras da habilidade ou do texto, mas não opera semanticamente.",
+      "2": "Parcial: executa parte do verbo ou usa evidência insuficiente.",
+      "3": "Adequado: verbo, objeto, evidência e critério principal estão alinhados.",
+      "4": "Avançado: além do adequado, explicita limites, relações alternativas, procedimento ou consequência sem extrapolar."
+    },
+    "commitment_checklist": [
+      {
+        "id": "C01",
+        "expected": "A resposta deve realizar reconhecimento situado, não apenas mencionar o tema.",
+        "evidence": "apontar o elemento pedido e distingui-lo de elementos próximos"
+      },
+      {
+        "id": "C02",
+        "expected": "A resposta deve realizar compreensão relacional, não apenas mencionar o tema.",
+        "evidence": "reconstruir o sentido do objeto e suas relações internas"
+      },
+      {
+        "id": "C03",
+        "expected": "O objeto de operação é \"o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos\"; ele precisa aparecer como alvo da análise, produção, comparação ou intervenção.",
+        "evidence": "a resposta deve tratar esse objeto diretamente, sem trocar por um tema vizinho ou por opinião genérica"
+      }
+    ],
+    "common_failure_modes": [
+      "tema_sem_operacao",
+      "objeto_trocado",
+      "evidencia_ausente",
+      "opiniao_solto_moralizacao",
+      "procedimento_sem_interpretacao",
+      "interpretacao_sem_pista",
+      "produto_sem_criterio_de_genero_ou_finalidade",
+      "uso_de_conteudo_externo_nao_dado"
+    ]
+  },
+  "source": {
+    "page_pdf": 433,
+    "statement_source": "bncc_pdf_auto_extract",
+    "statement_sha256": "9c79bb41aacfa424425e01d9c784ae4b1c9570d46845d6e875d5ba631cecd814",
+    "generation_principle": "intrinsic_semantic_construction_from_skill_statement"
+  },
+  "methodology_contracts": {
+    "global_contextualizacao_sondagem_ludica": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "global_question_hypothesis": "methodology/global_question_hypothesis_contract_v1.md",
+    "global_skill_comprehension": "methodology/global_skill_comprehension_contract_v1.md",
+    "respondent_age": "parameters/respondent_age_contract_v1.md"
+  }
+}

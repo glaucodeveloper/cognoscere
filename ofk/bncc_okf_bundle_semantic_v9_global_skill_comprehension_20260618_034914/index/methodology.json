@@ -1,0 +1,50 @@
+{
+  "id": "okf_bundle_methodology_index_v1_5",
+  "global_methodology": {
+    "id": "global_contextualizacao_sondagem_ludica_v1_5",
+    "scope": "all_okfs_all_stages_all_components",
+    "markdown": "methodology/global_contextualizacao_sondagem_ludica_v1.md",
+    "json": "methodology/global_contextualizacao_sondagem_ludica_v1.json",
+    "root_markdown_alias": "METHODOLOGY.md",
+    "application_order": [
+      "1. Ler a metodologia global de contextualização e sondagem lúdica.",
+      "2. Ler o contrato global de compreensão de habilidades BNCC.",
+      "3. Ler os parâmetros globais de execução, especialmente respondent_age.",
+      "4. Ler apenas o OKF individual da habilidade selecionada; o bundle é repositório local, não prompt inteiro.",
+      "5. Usar bncc_context_comprehension como explicação específica da habilidade, não como repetição de regras globais.",
+      "6. Planejar internamente introdução de cenário, conteúdo central e fechamento.",
+      "7. Gerar texto-base contínuo sem rótulos visíveis dessas três partes.",
+      "8. Estabelecer a cena com fatos concretos antes do conflito.",
+      "9. Desenvolver a lauda por discorrimento de fatos, densidade narrativa e progressão semântica.",
+      "10. Gerar pergunta por hipótese local nova conectada ao texto-base.",
+      "11. Avaliar resposta usando respondent_age + metodologia global + contrato global de compreensão + response_assessment_model do OKF."
+    ],
+    "revision_note": "v9: move regras comuns de compreensão/avaliação para contrato global; reescreve bncc_context_comprehension como explicação específica da habilidade com analogias de uso e âncora teórica.",
+    "runtime_parameters": {
+      "respondent_age": {
+        "markdown": "parameters/respondent_age_contract_v1.md",
+        "json": "parameters/respondent_age_contract_v1.json",
+        "root_markdown_alias": "PARAMETERS.md",
+        "required": true
+      }
+    },
+    "question_hypothesis_contract": {
+      "markdown": "methodology/global_question_hypothesis_contract_v1.md",
+      "json": "methodology/global_question_hypothesis_contract_v1.json",
+      "required": true
+    },
+    "skill_comprehension_contract": {
+      "markdown": "methodology/global_skill_comprehension_contract_v1.md",
+      "json": "methodology/global_skill_comprehension_contract_v1.json",
+      "required": true,
+      "applies_to": [
+        "bncc_context_comprehension",
+        "text_base_comprehension",
+        "text_base_internal_analysis_comprehension",
+        "question_topic_comprehension",
+        "rewrite_report_comprehension",
+        "response_assessment_model"
+      ]
+    }
+  }
+}
