@@ -1,0 +1,91 @@
+name: Deploy Lumira no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Aguardar o deploy legado concorrente
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          workflow_created_at="$(gh run view "$GITHUB_RUN_ID" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json createdAt \
+            --jq '.createdAt')"
+          workflow_epoch="$(date -d "$workflow_created_at" +%s)"
+
+          for attempt in {1..24}; do
+            legacy_run="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow pages-build-deployment \
+              --limit 1 \
+              --json createdAt,status,conclusion \
+              --jq '.[0] | if . == null then "missing" else "\(.createdAt)|\(.status)|\(.conclusion // "")" end')"
+
+            if [[ "$legacy_run" != "missing" ]]; then
+              IFS='|' read -r legacy_created_at legacy_status legacy_conclusion <<< "$legacy_run"
+              legacy_epoch="$(date -d "$legacy_created_at" +%s)"
+              delta=$((workflow_epoch - legacy_epoch))
+              if (( delta < 0 )); then
+                delta=$((-delta))
+              fi
+
+              if (( delta <= 120 )); then
+                case "$legacy_status:$legacy_conclusion" in
+                  completed:success)
+                    echo "Deploy legado correlacionado concluído; publicando o artefato compilado por último."
+                    exit 0
+                    ;;
+                  completed:*)
+                    echo "Deploy legado correlacionado terminou com $legacy_status:$legacy_conclusion; prosseguindo."
+                    exit 0
+                    ;;
+                esac
+              fi
+            fi
+
+            echo "Aguardando deploy legado correlacionado ao push ($legacy_run, tentativa $attempt/24)."
+            sleep 5
+          done
+
+          echo "::warning::Nenhum deploy legado correlacionado terminou em 2 minutos; prosseguindo com o artefato compilado."
+      - id: deployment
+        uses: actions/deploy-pages@v4

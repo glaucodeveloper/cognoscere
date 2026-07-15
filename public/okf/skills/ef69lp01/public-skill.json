@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/public-skill.schema.json",
+  "format": "lumira-okf-public-skill",
+  "publicContractVersion": "1.0.0",
+  "legacyOkfStatus": "reconstructed-from-remnants",
+  "id": "ef69lp01",
+  "code": "EF69LP01",
+  "title": "Liberdade de expressão e discurso de ódio",
+  "area": "Linguagens",
+  "component": "Língua Portuguesa",
+  "stage": "Ensino Fundamental II",
+  "gradeBand": "6º ao 9º ano do Ensino Fundamental",
+  "field": "Campo jornalístico-midiático",
+  "languagePractice": "Leitura",
+  "knowledgeObject": "Apreciação e réplica / Relação entre gêneros e mídias",
+  "statement": "Diferenciar liberdade de expressão de discursos de ódio, posicionando-se contrariamente a esse tipo de discurso e vislumbrando possibilidades de denúncia quando for o caso.",
+  "learningFocus": "Distinguir uma crítica ou discordância dirigida a ideias de um ataque que inferioriza pessoas ou grupos, justificar a leitura com pistas do texto e reconhecer formas responsáveis de mediação ou denúncia.",
+  "publicOperations": [
+    "Reconhecer o alvo e a intenção de uma fala.",
+    "Distinguir crítica a uma decisão de ataque discriminatório contra pessoas ou grupos.",
+    "Localizar marcas textuais de generalização, humilhação ou inferiorização.",
+    "Justificar uma interpretação com pistas explícitas do texto.",
+    "Indicar um encaminhamento responsável, como mediação, moderação ou denúncia."
+  ],
+  "publicEvidence": [
+    "A resposta identifica se a fala discute uma ideia ou desqualifica pessoas.",
+    "A justificativa retoma palavras, expressões ou acontecimentos do texto-base.",
+    "O posicionamento reconhece que liberdade de expressão não autoriza humilhação, ameaça ou discriminação.",
+    "O encaminhamento proposto evita nova agressão e procura apoio responsável."
+  ],
+  "canonicalLevels": [
+    {
+      "order": 1,
+      "name": "Iniciação",
+      "publicMeaning": "Reconhece, com apoio, que opinião e ataque não são a mesma coisa."
+    },
+    {
+      "order": 2,
+      "name": "Apropriação",
+      "publicMeaning": "Localiza uma pista do texto e começa a explicar por que uma fala ultrapassa a discordância."
+    },
+    {
+      "order": 3,
+      "name": "Consolidação",
+      "publicMeaning": "Distingue crítica e ataque e sustenta a interpretação com evidências textuais pertinentes."
+    },
+    {
+      "order": 4,
+      "name": "Proficiência",
+      "publicMeaning": "Articula evidências, posicionamento ético e encaminhamento responsável com autonomia."
+    },
+    {
+      "order": 5,
+      "name": "Domínio",
+      "publicMeaning": "Transfere os critérios para outros gêneros, mídias e situações, avaliando nuances e consequências."
+    }
+  ],
+  "source": {
+    "document": "Base Nacional Comum Curricular (BNCC)",
+    "locator": "Habilidade EF69LP01",
+    "repositoryArtifact": "habilidades/ef69lp01.md"
+  },
+  "provenance": {
+    "legacyOkfStatus": "reconstructed-from-remnants",
+    "derivedFrom": [
+      {
+        "repositoryPath": "habilidades/ef69lp01.md",
+        "role": "recorte BNCC e compreensão pedagógica curada"
+      },
+      {
+        "repositoryPath": "inicio.rb",
+        "role": "separação entre compreensão, geração, aplicação e progressão"
+      },
+      {
+        "repositoryPath": "src/reference-pipeline.ts",
+        "commit": "40e135d",
+        "role": "remanescente do modelo de competência por série e nível"
+      }
+    ],
+    "visibility": "public-projection",
+    "excludedInternalContent": [
+      "compreensão-base detalhada",
+      "respostas de referência",
+      "rubricas privadas",
+      "prompts completos",
+      "raciocínio interno do modelo"
+    ]
+  }
+}

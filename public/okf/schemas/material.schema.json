@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://glaucodeveloper.github.io/cognoscere/okf/schemas/material.schema.json",
+  "title": "Lumira OKF Public Learning Artifact",
+  "description": "Validates public reading materials and open-response activities. Internal comprehensions, answer references, private rubrics and complete prompts are outside this contract.",
+  "oneOf": [
+    { "$ref": "#/$defs/readingMaterial" },
+    { "$ref": "#/$defs/openResponseActivity" }
+  ],
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "relativeJsonPath": {
+      "type": "string",
+      "pattern": "^(?!/|[a-zA-Z][a-zA-Z0-9+.-]*://)(?!.*\\.\\.)[^?#]+\\.json$"
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repositoryPath", "role"],
+      "properties": {
+        "repositoryPath": { "type": "string", "minLength": 1 },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{7,40}$" },
+        "role": { "type": "string", "minLength": 1 }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "legacyOkfStatus",
+        "derivedFrom",
+        "artifactStatus",
+        "promptVersion",
+        "reviewRequired",
+        "reviewReasons",
+        "excludedInternalFields"
+      ],
+      "properties": {
+        "legacyOkfStatus": { "const": "reconstructed-from-remnants" },
+        "derivedFrom": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceRef" }
+        },
+        "artifactStatus": { "enum": ["legacy-needs-review", "reconstructed-demo", "curated-public"] },
+        "promptVersion": { "type": "string", "minLength": 1 },
+        "reviewRequired": { "type": "boolean" },
+        "reviewReasons": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "excludedInternalFields": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "readingMaterial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "$schema",
+        "format",
+        "publicContractVersion",
+        "legacyOkfStatus",
+        "id",
+        "title",
+        "kind",
+        "status",
+        "audience",
+        "skill",
+        "source",
+        "text",
+        "publicAnalysis",
+        "provenance"
+      ],
+      "properties": {
+        "$schema": { "type": "string", "minLength": 1 },
+        "format": { "const": "lumira-okf-public-material" },
+        "publicContractVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+        "legacyOkfStatus": { "const": "reconstructed-from-remnants" },
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1 },
+        "kind": { "const": "reading-material" },
+        "status": { "enum": ["draft", "preview", "active", "legacy-needs-review", "archived"] },
+        "audience": { "type": "string", "minLength": 1 },
+        "skill": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["code", "title", "statement", "path"],
+          "properties": {
+            "code": { "type": "string", "pattern": "^EF[0-9]{2}[A-Z]{2}[0-9]{2}$" },
+            "title": { "type": "string", "minLength": 1 },
+            "statement": { "type": "string", "minLength": 1 },
+            "path": { "$ref": "#/$defs/relativeJsonPath" }
+          }
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "theme", "genre", "curriculumField", "fixtureStatus"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "theme": { "type": "string", "minLength": 1 },
+            "genre": { "type": "string", "minLength": 1 },
+            "curriculumField": { "type": "string", "minLength": 1 },
+            "fixtureStatus": { "const": "legacy-needs-review" }
+          }
+        },
+        "text": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["introduction", "sections", "closing"],
+          "properties": {
+            "introduction": { "type": "string", "minLength": 1 },
+            "sections": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["heading", "paragraphs"],
+                "properties": {
+                  "heading": { "type": "string", "minLength": 1 },
+                  "paragraphs": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": { "type": "string", "minLength": 1 }
+                  }
+                }
+              }
+            },
+            "closing": { "type": "string", "minLength": 1 }
+          }
+        },
+        "publicAnalysis": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["operations", "evidenceToNotice", "misconceptions"],
+          "properties": {
+            "operations": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "evidenceToNotice": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "misconceptions": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "provenance": { "$ref": "#/$defs/provenance" }
+      }
+    },
+    "openResponseActivity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "$schema",
+        "format",
+        "publicContractVersion",
+        "legacyOkfStatus",
+        "id",
+        "title",
+        "type",
+        "prompt",
+        "studentCommand",
+        "evidenceHints",
+        "analysisDemoPath",
+        "provenance"
+      ],
+      "properties": {
+        "$schema": { "type": "string", "minLength": 1 },
+        "format": { "const": "lumira-okf-public-activity" },
+        "publicContractVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+        "legacyOkfStatus": { "const": "reconstructed-from-remnants" },
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1 },
+        "type": { "const": "open-response" },
+        "prompt": { "type": "string", "minLength": 1 },
+        "studentCommand": { "type": "string", "minLength": 1 },
+        "evidenceHints": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "analysisDemoPath": { "$ref": "#/$defs/relativeJsonPath" },
+        "provenance": { "$ref": "#/$defs/provenance" }
+      }
+    }
+  }
+}
