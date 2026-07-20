@@ -257,6 +257,7 @@ flowchart LR
 ### Produto e experiência
 
 - [Definição funcional da Lumira](PLATAFORMA.md)
+- [Bases diretas das métricas de aprendizagem e avaliação](docs/METRICAS-APRENDIZADO-E-AVALIACAO.md)
 - [Revisão de UX, páginas e fluxos](docs/stakeholders/REVISAO-UX-E-FLUXOS.md)
 - [Especialização de design para cursos OKF](design-system/lumira/pages/course-okf.md)
 
@@ -292,4 +293,3 @@ O Cognoscere reúne três gerações relacionadas:
 3. a SPA Lumira atual, que consome uma projeção pública estática e rastreável.
 
 O OKF v0.1 presente no repositório é uma **reconstrução verificável e uma nova padronização** baseada nos remanescentes versionados. Ele não deve ser apresentado como cópia literal de uma base local antiga que não entrou no histórico Git.
-

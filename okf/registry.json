@@ -6,7 +6,7 @@
   "sources": [
     {
       "path": "inicio.rb",
-      "sha256": "92d6a8adabdc12916eeadbe10acb697284b40b55017bc34a822fb5a61b217fa6"
+      "sha256": "e391200d0fb17dd7ad047d6e39db1d7e3ed09b8ecddf871d1c104679b9d878a1"
     },
     {
       "path": "habilidades/ef69lp01.md",
@@ -19,21 +19,21 @@
       "stage": "generation",
       "path": "prompts/text-base-generation.md",
       "source_symbol": "text_base_generation_prompt_for + TEXT_BASE_GENERATION_INSTRUCTIONS",
-      "sha256": "8486705195472388d9615c53d7f6b94a002533e27a34d4973e531c15f7737d1c"
+      "sha256": "00174c84115493a30a719f498be49fef8ffe219f773458bdddeb02ee99b3355e"
     },
     {
       "id": "question-generation",
       "stage": "generation",
       "path": "prompts/question-generation.md",
       "source_symbol": "question_generation_prompt_for + QUESTION_GENERATION_INSTRUCTIONS",
-      "sha256": "bd3844e04c437039f728bbb2e8a1e84c96b0d1e1cb4094c8e0ba18328d526d01"
+      "sha256": "17d56456f608f25f0eaa742ac288bab39ac6d87fedc45c04d6fbf1c7792cadce"
     },
     {
       "id": "rewrite-report",
       "stage": "audit",
       "path": "prompts/rewrite-report.md",
       "source_symbol": "rewrite_report_prompt_for + REWRITE_REPORT_INSTRUCTIONS",
-      "sha256": "47b598a651fd7cb2510f7a201d5b05dbfa8dda767c4b8692098bd06d5b11ed12"
+      "sha256": "3bbc03af2f0366424cb12ef915dfafdb90c57388695afafc51d459d6e3eef4ff"
     },
     {
       "id": "json-repair",
@@ -47,7 +47,7 @@
       "stage": "administration",
       "path": "prompts/admin-step.md",
       "source_symbol": "run_admin_step!",
-      "sha256": "1948a7c43c360fe73caa58e95b2211f1961667433b6fe2f98fc52fa740d38314"
+      "sha256": "08abf92f51f8df37ed85e70639c5af7ad0fdbd307750c05a3a0adef0ce9bdaa7"
     }
   ],
   "comprehensions": {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Comic+Neue:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Comic+Neue:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 :root{--ink:#1d1a35;--muted:#67647c;--line:#e7e4f0;--paper:#fff;--canvas:#f8f7fc;--violet:#5b45c8;--violet-dark:#4534a8;--lav:#eeeaff;--mint:#dcf7ed;--mint-ink:#12634c;--coral:#ffede8;--coral-ink:#a33b2a;--sun:#fff2c9;--shadow:0 12px 32px rgba(37,25,97,.08);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--canvas)}
 *{box-sizing:border-box}body{margin:0;min-width:320px}button,input,select,textarea{font:inherit}button{cursor:pointer}.skip{position:absolute;left:12px;top:-60px;background:#fff;color:var(--violet-dark);padding:12px;border-radius:8px;z-index:20}.skip:focus{top:12px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #9e91ef;outline-offset:2px}a{color:inherit;text-decoration:none}.hidden{display:none!important}
 .landing{overflow:hidden}.landing-nav,.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,5vw,76px);border-bottom:1px solid rgba(93,69,200,.1);background:rgba(255,255,255,.8);backdrop-filter:blur(12px);position:sticky;top:0;z-index:10}.brand{font-weight:800;font-size:22px;letter-spacing:-.7px;display:flex;align-items:center;gap:9px}.brand-mark{width:28px;height:28px;display:inline-grid;place-items:center;color:#fff;background:linear-gradient(135deg,#765ce6,#3d2a97);border-radius:9px;font-size:15px}.nav-links{display:flex;gap:26px;font-size:14px;color:var(--muted)}.nav-actions{display:flex;gap:10px;align-items:center}.btn{border:0;border-radius:10px;min-height:44px;padding:0 16px;font-weight:700;font-size:14px;transition:transform .18s ease,background .18s ease}.btn:hover{transform:translateY(-1px)}.btn.primary{background:var(--violet);color:#fff;box-shadow:0 5px 13px rgba(91,69,200,.22)}.btn.ghost{background:transparent;color:var(--violet-dark)}.btn.soft{background:var(--lav);color:var(--violet-dark)}.btn.danger{background:#fff0ef;color:#ad3c38}.hero{max-width:1240px;margin:auto;padding:88px clamp(20px,5vw,76px) 72px;display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.eyebrow,.tag{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--violet-dark)}h1,h2,h3,p{margin-top:0}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.02;letter-spacing:-.06em;margin:17px 0 23px;max-width:680px}.hero h1 em{font-style:normal;color:var(--violet)}.hero p{font-size:18px;line-height:1.65;color:var(--muted);max-width:570px}.hero-actions{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}.hero-note{color:var(--muted);font-size:13px;margin-top:15px}.hero-art{background:linear-gradient(145deg,#f1eeff,#e3dcff 56%,#fdf4eb);border-radius:28px;padding:26px;min-height:414px;position:relative}.mini-card{background:#fff;border:1px solid rgba(84,63,180,.1);box-shadow:var(--shadow);border-radius:18px;padding:18px;position:absolute}.mini-card strong{display:block;font-size:15px}.mini-card small{color:var(--muted);display:block;margin-top:4px}.progress-card{width:270px;top:48px;left:30px}.course-card{width:230px;right:23px;bottom:43px}.avatar-stack{display:flex;margin:13px 0}.avatar{width:33px;height:33px;border-radius:50%;display:grid;place-items:center;color:white;font-weight:800;font-size:12px;border:2px solid white;margin-right:-8px;background:#806adf}.avatar.a2{background:#e78371}.avatar.a3{background:#38a687}.bar{height:8px;background:#ece9f8;border-radius:20px;overflow:hidden;margin:13px 0 6px}.bar>span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#745ae0,#4b37b1)}.hero-orb{width:170px;height:170px;border-radius:50%;background:radial-gradient(circle at 32% 29%,#fff 0 7%,#d5ccff 8% 23%,#8c79eb 24% 51%,#5d46c8 52%);position:absolute;right:105px;top:80px;box-shadow:0 30px 50px rgba(70,46,166,.25)}
@@ -66,6 +66,30 @@ h1,h2,h3,.brand,.btn{font-family:"Baloo 2",ui-sans-serif,system-ui,sans-serif}.l
   .social-toggle{padding:0;width:44px;min-width:44px;justify-content:center}
   .social-toggle-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
   .right-panel{top:69px;right:8px;bottom:86px;width:calc(100vw - 16px);max-width:none}
+}
+
+/* Perfil em modo de foco: as duas barras retraem para liberar a leitura da identidade e das métricas. */
+body.profile-focus .sidebar{height:0;min-height:0;padding:0;overflow:hidden;border:0;opacity:0;pointer-events:none}
+body.profile-focus .topbar{top:0}
+body.profile-focus .right-panel{transform:translateX(calc(100% + 32px));opacity:0;pointer-events:none}
+body.profile-focus .main{max-width:1440px;margin:0 auto}
+body.profile-focus .page{padding-top:40px;padding-bottom:72px}
+body.profile-focus .page > .card:first-child{max-width:1120px;margin:0 auto 20px}
+body.profile-focus .page > .tabs{max-width:1120px;margin-left:auto;margin-right:auto}
+body.profile-focus .page > .dashboard-grid{max-width:1120px;margin-left:auto;margin-right:auto;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr)}
+body.profile-focus .profile-cover{height:190px;background:linear-gradient(105deg,#161616 0%,#262626 63%,#da1e28 100%)}
+body.profile-focus .profile-card{padding:0 32px 30px}
+body.profile-focus .profile-avatar{margin-top:-34px;box-shadow:0 0 0 1px #d0d0d0}
+body.profile-focus .profile-name h2{font-size:30px;letter-spacing:-.04em}
+body.profile-focus .profile-stats{gap:36px;padding-top:4px;border-top:1px solid #d0d0d0}
+body.profile-focus .profile-stats strong{font-family:"IBM Plex Mono",monospace;font-size:22px}
+
+@media(max-width:700px){
+  body.profile-focus .page{padding-top:20px}
+  body.profile-focus .profile-cover{height:145px}
+  body.profile-focus .profile-card{padding:0 16px 22px}
+  body.profile-focus .profile-name h2{font-size:25px}
+  body.profile-focus .page > .dashboard-grid{grid-template-columns:1fr}
 }
 
 /* Cursos conectados ao bundle OKF */
