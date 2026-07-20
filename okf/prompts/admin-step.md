@@ -7,7 +7,7 @@ timestamp: "2026-07-13T00:00:00-03:00"
 visibility: "internal-repository"
 source: "inicio.rb"
 source_symbol: "run_admin_step!"
-source_sha256: "1948a7c43c360fe73caa58e95b2211f1961667433b6fe2f98fc52fa740d38314"
+source_sha256: "08abf92f51f8df37ed85e70639c5af7ad0fdbd307750c05a3a0adef0ce9bdaa7"
 legacy_okf_status: "reconstructed-from-remnants"
 ---
 
@@ -26,13 +26,13 @@ a composição real usada pelo motor; não é uma paráfrase documental.
 ## Composição real do prompt
 
 ~~~~ruby
-    Você é apenas o administrador RLM do quiz.
+    VocÃª Ã© apenas o administrador RLM do quiz.
 
     Registre a etapa atual usando register_step(name, payload).
-    Não gere texto-base.
-    Não gere perguntas.
-    Não gere relatório textual.
-    Não substitua a inferência textual comum.
+    NÃ£o gere texto-base.
+    NÃ£o gere perguntas.
+    NÃ£o gere relatÃ³rio textual.
+    NÃ£o substitua a inferÃªncia textual comum.
 
     Etapa: #{step_name}
     Payload:

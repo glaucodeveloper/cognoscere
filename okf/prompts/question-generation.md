@@ -7,7 +7,7 @@ timestamp: "2026-07-13T00:00:00-03:00"
 visibility: "internal-repository"
 source: "inicio.rb"
 source_symbol: "question_generation_prompt_for + QUESTION_GENERATION_INSTRUCTIONS"
-source_sha256: "bd3844e04c437039f728bbb2e8a1e84c96b0d1e1cb4094c8e0ba18328d526d01"
+source_sha256: "17d56456f608f25f0eaa742ac288bab39ac6d87fedc45c04d6fbf1c7792cadce"
 legacy_okf_status: "reconstructed-from-remnants"
 ---
 
@@ -26,20 +26,20 @@ a composição real usada pelo motor; não é uma paráfrase documental.
 ## Composição real do prompt
 
 ~~~~ruby
-    Você é a inferência textual comum da aplicação Glauco.
+    VocÃª Ã© a inferÃªncia textual comum da aplicaÃ§Ã£o Glauco.
 
-    Gere perguntas diagnósticas de #{BNCC_SKILL[:componente]} para #{BNCC_SKILL[:serie_base]},
+    Gere perguntas diagnÃ³sticas de #{BNCC_SKILL[:componente]} para #{BNCC_SKILL[:serie_base]},
     habilidade #{BNCC_SKILL[:codigo]},
-    usando exclusivamente o texto-base e a compreensão-base já gerados.
+    usando exclusivamente o texto-base e a compreensÃ£o-base jÃ¡ gerados.
 
-    Não atue como agente RLM.
-    Não administre o quiz.
-    Não gere novo texto-base.
-    Não altere o texto-base.
+    NÃ£o atue como agente RLM.
+    NÃ£o administre o quiz.
+    NÃ£o gere novo texto-base.
+    NÃ£o altere o texto-base.
 
     Tema da sondagem: #{tema}
     Quantidade de perguntas: #{quantidade}
-    Observação humana inicial: #{observacao_geral}
+    ObservaÃ§Ã£o humana inicial: #{observacao_geral}
 
     RECORTE BNCC:
     #{JSON.pretty_generate(BNCC_SKILL)}
@@ -47,39 +47,39 @@ a composição real usada pelo motor; não é uma paráfrase documental.
     PERFIL DO ALUNO:
     #{JSON.pretty_generate(STUDENT_PROFILE)}
 
-    COMPREENSÃO 1 — CONTEXTO BNCC:
+    COMPREENSÃƒO 1 â€” CONTEXTO BNCC:
     #{BNCC_CONTEXT_COMPREHENSION}
 
-    COMPREENSÃO 2 — TÓPICO DAS PERGUNTAS:
+    COMPREENSÃƒO 2 â€” TÃ“PICO DAS PERGUNTAS:
     #{QUESTION_TOPIC_COMPREHENSION}
 
     TEXTO-BASE FIXADO:
     #{JSON.pretty_generate(text_base_payload.fetch("texto_base"))}
 
-    COMPREENSÃO-BASE DO TEXTO-BASE:
+    COMPREENSÃƒO-BASE DO TEXTO-BASE:
     #{JSON.pretty_generate(text_base_payload.fetch("compreensao_base"))}
 
-    INSTRUÇÕES DE SAÍDA:
+    INSTRUÃ‡Ã•ES DE SAÃDA:
     #{QUESTION_GENERATION_INSTRUCTIONS}
 
     Gere exatamente #{quantidade} perguntas abertas de sondagem.
-    Cada pergunta deve ter enunciado amplo, mas analisável, pedindo justificativa
-    com pistas do texto-base. Não gere alternativas, gabarito por letra nem item
-    de múltipla escolha.
-    A pergunta deve permitir análise profunda da compreensão do aluno, incluindo
-    rubrica, resposta de referência, evidências esperadas e erro provável.
+    Cada pergunta deve ter enunciado amplo, mas analisÃ¡vel, pedindo justificativa
+    com pistas do texto-base. NÃ£o gere alternativas, gabarito por letra nem item
+    de mÃºltipla escolha.
+    A pergunta deve permitir anÃ¡lise profunda da compreensÃ£o do aluno, incluindo
+    rubrica, resposta de referÃªncia, evidÃªncias esperadas e erro provÃ¡vel.
     O campo "texto_base" do JSON final deve repetir o mesmo texto_base recebido.
 ~~~~
 
 ## Instruções reais de saída
 
 ~~~~text
-  Gere perguntas diagnósticas para #{BNCC_SKILL[:componente]}, #{BNCC_SKILL[:serie_base]},
+  Gere perguntas diagnÃ³sticas para #{BNCC_SKILL[:componente]}, #{BNCC_SKILL[:serie_base]},
   trabalhando exclusivamente a habilidade #{BNCC_SKILL[:codigo]}.
 
-  Retorne somente JSON válido, sem markdown, sem comentário e sem bloco de código.
+  Retorne somente JSON vÃ¡lido, sem markdown, sem comentÃ¡rio e sem bloco de cÃ³digo.
 
-  Estrutura obrigatória:
+  Estrutura obrigatÃ³ria:
 
   {
     "bncc_codigo": "#{BNCC_SKILL[:codigo]}",
@@ -123,24 +123,24 @@ a composição real usada pelo motor; não é uma paráfrase documental.
 
   Regras:
   - usar obrigatoriamente o texto-base recebido;
-  - não gerar novo texto-base;
-  - não alterar gênero, título ou conteúdo do texto-base;
+  - nÃ£o gerar novo texto-base;
+  - nÃ£o alterar gÃªnero, tÃ­tulo ou conteÃºdo do texto-base;
   - gerar exatamente a quantidade solicitada de perguntas;
   - gerar somente perguntas de resposta aberta;
-  - não gerar alternativas;
-  - não gerar resposta correta como letra;
+  - nÃ£o gerar alternativas;
+  - nÃ£o gerar resposta correta como letra;
   - cada pergunta deve ter enunciado aberto para sondagem, sem conduzir a resposta;
-  - cada pergunta deve exigir justificativa com pistas explícitas do texto-base;
-  - cada pergunta deve permitir análise profunda do raciocínio do aluno;
-  - cobrir reconhecimento de opinião legítima;
-  - cobrir identificação de discurso de ódio;
-  - cobrir diferenciação entre crítica e ataque discriminatório;
-  - cobrir possibilidade de posicionamento ou denúncia;
+  - cada pergunta deve exigir justificativa com pistas explÃ­citas do texto-base;
+  - cada pergunta deve permitir anÃ¡lise profunda do raciocÃ­nio do aluno;
+  - cobrir reconhecimento de opiniÃ£o legÃ­tima;
+  - cobrir identificaÃ§Ã£o de discurso de Ã³dio;
+  - cobrir diferenciaÃ§Ã£o entre crÃ­tica e ataque discriminatÃ³rio;
+  - cobrir possibilidade de posicionamento ou denÃºncia;
   - cobrir justificativa textual;
-  - a resposta_referencia deve ser parâmetro de análise, não gabarito único;
-  - a rubrica_analise deve diferenciar domínio observado, domínio em formação,
-    resposta sem evidência textual, erro de compreensão e necessidade de mediação;
-  - não gerar perguntas de alfabetização, fonema, sílaba ou letra.
+  - a resposta_referencia deve ser parÃ¢metro de anÃ¡lise, nÃ£o gabarito Ãºnico;
+  - a rubrica_analise deve diferenciar domÃ­nio observado, domÃ­nio em formaÃ§Ã£o,
+    resposta sem evidÃªncia textual, erro de compreensÃ£o e necessidade de mediaÃ§Ã£o;
+  - nÃ£o gerar perguntas de alfabetizaÃ§Ã£o, fonema, sÃ­laba ou letra.
 ~~~~
 
 ## Contrato de consumo

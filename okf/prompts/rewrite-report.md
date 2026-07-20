@@ -7,7 +7,7 @@ timestamp: "2026-07-13T00:00:00-03:00"
 visibility: "internal-repository"
 source: "inicio.rb"
 source_symbol: "rewrite_report_prompt_for + REWRITE_REPORT_INSTRUCTIONS"
-source_sha256: "47b598a651fd7cb2510f7a201d5b05dbfa8dda767c4b8692098bd06d5b11ed12"
+source_sha256: "3bbc03af2f0366424cb12ef915dfafdb90c57388695afafc51d459d6e3eef4ff"
 legacy_okf_status: "reconstructed-from-remnants"
 ---
 
@@ -26,12 +26,12 @@ a composição real usada pelo motor; não é uma paráfrase documental.
 ## Composição real do prompt
 
 ~~~~ruby
-    Você é a inferência textual comum da aplicação Glauco.
+    VocÃª Ã© a inferÃªncia textual comum da aplicaÃ§Ã£o Glauco.
 
-    Gere um relatório textual para reescrever os textos do programa.
+    Gere um relatÃ³rio textual para reescrever os textos do programa.
 
-    Não atue como agente RLM.
-    Não administre o quiz.
+    NÃ£o atue como agente RLM.
+    NÃ£o administre o quiz.
 
     RECORTE BNCC:
     #{JSON.pretty_generate(BNCC_SKILL)}
@@ -39,23 +39,23 @@ a composição real usada pelo motor; não é uma paráfrase documental.
     PERFIL DO ALUNO:
     #{JSON.pretty_generate(STUDENT_PROFILE)}
 
-    COMPREENSÕES USADAS:
+    COMPREENSÃ•ES USADAS:
     - Contexto BNCC:
     #{BNCC_CONTEXT_COMPREHENSION}
 
-    - Geração do texto-base:
+    - GeraÃ§Ã£o do texto-base:
     #{TEXT_BASE_COMPREHENSION}
 
-    - Análise interna do texto-base:
+    - AnÃ¡lise interna do texto-base:
     #{TEXT_BASE_INTERNAL_ANALYSIS_COMPREHENSION}
 
-    - Tópico das perguntas:
+    - TÃ³pico das perguntas:
     #{QUESTION_TOPIC_COMPREHENSION}
 
-    - Relatório de reescrita:
+    - RelatÃ³rio de reescrita:
     #{REWRITE_REPORT_COMPREHENSION}
 
-    TEXTO-BASE E COMPREENSÃO-BASE GERADOS:
+    TEXTO-BASE E COMPREENSÃƒO-BASE GERADOS:
     #{JSON.pretty_generate(text_base_payload)}
 
     QUIZ GERADO:
@@ -64,27 +64,27 @@ a composição real usada pelo motor; não é uma paráfrase documental.
     RESULTADOS OBSERVADOS:
     #{JSON.pretty_generate(results)}
 
-    INSTRUÇÕES DE SAÍDA:
+    INSTRUÃ‡Ã•ES DE SAÃDA:
     #{REWRITE_REPORT_INSTRUCTIONS}
 ~~~~
 
 ## Instruções reais de saída
 
 ~~~~text
-  Produza o relatório com estas seções:
+  Produza o relatÃ³rio com estas seÃ§Ãµes:
 
-  1. Diagnóstico do texto de contexto BNCC
-  2. Diagnóstico da compreensão usada para gerar o texto-base
+  1. DiagnÃ³stico do texto de contexto BNCC
+  2. DiagnÃ³stico da compreensÃ£o usada para gerar o texto-base
   3. Qualidade do texto-base gerado
-  4. Qualidade da compreensão-base gerada junto ao texto-base
-  5. Diagnóstico da compreensão sobre o tópico das perguntas
+  4. Qualidade da compreensÃ£o-base gerada junto ao texto-base
+  5. DiagnÃ³stico da compreensÃ£o sobre o tÃ³pico das perguntas
   6. Qualidade das perguntas geradas
-  7. Evidências vindas das respostas do aluno
-  8. Separação entre dificuldade do aluno, falha da pergunta e falha do texto-base
-  9. Recomendações para reescrever os textos de compreensão do programa
-  10. Versão reescrita sugerida das compreensões centrais
+  7. EvidÃªncias vindas das respostas do aluno
+  8. SeparaÃ§Ã£o entre dificuldade do aluno, falha da pergunta e falha do texto-base
+  9. RecomendaÃ§Ãµes para reescrever os textos de compreensÃ£o do programa
+  10. VersÃ£o reescrita sugerida das compreensÃµes centrais
 
-  Não retornar JSON. Retornar texto estruturado em seções.
+  NÃ£o retornar JSON. Retornar texto estruturado em seÃ§Ãµes.
 ~~~~
 
 ## Contrato de consumo
